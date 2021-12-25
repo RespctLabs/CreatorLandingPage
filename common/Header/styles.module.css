@@ -11,6 +11,7 @@
     justify-content: space-between;
     background: transparent;
     z-index: 100;
+    min-height: 60px !important;
     background-color: #000;
     padding-left: 10vw;
     padding-right: 10vw;
