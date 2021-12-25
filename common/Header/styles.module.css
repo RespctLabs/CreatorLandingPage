@@ -1,0 +1,175 @@
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 1rem;
+    display: flex;
+    font-size: 1.15rem;
+    justify-content: space-between;
+    background: transparent;
+    z-index: 100;
+    background-color: #000;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    color:rgb(255, 255, 255);
+    /* margin-bottom: 100px; */
+    font-weight: lighter !important;
+    align-items: center;
+  }
+  
+  
+  .leftItem{
+    display: flex;
+    flex: 1;
+  }
+  
+  .leftContainer{
+    display: flex;
+  }
+  
+  
+  .brand {
+    flex: 0.33;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  
+  .brand:hover {
+    color: var(--main-color);
+  }
+  
+  .collapse {
+    flex: 1;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-right: 0px !important;
+  }
+  
+  .socials{
+    flex:0.33 !important;
+    width:auto !important;
+    display: flex !important;
+    justify-content: right;
+    min-width: 120px;
+    align-items:center;
+    margin-left:auto;
+  }
+  
+  .nav_item {
+    position: relative;
+    margin: 0 1rem;
+    cursor: pointer;
+    width: fit-content;
+  }
+  
+  .nav_item::after {
+    position: absolute;
+    bottom: -6px;
+    left: 50%;
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  }
+  
+  .nav_item:hover::after {
+    width: 100%;
+    left: 0;
+  }
+  
+  .menu {
+    padding: 1rem;
+    font-size: 1.5rem;
+    display: none;
+  }
+  
+  .bar1,
+  .bar2,
+  .bar3 {
+    width: 30px;
+    height: 2.5px;
+    background-color: #fff;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .change1 {
+    width: 30px;
+    height: 2.5px;
+    background-color: #fff;
+    transition: 0.4s;
+    margin: 6px 0px;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg) translate(-6px, 6px);
+  }
+  
+  .change2 {
+    opacity: 0;
+    transition: 0.4s;
+  }
+  
+  .change3 {
+    width: 30px;
+    height: 2.5px;
+    background-color: #fff;
+    transition: 0.4s;
+    margin: 6px 0px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  
+  @media (max-width: 1055px) {
+  
+    .logoDiv{
+      margin-right: auto !important;
+      margin-left:30px;
+    }
+    .header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      transform: translate(0, 0);
+      width: 100%;
+      padding: 0rem;
+      font-size: 1.25rem;
+      background-color: #000;
+      flex-direction: column;
+    }
+  
+    .brand {
+      padding: 1rem;
+      flex: 1;
+    }
+  
+    .collapse {
+      width: 100vw;
+      text-align: center;
+      flex-direction: column;
+    }
+  
+    .nav_item {
+      margin: 1rem auto;
+      width: 100%;
+      text-align: center;
+    }
+  
+    .menu {
+      position: absolute;
+      display: block;
+      left: 80%;
+      top: 0%;
+    }
+  
+    .socials{
+      margin-right: auto !important;
+      margin-left:auto !important ;
+      width:120px;
+    }
+  }
