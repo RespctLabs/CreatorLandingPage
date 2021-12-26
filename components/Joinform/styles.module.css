@@ -11,7 +11,7 @@
 
 .headerContainer{
     text-align: center;
-    font-size:180px;
+    font-size:7rem;
     font-style:bold;
     background: -webkit-linear-gradient(rgba(208, 16, 71, 1), rgba(64, 45, 133, 1));
     -webkit-background-clip: text;
@@ -66,7 +66,7 @@
 @media (max-width: 800px) {
     .textButton{
         text-decoration: underline;
-        font-size:2rem
+        font-size:2rem;
     }
 
     .buttonContainer{
@@ -77,7 +77,7 @@
     }
 
     .headerContainer{
-        font-size:80px;
+        font-size:5rem;
 
     }
 

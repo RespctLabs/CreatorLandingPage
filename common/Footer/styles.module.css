@@ -17,7 +17,7 @@
     width: 100% !important;
     display: flex;
     justify-content: space-around;
-    background-color: #6441A5;
+    background-color: #886eb9;
     flex-wrap: wrap;
     height:5%;
 }
@@ -50,8 +50,8 @@
 }
 
 .lowerfooterLink{
-    padding-left: 3px;
-    padding-right: 3px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
 }
 
 

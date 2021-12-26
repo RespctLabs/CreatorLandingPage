@@ -45,7 +45,8 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #DD1919;
+  background-image: linear-gradient(to right, rgba(208, 16, 71, 1) 49%, rgb(85, 71, 138) 91%);
+
     color: white;
 }
 

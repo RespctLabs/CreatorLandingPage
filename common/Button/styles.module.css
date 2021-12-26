@@ -3,13 +3,13 @@
     border-radius: 20px;
     background-color: white;
     color: #DD1919;
-    padding: 6px 38px;
-    font-size: 0.9vw;
+    padding: 6px 18px;
+    font-size: 1rem;
     cursor: pointer;
   }
   
 .button:hover {
-    background-color: #DD1919 !important;
+    background-image: linear-gradient(to right, rgba(208, 16, 71, 1) 49%, rgb(85, 71, 138) 91%);
     color: white !important;
 }
 

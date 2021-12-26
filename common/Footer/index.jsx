@@ -49,7 +49,7 @@ export default function index() {
                                 />
                                 </span></a>
                     </Link>
-                    <Link href="/" >
+                    {/* <Link href="/" >
                         <a target="_blank">  <span className={styles.lowerfooterLink}><Image
                                 alt={"facecbook"}
                                 src={Facebook}
@@ -66,8 +66,8 @@ export default function index() {
                                 />
                                 </span>
                         </a>
-                    </Link>
-                    <Link href="/"  >
+                    </Link> */}
+                    {/* <Link href="/"  >
                         <a target="_blank" > <span className={styles.lowerfooterLink}><Image
                                 alt={"linkedin"}
                                 src={Linkedin}
@@ -84,7 +84,7 @@ export default function index() {
                                 />
                                 </span>
                         </a>
-                    </Link>
+                    </Link> */}
                 </div>
             </div>
             </div>
