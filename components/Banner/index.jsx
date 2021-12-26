@@ -15,18 +15,28 @@ export default function index() {
                     />
                 </div>
                 <div className={styles.rightSection}>
-                    <div>respct</div>
-                    <div>Respct.club is a creator token platform where you become a shareholder in the journey of your favorite creator</div>
+                    <div className={styles.rightSectionHeader}>
+                        <span className={styles.mobileIcon}>
+                            <Image
+                            alt={"Respct.club Icon"}
+                            src={FIcon}
+                            />
+                        </span>
+                        respct
+                    </div>
+                    <div className={styles.rightSectionText}>Respct.club is a creator token platform where you become a shareholder in the journey of your favorite creator</div>
                     <div className={styles.buttonWrapper}>
-                        <div className="buttonContainer">
+                        <div className={styles.button}>
                             <Link href="/">
-                                <a>Home</a>
+                                <a>Early Access</a>
                             </Link>
                         </div>
 
-                        <div className="buttonContainer">
+                        <div className={styles.gapper}/>
+
+                        <div className={styles.button}>
                             <Link href="/">
-                                <a>Home</a>
+                                <a>Try Testnet</a>
                             </Link>
                         </div>
                     </div>

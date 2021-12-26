@@ -34,7 +34,7 @@ export default class Home extends Component {
         <hr />
 
         
-        <Timeline/>
+        {/* <Timeline/> */}
 
         {/* <CarouselCover/> */}
         {/* <Menu/> */}

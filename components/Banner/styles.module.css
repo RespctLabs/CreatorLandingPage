@@ -22,6 +22,7 @@
     width: 40%;
     margin-left: auto !important;
     margin-right: auto !important;
+    display: block;
 }
 
 .rightSection{
@@ -30,10 +31,78 @@
     margin-right: auto !important;
 }
 
+.rightSectionHeader{
+    font-size:9vw;
+    text-align:right;
+
+}
+
+.rightSectionText{
+    font-size:1.2vw;
+    text-align:right;
+    margin-bottom: 1em;
+}
+
 .buttonWrapper{
-    margin-left: auto !important;
+    margin-left: 50% !important;
     margin-right: auto !important;
     display: flex;
     justify-content: space-around;
+
+}
+
+.button {
+    border: 3px solid #DD1919;
+    border-radius: 20px;
+    background-color: white;
+    color: DD1919;
+    padding: 6px 38px;
+    font-size: 0.9vw;
+    cursor: pointer;
+  }
+  
+.button:hover {
+    background-color: #DD1919;
+    color: white;
+}
+
+.mobileIcon{
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+
+    .leftSection{display: none;}
+    .rightSection{width:100% !important;}
+    .rightSectionHeader{font-size:20vw; text-align:left; display: flex;
+        justify-content: start;}
+    .rightSectionText{font-size:4vw; text-align:left;}
+    .buttonWrapper{
+        margin-left: 0% !important;
+        margin-right: 0% !important;
+        display: flex;
+        justify-content: start;
+    
+    }
+
+    .button{
+        font-size: 3.5vw;
+        border: 2px solid #DD1919;
+        border-radius: 20px;
+        background-color: white;
+        color: DD1919;
+        padding: 3px 8px;
+        cursor: pointer;
+    }
+
+    .gapper{
+        width: 3%;
+    }
+
+    .mobileIcon{
+        padding-top: 15px;
+        display: block;
+        width: 25%;
+    }
 
 }
