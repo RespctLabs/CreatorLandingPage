@@ -139,7 +139,7 @@ function Header() {
 
       {open && (
         <div className={styles.socials}>
-        <Button text="Early Access" href="/" />
+        <Button text="Early Access" href="https://canvaswap.ml/" />
 
         {/* <Link href={'https://www.facebook.com/cassinocafe.FB'}>
           <a target="_blank" >

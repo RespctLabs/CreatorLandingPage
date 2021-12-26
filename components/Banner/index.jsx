@@ -28,11 +28,11 @@ export default function index() {
                     <div className={styles.rightSectionText}>Respct.club is a creator token platform where you become a shareholder in the journey of your favorite creator</div>
                     <div className={styles.buttonWrapper}>
 
-                        <Button text="Early Access" href="/" />
+                        <Button text="Early Access" href="https://canvaswap.ml/"/>
 
                         <div className={styles.gapper}/>
 
-                        <Button text="Try Testnet" href="/" />
+                        <Button text="Try Testnet" href="https://canvaswap.ml/" />
 
                     </div>
 
