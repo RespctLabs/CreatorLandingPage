@@ -17,19 +17,99 @@
     margin: 0 auto;
   }
   .wrapper:after {
-    padding-top: 56%;
+    padding-top: 36%;
     display: block;
     content: '';
   }
-  .main {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    color: black;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.main {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  color: black;
+  text-align: center;
+  margin-top: auto !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainBox{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  color: #ebd8d0;
+}
+
+.rightBox {
+  height: 100px;
+  overflow: hidden;
+  position: relative;
+}
+.rightBox::before {
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  content: '';
+  height: 10px;
+  position: absolute;
+}
+.rightBox::after {
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+  width: 100%;
+  content: '';
+  height: 10px;
+  position: absolute;
+}
+.leftBox {
+  float: left;
+  color: #000;
+}
+
+
+.list {
+  float: right;
+  margin: 0;
+  padding: 0;
+  -webkit-animation: scrollUp 4s ease-in-out infinite normal;
+          animation: scrollUp 4s ease-in-out infinite normal;
+}
+
+
+.listItem{
+  opacity: 1;
+  height: 20px;
+  padding: 20px;
+  list-style: none;
+  color: #000;
+
+}
+
+
+@-webkit-keyframes scrollUp {
+  from {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
   }
+  to {
+    -webkit-transform: translateY(-80%);
+            transform: translateY(-80%);
+  }
+}
+
+@keyframes scrollUp {
+  from {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  to {
+    -webkit-transform: translateY(-80%);
+            transform: translateY(-80%);
+  }
+}

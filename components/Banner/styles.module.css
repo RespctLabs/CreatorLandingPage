@@ -2,7 +2,7 @@
     width: 100%;
     background-color: white;
     color: rgb(221, 25, 25);
-
+    margin-bottom: 3em !important;
 }
 
 .innerWrapper{
@@ -71,7 +71,8 @@
 }
 
 @media screen and (max-width: 768px) {
-
+    
+    .mainWrapper{ margin-bottom: 1em !important;}
     .leftSection{display: none;}
     .rightSection{width:100% !important;}
     .rightSectionHeader{font-size:20vw; text-align:left; display: flex;
