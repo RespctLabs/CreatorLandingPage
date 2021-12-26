@@ -2,11 +2,14 @@ import React from 'react'
 import styles from './styles.module.css';
 import Link from 'next/link';
 import {footerContent} from "../../data";
+import { Facebook, Instagram, Twitter, Linkedin, Discord, Medium }  from "../../data";
+import SvgIcon from '../../common/SvgIcon';
+import Image from 'next/image';
 
 export default function index() {
     return (
         <div  className={styles.footer}>
-            <div className={styles.upperfooter}> 
+            {/* <div className={styles.upperfooter}> 
 
                 {Object.keys(footerContent).map((keyName, i) => (
                     <div key={i} className={styles.upperfooterColumn}>
@@ -24,18 +27,63 @@ export default function index() {
                     </div>
                 ))}
 
-            </div>
+            </div> */}
 
             <div className={styles.lowerfooter}> 
             <div className={styles.lowerfooterInner}>
-                <div className={styles.lowerfooterLink}>
-                    <Link href="/">
-                        <a>Respct</a>
+               
+                <div >
+                    <Link href="/" >
+                        <a> <span className={styles.lowerfooterLink}><Image
+                                alt={"src"}
+                                src={Medium}
+                               
+                                />
+                                </span></a>
                     </Link>
-                </div>
-                <div className={styles.lowerfooterLink}>
-                    <Link href="/">
-                        <a>Privacy Policy</a>
+                    <Link href="/"  >
+                        <a>  <span className={styles.lowerfooterLink}><Image
+                                alt={"src"}
+                                src={Twitter}
+                               
+                                />
+                                </span></a>
+                    </Link>
+                    <Link href="/" >
+                        <a>  <span className={styles.lowerfooterLink}><Image
+                                alt={"src"}
+                                src={Facebook}
+                               
+                                />
+                                </span></a>
+                    </Link>
+                    <Link href="/"  >
+                        <a>
+                            <span className={styles.lowerfooterLink}><Image
+                                alt={"src"}
+                                src={Instagram}
+                               
+                                />
+                                </span>
+                        </a>
+                    </Link>
+                    <Link href="/"  >
+                        <a> <span className={styles.lowerfooterLink}><Image
+                                alt={"src"}
+                                src={Linkedin}
+                               
+                                />
+                                </span>
+                        </a>
+                    </Link>
+                    <Link href="/"  >
+                        <a> <span className={styles.lowerfooterLink}><Image
+                                alt={"src"}
+                                src={Discord}
+                               
+                                />
+                                </span>
+                        </a>
                     </Link>
                 </div>
             </div>

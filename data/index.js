@@ -6,6 +6,19 @@ import person from "../public/person.svg";
 import Road from "../public/svg/roadmap.svg";
 export const roadMap = Road;
 
+import b1 from "../public/social/facebook.svg";
+export const Facebook = b1;
+import b2 from "../public/social/instagram.svg";
+export const Instagram = b2;
+import b3 from "../public/social/twitter.svg";
+export const Twitter = b3;
+import b4 from "../public/social/discord.svg";
+export const Discord = b4;
+import b5 from "../public/social/medium.svg";
+export const Medium = b5;
+import b6 from "../public/social/linkedin.svg";
+export const Linkedin = b6;
+
 
 import AniBg from "../public/svg/animationBg.svg";
 export const AnimationBG = AniBg;

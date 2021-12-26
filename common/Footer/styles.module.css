@@ -4,26 +4,22 @@
     /* Height of the footer*/ 
 }
 
-.upperfooter{
+/* .upperfooter{
     width: 100% !important;
     display: flex;
     justify-content: space-around;
     background-color: #6441A5;
     flex-wrap: wrap;
-    height:3%;
+    height:3%;} */
 
-
-}
-
+    
 .lowerfooter{
     width: 100% !important;
-    position: fixed;
-    bottom: 0;
-    height:3.5%;
-    color: #fff;
-    font-weight: normal;
-    background-color: #FF2626;
-
+    display: flex;
+    justify-content: space-around;
+    background-color: #6441A5;
+    flex-wrap: wrap;
+    height:5%;
 }
 
 .lowerfooterInner{
@@ -32,14 +28,12 @@
     margin-right: auto !important;
 
     display: flex;
-    justify-content: space-between;
+    justify-content: end;
 }
 
 .upperfooterColumn{
     margin-top:0.6em !important;
     margin-bottom:2.6em !important;
-
-
 }
 
 .upperfooterHeading{
@@ -56,7 +50,8 @@
 }
 
 .lowerfooterLink{
-    font-size: 20px
+    padding-left: 3px;
+    padding-right: 3px;
 }
 
 
