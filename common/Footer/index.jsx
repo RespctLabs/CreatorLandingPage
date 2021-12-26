@@ -33,34 +33,34 @@ export default function index() {
             <div className={styles.lowerfooterInner}>
                
                 <div >
-                    <Link href="/" >
-                        <a> <span className={styles.lowerfooterLink}><Image
-                                alt={"src"}
+                    <Link href="https://respctclub.medium.com/" >
+                        <a target="_blank"> <span className={styles.lowerfooterLink}><Image
+                                alt={"medium"}
                                 src={Medium}
                                
                                 />
                                 </span></a>
                     </Link>
-                    <Link href="/"  >
-                        <a>  <span className={styles.lowerfooterLink}><Image
-                                alt={"src"}
+                    <Link href="https://twitter.com/RespctClub"  >
+                        <a target="_blank">  <span className={styles.lowerfooterLink}><Image
+                                alt={"twitter"}
                                 src={Twitter}
                                
                                 />
                                 </span></a>
                     </Link>
                     <Link href="/" >
-                        <a>  <span className={styles.lowerfooterLink}><Image
-                                alt={"src"}
+                        <a target="_blank">  <span className={styles.lowerfooterLink}><Image
+                                alt={"facecbook"}
                                 src={Facebook}
                                
                                 />
                                 </span></a>
                     </Link>
                     <Link href="/"  >
-                        <a>
+                        <a target="_blank">
                             <span className={styles.lowerfooterLink}><Image
-                                alt={"src"}
+                                alt={"instagram"}
                                 src={Instagram}
                                
                                 />
@@ -68,8 +68,8 @@ export default function index() {
                         </a>
                     </Link>
                     <Link href="/"  >
-                        <a> <span className={styles.lowerfooterLink}><Image
-                                alt={"src"}
+                        <a target="_blank" > <span className={styles.lowerfooterLink}><Image
+                                alt={"linkedin"}
                                 src={Linkedin}
                                
                                 />
@@ -77,8 +77,8 @@ export default function index() {
                         </a>
                     </Link>
                     <Link href="/"  >
-                        <a> <span className={styles.lowerfooterLink}><Image
-                                alt={"src"}
+                        <a target="_blank">  <span className={styles.lowerfooterLink}><Image
+                                alt={"discord"}
                                 src={Discord}
                                
                                 />
