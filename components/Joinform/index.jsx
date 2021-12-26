@@ -6,12 +6,7 @@ export default class EmailForm extends React.Component {
     constructor(props) {
       super(props);
     }
-    
-    handleSubmit(event) {
-      alert('An email was submitted: ' + this.state.email);
-      event.preventDefault();
-    }
-  
+     
     render() {
       return (
         <div className={styles.mainContainer}>
@@ -40,7 +35,7 @@ export default class EmailForm extends React.Component {
                         <form action="https://formsubmit.co/social@respct.club" method="POST">
                             <input type="email" name="email" />
                             <br/>
-                            <input type="submit" value="Submit" />
+                            <input type="submit" value="Join Now" />
                         </form>
                     </div>
                 </div>

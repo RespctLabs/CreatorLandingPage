@@ -11,8 +11,8 @@
 
 .headerContainer{
     text-align: center;
-    font-size:10vw;
-    font-weight:bold;
+    font-size:180px;
+    font-style:bold;
     background: -webkit-linear-gradient(rgba(208, 16, 71, 1), rgba(64, 45, 133, 1));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -20,6 +20,7 @@
 
 .buttonContainer {
     border-radius: 3px;
+    margin-top: 50px;
     border-color: cadetblue;
     display: flex;
     justify-content: space-around;
@@ -34,6 +35,7 @@
 }
 
 .formContainer{
+    margin-top: 20px;
 
 }
 
@@ -49,6 +51,7 @@
     text-decoration: underline;
     font-size:3rem;
     color: rgba(255, 0, 0, 1);
+    font-size: 75px;
 
 }
 
@@ -62,8 +65,14 @@
 
     .buttonContainer{
         width: 100%;
+        margin-top: 0px !important;
         margin-left: 0% !important;
         margin-right: 0% !important;
+    }
+
+    .headerContainer{
+        font-size:80px;
+
     }
 
   }
