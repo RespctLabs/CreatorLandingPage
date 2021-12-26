@@ -20,22 +20,18 @@ export default class EmailForm extends React.Component {
                 <div className={styles.formContainer}>
                     <div className={styles.buttonContainer} >
                             <div className={styles.textButton}>
-                                <Link href="/">
-                                    <a>Creator</a>
-                                </Link>
+                                Creator
                             </div>
 
                             <div className={styles.textButton}>
-                                <Link href="/">
-                                    <a>Fan</a>
-                                </Link>
+                                    Fan
                             </div>
                     </div>
                     <div className={styles.formContainer}>
                         <form action="https://formsubmit.co/social@respct.club" method="POST">
-                            <input type="email" name="email" />
+                            <input type="email" name="email" style={{fontSize:'25px', color:'#DD1919'}} />
                             <br/>
-                            <input type="submit" value="Join Now" />
+                            <input type="submit" value="Join Us" />
                         </form>
                     </div>
                 </div>

@@ -20,13 +20,13 @@
 
 .buttonContainer {
     border-radius: 3px;
-    margin-top: 50px;
+    margin-top: 30px;
     border-color: cadetblue;
     display: flex;
     justify-content: space-around;
-    width: 60%;
-    margin-left: 20% !important;
-    margin-right: 20% !important;
+    width: 50%;
+    margin-left: 25% !important;
+    margin-right: 25% !important;
   }
 
 
@@ -49,7 +49,7 @@
 
 .textButton{
     text-decoration: underline;
-    font-size:3rem;
+    font-size:2.4em !important;
     color: rgba(255, 0, 0, 1);
     font-size: 75px;
 
