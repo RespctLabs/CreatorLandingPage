@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import styles from './styles.module.css';
 import Link from 'next/link';
+
 export default class EmailForm extends React.Component {
     constructor(props) {
       super(props);

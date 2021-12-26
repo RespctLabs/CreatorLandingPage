@@ -3,6 +3,7 @@ import styles from './styles.module.css';
 import {FIcon } from '../../data';
 import Image from 'next/image';
 import Link from 'next/link';
+import Button from '../../common/Button';
 
 export default function index() {
     return (
@@ -26,19 +27,13 @@ export default function index() {
                     </div>
                     <div className={styles.rightSectionText}>Respct.club is a creator token platform where you become a shareholder in the journey of your favorite creator</div>
                     <div className={styles.buttonWrapper}>
-                        <div className={styles.button}>
-                            <Link href="/">
-                                <a>Early Access</a>
-                            </Link>
-                        </div>
+
+                        <Button text="Early Access" href="/" />
 
                         <div className={styles.gapper}/>
 
-                        <div className={styles.button}>
-                            <Link href="/">
-                                <a>Try Testnet</a>
-                            </Link>
-                        </div>
+                        <Button text="Try Testnet" href="/" />
+
                     </div>
 
                 </div>

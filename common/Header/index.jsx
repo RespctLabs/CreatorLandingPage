@@ -4,7 +4,7 @@ import styles from './styles.module.css';
 import Link from 'next/link';
 import  { FIcon } from '../../data';
 import Image from 'next/image';
-
+import Button from '../../common/Button';
 function Header() {
   const [open, setOpen] = useState(true);
 
@@ -217,11 +217,8 @@ function Header() {
 
       {open && (
         <div className={styles.socials}>
-           <div className={styles.button}>
-              <Link href="/">
-                  <a>Early Access</a>
-              </Link>
-          </div>
+        <Button text="Early Access" href="/" />
+
         {/* <Link href={'https://www.facebook.com/cassinocafe.FB'}>
           <a target="_blank" >
           <Image className={styles.image} src={FIcon} alt={'Respct.Club'} width={40} height={40} />

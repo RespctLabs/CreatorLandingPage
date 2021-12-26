@@ -15,16 +15,13 @@ export default class Home extends Component {
     return (
       <div>
         <Head>
-          <title>CassinoCafe</title>
-          <meta name="CassinoCafe" content="CassinoCafe is a restaurant
-           located in Dwarka Mor, Delhi" />
+          <title>Respct.Club</title>
+          <meta name="Respct.Club" content="Respct.club is a creator token platform where you become a shareholder in the journey of your favorite creator" />
         </Head>
         <Header/>
         <br />
         <br />
-        <br />
-        <br />
-        <br />
+
         <Banner/>
         <br />
         <br /><br />
