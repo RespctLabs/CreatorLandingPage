@@ -3,6 +3,9 @@ export const FIcon = fIcon;
 
 import person from "../public/person.svg";
 
+import Road from "../public/svg/roadmap.svg";
+export const roadMap = Road;
+
 
 import AniBg from "../public/svg/animationBg.svg";
 export const AnimationBG = AniBg;

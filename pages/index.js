@@ -8,7 +8,9 @@ import Animation from '../components/Animation';
 import Banner from '../components/Banner';
 import Joinform from '../components/Joinform';
 import Slide from '../components/Slide';
-import Timeline from '../components/Timeline';
+import Roadmap from '../components/Roadmap';
+import Fannotation from '../components/Fannotation';
+
 
 export default class Home extends Component {
   render() {
@@ -32,6 +34,7 @@ export default class Home extends Component {
 
         <Slide/>
         <br />
+        <Roadmap />
         <br />
 
         <Joinform/>
