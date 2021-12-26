@@ -48,6 +48,7 @@
   height: 100px;
   overflow: hidden;
   position: relative;
+  padding: 0;
 }
 .rightBox::before {
   top: 0;
@@ -55,7 +56,7 @@
   z-index: 1;
   width: 100%;
   content: '';
-  height: 10px;
+  height: 50px;
   position: absolute;
 }
 .rightBox::after {
@@ -64,7 +65,7 @@
   z-index: 1;
   width: 100%;
   content: '';
-  height: 10px;
+  height: 0px;
   position: absolute;
 }
 .leftBox {
@@ -77,17 +78,23 @@
   float: right;
   margin: 0;
   padding: 0;
-  -webkit-animation: scrollUp 4s ease-in-out infinite normal;
-          animation: scrollUp 4s ease-in-out infinite normal;
+  -webkit-animation: scrollUp 8s ease-in-out infinite normal;
+          animation: scrollUp 8s ease-in-out infinite normal;
 }
 
 
 .listItem{
   opacity: 1;
-  height: 20px;
-  padding: 20px;
+  height: 10px;
+  padding-top: 60px;
+  padding-bottom: 205px;
+  font-size: 4vw;
   list-style: none;
-  color: #000;
+  text-align: left;
+  background: linear-gradient(
+            to right, rgba(165, 22, 63, 1), rgba(64, 45, 133, 1));
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
 
 }
 

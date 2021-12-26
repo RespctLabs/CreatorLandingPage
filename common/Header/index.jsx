@@ -222,11 +222,11 @@ function Header() {
                   <a>Early Access</a>
               </Link>
           </div>
-        <Link href={'https://www.facebook.com/cassinocafe.FB'}>
+        {/* <Link href={'https://www.facebook.com/cassinocafe.FB'}>
           <a target="_blank" >
           <Image className={styles.image} src={FIcon} alt={'Respct.Club'} width={40} height={40} />
           </a>
-        </Link>
+        </Link> */}
       
       </div>
       ) }

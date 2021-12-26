@@ -23,13 +23,21 @@ export default class Home extends Component {
         <br />
         <br />
         <br />
+        <br />
+        <br />
         <Banner/>
+        <br />
+        <br /><br />
+        <br />
         <Animation/>
-        <Slide/>
-        <hr />
-        <Joinform/>
-        <hr />
+        <br />
+        <br />
 
+        <Slide/>
+        <br />
+        <br />
+
+        <Joinform/>
         
         {/* <Timeline/> */}
 

@@ -22,7 +22,7 @@ export default function index() {
                             src={FIcon}
                             />
                         </span>
-                        respct
+                        <span className={styles.rightSectionHeaderGradient}>respct</span>
                     </div>
                     <div className={styles.rightSectionText}>Respct.club is a creator token platform where you become a shareholder in the journey of your favorite creator</div>
                     <div className={styles.buttonWrapper}>

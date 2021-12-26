@@ -1,15 +1,18 @@
 import fIcon from "../public/svg/fIcon.svg";
 export const FIcon = fIcon;
 
+import person from "../public/person.svg";
+
+
 import AniBg from "../public/svg/animationBg.svg";
 export const AnimationBG = AniBg;
 
 export const cardContent = [
     {
-        imageURL: fIcon,
+        imageURL: person,
         imageAlt: "Heemank Verma",
         coinShortName: 'SMR',
-        coinDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+        coinDescription: 'I was a standup comedian before someone ate a bat',
         socialURLs:[
             {
                 caller: "facebook.svg",
@@ -30,10 +33,10 @@ export const cardContent = [
         ]
     },
     {
-        imageURL: fIcon,
+        imageURL: person,
         imageAlt: "Heemank Verma",
         coinShortName: 'SMR',
-        coinDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+        coinDescription: 'I was a standup comedian before someone ate a bat',
         socialURLs:[
             {
                 caller: "facebook.svg",
@@ -54,10 +57,10 @@ export const cardContent = [
         ]
     },
     {
-        imageURL: fIcon,
+        imageURL: person,
         imageAlt: "Heemank Verma",
         coinShortName: 'SMR',
-        coinDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+        coinDescription: 'I was a standup comedian before someone ate a bat',
         socialURLs:[
             {
                 caller: "facebook.svg",
@@ -78,10 +81,10 @@ export const cardContent = [
         ]
     },
     {
-        imageURL: fIcon,
+        imageURL: person,
         imageAlt: "Heemank Verma",
         coinShortName: 'SMR',
-        coinDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+        coinDescription: 'I was a standup comedian before someone ate a bat',
         socialURLs:[
             {
                 caller: "facebook.svg",
@@ -102,10 +105,10 @@ export const cardContent = [
         ]
     },
     {
-        imageURL: fIcon,
+        imageURL: person,
         imageAlt: "Heemank Verma",
         coinShortName: 'SMR',
-        coinDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+        coinDescription: 'I was a standup comedian before someone ate a bat',
         socialURLs:[
             {
                 caller: "facebook.svg",
@@ -126,10 +129,10 @@ export const cardContent = [
         ]
     },
     {
-        imageURL: fIcon,
+        imageURL: person,
         imageAlt: "Heemank Verma",
         coinShortName: 'SMR',
-        coinDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+        coinDescription: 'I was a standup comedian before someone ate a bat',
         socialURLs:[
             {
                 caller: "facebook.svg",
@@ -150,10 +153,10 @@ export const cardContent = [
         ]
     },
     {
-        imageURL: fIcon,
+        imageURL: person,
         imageAlt: "Heemank Verma",
         coinShortName: 'SMR',
-        coinDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+        coinDescription: 'I was a standup comedian before someone ate a bat',
         socialURLs:[
             {
                 caller: "facebook.svg",
@@ -174,10 +177,10 @@ export const cardContent = [
         ]
     },
     {
-        imageURL: fIcon,
+        imageURL: person,
         imageAlt: "Heemank Verma",
         coinShortName: 'SMR',
-        coinDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+        coinDescription: 'I was a standup comedian before someone ate a bat',
         socialURLs:[
             {
                 caller: "facebook.svg",
@@ -198,10 +201,10 @@ export const cardContent = [
         ]
     },
     {
-        imageURL: fIcon,
+        imageURL: person,
         imageAlt: "Heemank Verma",
         coinShortName: 'SMR',
-        coinDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+        coinDescription: 'I was a standup comedian before someone ate a bat',
         socialURLs:[
             {
                 caller: "facebook.svg",
@@ -222,10 +225,10 @@ export const cardContent = [
         ]
     },
     {
-        imageURL: fIcon,
+        imageURL: person,
         imageAlt: "Heemank Verma",
         coinShortName: 'SMR',
-        coinDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+        coinDescription: 'I was a standup comedian before someone ate a bat',
         socialURLs:[
             {
                 caller: "facebook.svg",
@@ -246,10 +249,10 @@ export const cardContent = [
         ]
     },
     {
-        imageURL: fIcon,
+        imageURL: person,
         imageAlt: "Heemank Verma",
         coinShortName: 'SMR',
-        coinDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+        coinDescription: 'I was a standup comedian before someone ate a bat',
         socialURLs:[
             {
                 caller: "facebook.svg",
@@ -270,10 +273,10 @@ export const cardContent = [
         ]
     },
     {
-        imageURL: fIcon,
+        imageURL: person,
         imageAlt: "Heemank Verma",
         coinShortName: 'SMR',
-        coinDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+        coinDescription: 'I was a standup comedian before someone ate a bat',
         socialURLs:[
             {
                 caller: "facebook.svg",
@@ -294,10 +297,10 @@ export const cardContent = [
         ]
     },
     {
-        imageURL: fIcon,
+        imageURL: person,
         imageAlt: "Heemank Verma",
         coinShortName: 'SMR',
-        coinDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+        coinDescription: 'I was a standup comedian before someone ate a bat',
         socialURLs:[
             {
                 caller: "facebook.svg",
@@ -318,10 +321,10 @@ export const cardContent = [
         ]
     },
     {
-        imageURL: fIcon,
+        imageURL: person,
         imageAlt: "Heemank Verma",
         coinShortName: 'SMR',
-        coinDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+        coinDescription: 'I was a standup comedian before someone ate a bat',
         socialURLs:[
             {
                 caller: "facebook.svg",

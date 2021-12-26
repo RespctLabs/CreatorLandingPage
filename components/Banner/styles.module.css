@@ -41,6 +41,7 @@
     font-size:1.2vw;
     text-align:right;
     margin-bottom: 1em;
+    color:rgba(197, 14, 40, 1)
 }
 
 .buttonWrapper{
@@ -49,6 +50,16 @@
     display: flex;
     justify-content: space-around;
 
+}
+
+.rightSectionHeaderGradient{
+    font-family: Arial, 
+            Helvetica, sans-serif;
+        background: linear-gradient(
+            to right, #6441A5, #FB0204,
+            #FF0000);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
 }
 
 .button {
