@@ -51,7 +51,7 @@ export const cardContent = [
     {
         imageURL: person,
         imageAlt: "Heemank Verma",
-        coinShortName: 'SMR',
+        coinShortName: 'SFD',
         coinDescription: 'I was a standup comedian before someone ate a bat',
         socialURLs:[
             {
@@ -75,7 +75,7 @@ export const cardContent = [
     {
         imageURL: person,
         imageAlt: "Heemank Verma",
-        coinShortName: 'SMR',
+        coinShortName: 'SDG',
         coinDescription: 'I was a standup comedian before someone ate a bat',
         socialURLs:[
             {
@@ -99,7 +99,7 @@ export const cardContent = [
     {
         imageURL: person,
         imageAlt: "Heemank Verma",
-        coinShortName: 'SMR',
+        coinShortName: 'ETY',
         coinDescription: 'I was a standup comedian before someone ate a bat',
         socialURLs:[
             {
@@ -123,7 +123,7 @@ export const cardContent = [
     {
         imageURL: person,
         imageAlt: "Heemank Verma",
-        coinShortName: 'SMR',
+        coinShortName: 'QHT',
         coinDescription: 'I was a standup comedian before someone ate a bat',
         socialURLs:[
             {
@@ -147,7 +147,7 @@ export const cardContent = [
     {
         imageURL: person,
         imageAlt: "Heemank Verma",
-        coinShortName: 'SMR',
+        coinShortName: 'QH4',
         coinDescription: 'I was a standup comedian before someone ate a bat',
         socialURLs:[
             {
@@ -171,7 +171,7 @@ export const cardContent = [
     {
         imageURL: person,
         imageAlt: "Heemank Verma",
-        coinShortName: 'SMR',
+        coinShortName: 'HST',
         coinDescription: 'I was a standup comedian before someone ate a bat',
         socialURLs:[
             {
@@ -195,7 +195,7 @@ export const cardContent = [
     {
         imageURL: person,
         imageAlt: "Heemank Verma",
-        coinShortName: 'SMR',
+        coinShortName: 'WJ6',
         coinDescription: 'I was a standup comedian before someone ate a bat',
         socialURLs:[
             {
@@ -219,7 +219,7 @@ export const cardContent = [
     {
         imageURL: person,
         imageAlt: "Heemank Verma",
-        coinShortName: 'SMR',
+        coinShortName: 'Q6J',
         coinDescription: 'I was a standup comedian before someone ate a bat',
         socialURLs:[
             {
@@ -243,7 +243,7 @@ export const cardContent = [
     {
         imageURL: person,
         imageAlt: "Heemank Verma",
-        coinShortName: 'SMR',
+        coinShortName: 'WJ6',
         coinDescription: 'I was a standup comedian before someone ate a bat',
         socialURLs:[
             {
@@ -267,7 +267,7 @@ export const cardContent = [
     {
         imageURL: person,
         imageAlt: "Heemank Verma",
-        coinShortName: 'SMR',
+        coinShortName: 'WJ6',
         coinDescription: 'I was a standup comedian before someone ate a bat',
         socialURLs:[
             {
@@ -291,7 +291,7 @@ export const cardContent = [
     {
         imageURL: person,
         imageAlt: "Heemank Verma",
-        coinShortName: 'SMR',
+        coinShortName: 'W6JQQ',
         coinDescription: 'I was a standup comedian before someone ate a bat',
         socialURLs:[
             {
@@ -315,7 +315,7 @@ export const cardContent = [
     {
         imageURL: person,
         imageAlt: "Heemank Verma",
-        coinShortName: 'SMR',
+        coinShortName: 'QGFJE',
         coinDescription: 'I was a standup comedian before someone ate a bat',
         socialURLs:[
             {
@@ -339,7 +339,7 @@ export const cardContent = [
     {
         imageURL: person,
         imageAlt: "Heemank Verma",
-        coinShortName: 'SMR',
+        coinShortName: 'ARH',
         coinDescription: 'I was a standup comedian before someone ate a bat',
         socialURLs:[
             {
