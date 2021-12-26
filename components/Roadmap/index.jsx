@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 
 export default function index() {
     return (
-        <div className={styles.alignImage} >
+        <div className={styles.alignImage} id="Roadmap" >
             <Image
                 src={roadMap}
                 alt="Picture of the author"

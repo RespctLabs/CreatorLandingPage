@@ -6,7 +6,7 @@ import Fannotation from '../Fannotation';
 
 export default function index() {
     return (
-        <div className={styles.wrapper}>
+        <div className={styles.wrapper} id="Animation">
             <div className={styles.main}>
                 <Fannotation />
             </div>

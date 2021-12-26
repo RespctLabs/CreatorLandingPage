@@ -23,6 +23,8 @@ export default class Home extends Component {
         <Header/>
         <br />
         <br />
+        <br />
+
 
         <Banner/>
         <br />

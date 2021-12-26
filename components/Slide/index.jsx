@@ -29,7 +29,7 @@ export default function index() {
 
 
     return (
-        <div>
+        <div id="Creators">
             <Carousel
                 swipeable={false}
                 draggable={false}

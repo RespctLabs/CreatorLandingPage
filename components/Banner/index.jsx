@@ -7,7 +7,7 @@ import Button from '../../common/Button';
 
 export default function index() {
     return (
-        <div className={styles.mainWrapper}>
+        <div className={styles.mainWrapper} id="Banner">
             <div className={styles.innerWrapper}>
                 <div className={styles.leftSection}>
                     <Image

@@ -125,22 +125,6 @@
     transform: rotate(45deg);
   }
 
-.button {
-  border: 3px solid #DD1919;
-  border-radius: 20px;
-  background-color: white;
-  color: DD1919;
-  padding: 6px 38px;
-  font-size: 0.9vw;
-  cursor: pointer;
-}
-  
-.button:hover {
-    background-color: #DD1919;
-    color: white;
-}
-
-
 
   
   @media (max-width: 1055px) {

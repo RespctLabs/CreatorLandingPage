@@ -17,12 +17,12 @@
 @media screen and (max-width: 768px) {
     
     .button{
-        font-size: 3.5vw;
+        font-size: 4.5vw;
         border: 2px solid #DD1919;
         border-radius: 20px;
         background-color: white;
         color: DD1919;
-        padding: 3px 8px;
+        padding: 3px 10px;
         cursor: pointer;
     }
 }

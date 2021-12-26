@@ -9,7 +9,7 @@ export default class EmailForm extends React.Component {
      
     render() {
       return (
-        <div className={styles.mainContainer}>
+        <div className={styles.mainContainer} id="Join">
             <div className={styles.innerContainer}>
 
                 <div className={styles.headerContainer}>
