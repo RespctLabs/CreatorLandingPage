@@ -38,6 +38,10 @@ const Creator = ({ isMobile, isMobileOnly, isTablet }) => {
 			title: 'amily',
 			image: FIcon,
 		},
+		{
+			title: 'an',
+			image: FIcon,
+		},
 		
 	];
 	const [creatorItem, setCreatorItem] = useState({

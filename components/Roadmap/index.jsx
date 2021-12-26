@@ -8,6 +8,8 @@ import styles from './styles.module.css';
 
 export default function index() {
     return (
+        <>
+        <div className={styles.heading}> 2022 Timeline</div>
         <div className={styles.container}>
         <div className={styles.ptag}>
             <div>Testnet DEX & LP launch (Testnet)</div>
@@ -41,6 +43,7 @@ export default function index() {
         </div>    
         
       </div>
+      </>
     )
 }
 

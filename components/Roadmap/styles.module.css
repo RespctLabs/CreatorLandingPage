@@ -60,6 +60,16 @@
 	 border-bottom-right-radius: 0;
 	 border-bottom-left-radius: 0;
 }
+
+
+
+.heading{
+	font-size: 4vw;
+	text-align: center;
+	background: -webkit-linear-gradient(rgba(208, 16, 71, 1), rgba(64, 45, 133, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
  
 
 @media (max-width: 768px){
@@ -67,5 +77,10 @@
 		width: 100%;
 		margin-left: 0% !important;
 	 	margin-right: 0% !important;
+	}
+
+	.heading{
+		font-size: 12vw;
+
 	}
 }
