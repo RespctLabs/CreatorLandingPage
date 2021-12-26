@@ -28,16 +28,16 @@ export default function index() {
 
             <div className={styles.lowerfooter}> 
             <div className={styles.lowerfooterInner}>
-            <div className={styles.lowerfooterLink}>
-                <Link href="/">
-                    <a>Respct</a>
-                </Link>
-            </div>
-            <div className={styles.lowerfooterLink}>
-                <Link href="/">
-                    <a>Privacy Policy</a>
-                </Link>
-            </div>
+                <div className={styles.lowerfooterLink}>
+                    <Link href="/">
+                        <a>Respct</a>
+                    </Link>
+                </div>
+                <div className={styles.lowerfooterLink}>
+                    <Link href="/">
+                        <a>Privacy Policy</a>
+                    </Link>
+                </div>
             </div>
             </div>
         </div>
