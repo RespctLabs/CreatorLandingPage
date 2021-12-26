@@ -342,3 +342,39 @@ export const cardContent = [
         ]
     },
 ];
+
+
+export const footerContent ={
+        "Socials": {
+            "Twitter" : "http://twitter.com",
+            "Facebook" : "http://www.facebook.com",
+            "Instagram" : "http://www.facebook.com",
+            "Discord" : "http://www.discord.com",
+            "Medium": "http://www.medium.com",
+            "Linkedin" : "http://www.linkedin"
+        },
+        "policies": {
+            "Twitter" : "http://twitter.com",
+            "Facebook" : "http://www.facebook.com",
+            "Instagram" : "http://www.facebook.com",
+            "Discord" : "http://www.discord.com",
+            "Medium": "http://www.medium.com",
+            "Linkedin" : "http://www.linkedin"
+        },
+        "Sources": {
+            "Twitter" : "http://twitter.com",
+            "Facebook" : "http://www.facebook.com",
+            "Instagram" : "http://www.facebook.com",
+            "Discord" : "http://www.discord.com",
+            "Medium": "http://www.medium.com",
+            "Linkedin" : "http://www.linkedin"
+        },
+        "Know more": {
+            "Twitter" : "http://twitter.com",
+            "Facebook" : "http://www.facebook.com",
+            "Instagram" : "http://www.facebook.com",
+            "Discord" : "http://www.discord.com",
+            "Medium": "http://www.medium.com",
+            "Linkedin" : "http://www.linkedin"
+        },
+};

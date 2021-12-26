@@ -35,7 +35,6 @@ export default class EmailForm extends React.Component {
                                     <a>Home</a>
                                 </Link>
                             </div>
-                            sdf
 
                             <div className={styles.button}>
                                 <Link href="/">
