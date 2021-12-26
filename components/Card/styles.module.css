@@ -1,5 +1,55 @@
 .mainContainer{
-    border-radius: 10px !important;
+    border : 1px solid ;
+    border-radius: 20px !important;
     border-color: crimson;
-    background-color: rgb(196, 95, 95);
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+
 }
+
+.imageContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coinShortNameContainer{
+    text-align: center;
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+}
+
+.coinDescriptionContainer{
+    text-align: center;
+    width: 85%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-decoration: solid;
+}
+
+.socialURLsContainer{
+    margin-left: 3rem !important;
+    margin-right: 3rem !important;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+
+}
+
+@media (max-width: 800px) {
+    .mainContainer{
+        border-radius: 20px !important;
+        border-color: crimson;
+        width: 80% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    
+    }
+
+
+}
+
+

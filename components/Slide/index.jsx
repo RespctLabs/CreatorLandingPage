@@ -51,14 +51,10 @@ export default function index() {
 
                 {cardContent.map((item,index) => {
                         return (
-                            <Card data={item} key={index}/>
+                              <Card data={item} key={index}/>
                         );
                     })
                 }
-                <div>Item 1</div>
-                <div>Item 2</div>
-                <div>Item 3</div>
-                <div>Item 4</div>
             </Carousel>
         </div>
     )

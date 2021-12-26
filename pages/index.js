@@ -24,12 +24,10 @@ export default class Home extends Component {
         <br />
         <br />
         <Banner/>
-        <hr />
         <Animation/>
         <hr />
         <Slide/>
         <hr />
-
         <Joinform/>
         <hr />
 
