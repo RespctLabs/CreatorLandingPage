@@ -179,3 +179,30 @@
 .textStyle{
 	font-size:5rem;
 }
+
+
+
+
+@media (max-width: 800px) {
+    
+	.contentCenter{
+		margin-left: 0% !important;
+		margin-right:30% !important;
+	}
+	
+	
+	.leftContainer{
+		margin-bottom: 00% !important;
+		margin-left: 0% !important;
+	}
+	
+	
+	.rightContainer{
+		margin-top: -25% !important;
+		margin-left: 5% !important;
+	
+		background-color:rgb(12, 37, 6) !important;
+	}
+	
+	
+}
