@@ -7,8 +7,9 @@ import Fannotation from '../Fannotation';
 export default function index() {
     return (
         <div className={styles.wrapper}>
-            <Fannotation />
-            
+            <div className={styles.main}>
+                <Fannotation />
+            </div>
         </div>
     )
 }

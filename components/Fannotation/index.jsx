@@ -104,7 +104,7 @@ const Creator = ({ isMobile, isMobileOnly, isTablet }) => {
 													whiteSpace: 'nowrap',
 											  }
 									}>
-									{item.title}
+									<span className={styles.textStyle}>{item.title}</span>
 								</div>
 							</div>
 						))}

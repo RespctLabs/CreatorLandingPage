@@ -5,16 +5,8 @@ import Link from 'next/link';
 export default class EmailForm extends React.Component {
     constructor(props) {
       super(props);
-      this.state = {email: ''};
-  
-      this.handleChange = this.handleChange.bind(this);
-      this.handleSubmit = this.handleSubmit.bind(this);
     }
-  
-    handleChange(event) {
-      this.setState({email: event.target.value});
-    }
-  
+    
     handleSubmit(event) {
       alert('An email was submitted: ' + this.state.email);
       event.preventDefault();
@@ -45,8 +37,8 @@ export default class EmailForm extends React.Component {
                             </div>
                     </div>
                     <div className={styles.formContainer}>
-                        <form onSubmit={this.handleSubmit}>
-                            <input type="text" value={this.state.email} onChange={this.handleChange} />
+                        <form action="https://formsubmit.co/social@respct.club" method="POST">
+                            <input type="email" name="email" />
                             <br/>
                             <input type="submit" value="Submit" />
                         </form>

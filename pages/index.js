@@ -34,10 +34,12 @@ export default class Home extends Component {
 
         <Slide/>
         <br />
-        <Roadmap />
+        {/* <Roadmap /> */}
         <br />
 
         <Joinform/>
+        <br />
+        <br />
         
         {/* <Timeline/> */}
 
