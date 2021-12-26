@@ -31,6 +31,9 @@
 	opacity: 0;
 	will-change: transform, opacity;
     margin-left: 50%;
+	background: -webkit-linear-gradient(rgba(208, 16, 71, 1), rgba(64, 45, 133, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 	
 
 }

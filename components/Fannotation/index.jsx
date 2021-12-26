@@ -1,7 +1,6 @@
 /* eslint-disable react/jsx-key */
 import React, { useState } from 'react';
 import { Row } from 'reactstrap';
-import { Button } from 'semantic-ui-react';
 import styles from './styles.module.css';
 import { useRouter } from 'next/router';
 import {FIcon}  from "../../data";
@@ -16,7 +15,7 @@ const Creator = ({ isMobile, isMobileOnly, isTablet }) => {
 			image: FIcon,
 		},
         {
-			title: 'amily',
+			title: 'an',
 			image: FIcon,
 		},
         {
@@ -24,7 +23,7 @@ const Creator = ({ isMobile, isMobileOnly, isTablet }) => {
 			image: FIcon,
 		},
         {
-			title: 'amily',
+			title: 'an',
 			image: FIcon,
 		},
         {
@@ -32,7 +31,7 @@ const Creator = ({ isMobile, isMobileOnly, isTablet }) => {
 			image: FIcon,
 		},
         {
-			title: 'amily',
+			title: 'an',
 			image: FIcon,
 		},
         {
