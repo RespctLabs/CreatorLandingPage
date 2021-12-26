@@ -28,7 +28,7 @@
     margin-right: auto !important;
 
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
 }
 
 .upperfooterColumn{

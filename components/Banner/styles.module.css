@@ -87,13 +87,13 @@
     .leftSection{display: none;}
     .rightSection{width:100% !important;}
     .rightSectionHeader{font-size:20vw; text-align:left; display: flex;
-        justify-content: start;}
+        justify-content: flex-start;}
     .rightSectionText{font-size:4vw; text-align:left;}
     .buttonWrapper{
         margin-left: 0% !important;
         margin-right: 0% !important;
         display: flex;
-        justify-content: start;
+        justify-content: flex-start;
     
     }
 
