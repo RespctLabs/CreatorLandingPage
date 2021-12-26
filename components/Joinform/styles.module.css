@@ -48,11 +48,17 @@
 }
 
 .textButton{
-    text-decoration: underline;
     font-size:2.4em !important;
     color: rgba(255, 0, 0, 1);
-    font-size: 75px;
 
+}
+
+.textButton{
+    background: linear-gradient(
+            to right, #6441A5, #FB0204,
+            #FF0000);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
 }
 
 
