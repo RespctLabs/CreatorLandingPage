@@ -25,7 +25,6 @@ export default class Home extends Component {
         <br />
         <Banner/>
         <Animation/>
-        <hr />
         <Slide/>
         <hr />
         <Joinform/>

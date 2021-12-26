@@ -2,7 +2,7 @@
 import React , {useEffect, useState} from 'react'
 import styles from './styles.module.css';
 import Link from 'next/link';
-// import  { Logo } from '../../data';
+import  { FIcon } from '../../data';
 import Image from 'next/image';
 
 function Header() {
@@ -46,8 +46,7 @@ function Header() {
             }
           }}>
             <div style={{minWidth: 50}}>
-                sbhdjh
-              {/* <Image className={styles.image} src={Logo} alt={'Respct.Club'}/> */}
+              <Image className={styles.image} src={FIcon} alt={'Respct.Club'} width={40} height={40} />
             </div>
         </Link>
       </div>
@@ -218,14 +217,14 @@ function Header() {
 
       {open && (
         <div className={styles.socials}>
-        <Link href={'https://www.instagram.com/cassino.cafe/'}>
-          <a target="_blank" className={styles.nav_item}>
-            helo
-          </a>
-        </Link>
+           <div className={styles.button}>
+              <Link href="/">
+                  <a>Early Access</a>
+              </Link>
+          </div>
         <Link href={'https://www.facebook.com/cassinocafe.FB'}>
           <a target="_blank" >
-            hello
+          <Image className={styles.image} src={FIcon} alt={'Respct.Club'} width={40} height={40} />
           </a>
         </Link>
       

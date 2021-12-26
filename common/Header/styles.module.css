@@ -9,15 +9,14 @@
     display: flex;
     font-size: 1.15rem;
     justify-content: space-between;
-    background: transparent;
     z-index: 100;
     min-height: 60px !important;
-    background-color: #000;
+    background-color: rgb(255, 255, 255);
     padding-left: 10vw;
     padding-right: 10vw;
-    color:rgb(255, 255, 255);
+    color:rgb(12, 12, 12);
     /* margin-bottom: 100px; */
-    font-weight: lighter !important;
+    font-weight: normal !important;
     align-items: center;
   }
   
@@ -125,6 +124,24 @@
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
   }
+
+.button {
+  border: 3px solid #DD1919;
+  border-radius: 20px;
+  background-color: white;
+  color: DD1919;
+  padding: 6px 38px;
+  font-size: 0.9vw;
+  cursor: pointer;
+}
+  
+.button:hover {
+    background-color: #DD1919;
+    color: white;
+}
+
+
+
   
   @media (max-width: 1055px) {
   
@@ -140,7 +157,7 @@
       width: 100%;
       padding: 0rem;
       font-size: 1.25rem;
-      background-color: #000;
+      background-color: rgb(255, 255, 255);
       flex-direction: column;
     }
   

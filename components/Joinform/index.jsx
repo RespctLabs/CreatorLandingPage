@@ -32,19 +32,19 @@ export default class EmailForm extends React.Component {
                     <div className={styles.buttonContainer} >
                             <div className={styles.button}>
                                 <Link href="/">
-                                    <a>Home</a>
+                                    <a>Creator</a>
                                 </Link>
                             </div>
 
                             <div className={styles.button}>
                                 <Link href="/">
-                                    <a>Home</a>
+                                    <a>Fan</a>
                                 </Link>
                             </div>
                     </div>
                     <div className={styles.formContainer}>
                         <form onSubmit={this.handleSubmit}>
-                            <input type="text" value={this.state.email} onChange={this.handleChange} className={this.inputContainer} />
+                            <input type="text" value={this.state.email} onChange={this.handleChange} />
                             <br/>
                             <input type="submit" value="Submit" className={this.inputContainer} />
                         </form>
