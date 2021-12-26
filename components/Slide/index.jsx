@@ -51,7 +51,9 @@ export default function index() {
 
                 {cardContent.map((item,index) => {
                         return (
-                              <Card data={item} key={index}/>
+                              <div className={styles.cardContainer}  key={index}>
+                                <Card data={item}/>
+                              </div>
                         );
                     })
                 }

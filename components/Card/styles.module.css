@@ -7,7 +7,7 @@
     margin-left: auto !important;
     margin-right: auto !important;
     filter: drop-shadow(0 0 0.75rem rgba(236, 5, 13, 0.15));
-
+    padding: 0.9rem;
 }
 
 .imageContainer{
@@ -44,7 +44,7 @@
     .mainContainer{
         border-radius: 20px !important;
         border-color: crimson;
-        width: 80% !important;
+        width: 90% !important;
         margin-left: auto !important;
         margin-right: auto !important;
     
