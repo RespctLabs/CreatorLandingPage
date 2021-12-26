@@ -1,0 +1,41 @@
+.mainContainer{
+    width: 100%;
+}
+
+.innerContainer{
+    width: 90% ;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    
+}
+
+.headerContainer{
+    text-align: center;
+}
+
+.buttonContainer {
+    background-color:rgb(214, 118, 118);
+    border-radius: 3px;
+    border-color: cadetblue;
+    display: flex;
+    justify-content: space-around;
+  }
+
+.headerContainer{
+}
+
+.button{
+    background-color: white;
+}
+
+.formContainer{
+
+}
+
+.inputContainer{
+
+}
+
+.submitContainer{
+    
+}

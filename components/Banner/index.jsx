@@ -29,7 +29,6 @@ export default function index() {
                                 <a>Home</a>
                             </Link>
                         </div>
-
                     </div>
 
                 </div>
