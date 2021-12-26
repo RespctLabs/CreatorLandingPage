@@ -23,10 +23,16 @@ export default class Home extends Component {
         <br />
         <br />
         <br />
-        <Animation/>
         <Banner/>
+        <hr />
+        <Animation/>
+        <hr />
+
         <Joinform/>
+        <hr />
+
         <Slide/>
+        <hr />
         <Timeline/>
 
         {/* <CarouselCover/> */}

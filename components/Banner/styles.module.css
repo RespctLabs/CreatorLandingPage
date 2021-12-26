@@ -1,0 +1,39 @@
+.mainWrapper{
+    width: 100%;
+    background-color: white;
+    color: rgb(221, 25, 25);
+
+}
+
+.innerWrapper{
+    width: 90% ;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* .innerWrapper>* {
+    flex: 1 1 160px;
+    margin: 10px;
+} */
+
+.leftSection{
+    width: 40%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.rightSection{
+    width: 40%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.buttonWrapper{
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: flex;
+    justify-content: space-around;
+
+}
