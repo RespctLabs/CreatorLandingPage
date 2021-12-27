@@ -17,7 +17,6 @@ export default function index() {
 		<div className={styles.footer}>
 			<div className={styles.lowerfooter}>
 				<div className={styles.lowerfooterInner}>
-					<div>
 						<Link href="https://respctclub.medium.com/">
 							<a target="_blank">
 								{" "}
@@ -79,7 +78,6 @@ export default function index() {
 								</span>
 							</a>
 						</Link>
-					</div>
 				</div>
 			</div>
 		</div>

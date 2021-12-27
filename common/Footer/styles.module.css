@@ -16,7 +16,7 @@
 .lowerfooter{
     width: 100% !important;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #886eb9;
     height:10%;
 }
