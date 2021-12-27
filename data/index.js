@@ -1,408 +1,393 @@
-import fIcon from "../public/svg/fIcon.svg";
-export const FIcon = fIcon;
+export const FIcon = "/svg/fIcon.svg";
 
-import person from "../public/person.svg";
+const person = "/person.svg";
 
-import Road from "../public/svg/roadmap.svg";
-export const roadMap = Road;
+export const roadMap = "/svg/roadmap.svg";
 
-import b1 from "../public/social/facebook.svg";
-export const Facebook = b1;
-import b2 from "../public/social/instagram.svg";
-export const Instagram = b2;
-import b3 from "../public/social/twitter.svg";
-export const Twitter = b3;
-import b4 from "../public/social/discord.svg";
-export const Discord = b4;
-import b5 from "../public/social/medium.svg";
-export const Medium = b5;
-import b6 from "../public/social/linkedin.svg";
-export const Linkedin = b6;
+export const Facebook = "/social/facebook.svg";
 
-import b7 from "../public/social/reddit.svg";
-export const Reddit = b7;
+export const Instagram = "/social/instagram.svg";
 
-import b8 from "../public/social/telegram.svg";
-export const Telegram = b8;
+export const Twitter = "/social/twitter.svg";
+export const Discord = "/social/discord.svg";
+export const Medium = "/social/medium.svg";
+export const Linkedin = "/social/linkedin.svg";
+export const Reddit = "/social/reddit.svg";
+export const Substack = "/social/substack.svg";
+export const Telegram = "/social/telegram.svg";
 
-import b9 from "../public/social/substack.svg";
-export const Substack = b9;
-
-
-import AniBg from "../public/svg/animationBg.svg";
-export const AnimationBG = AniBg;
+export const AnimationBG = "/svg/animationBg.svg";
 
 export const cardContent = [
-    {
-        imageURL: person,
-        imageAlt: "Heemank Verma",
-        coinShortName: 'SMR',
-        coinDescription: 'I was a standup comedian before someone ate a bat',
-        socialURLs:[
-            {
-                caller: "facebook.svg",
-                link: "https://instagram.com/heemank_v"
-            },
-            {
-                caller: "twitter.svg",
-                link: "https://instagram.com/heemank_v"
-            },
-            {
-                caller: "linkedin.svg",
-                link: "https://instagram.com/heemank_v"
-            },
-            {
-                caller: "instagram.svg",
-                link: "https://instagram.com/heemank_v"
-            },
-        ]
-    },
-    {
-        imageURL: person,
-        imageAlt: "Heemank Verma",
-        coinShortName: 'SFD',
-        coinDescription: 'I was a standup comedian before someone ate a bat',
-        socialURLs:[
-            {
-                caller: "facebook.svg",
-                link: "https://instagram.com/heemank_v"
-            },
-            {
-                caller: "twitter.svg",
-                link: "https://instagram.com/heemank_v"
-            },
-            {
-                caller: "linkedin.svg",
-                link: "https://instagram.com/heemank_v"
-            },
-            {
-                caller: "instagram.svg",
-                link: "https://instagram.com/heemank_v"
-            },
-        ]
-    },
-    {
-        imageURL: person,
-        imageAlt: "Heemank Verma",
-        coinShortName: 'SDG',
-        coinDescription: 'I was a standup comedian before someone ate a bat',
-        socialURLs:[
-            {
-                caller: "facebook.svg",
-                link: "https://instagram.com/heemank_v"
-            },
-            {
-                caller: "twitter.svg",
-                link: "https://instagram.com/heemank_v"
-            },
-            {
-                caller: "linkedin.svg",
-                link: "https://instagram.com/heemank_v"
-            },
-            {
-                caller: "instagram.svg",
-                link: "https://instagram.com/heemank_v"
-            },
-        ]
-    },
-    {
-        imageURL: person,
-        imageAlt: "Heemank Verma",
-        coinShortName: 'ETY',
-        coinDescription: 'I was a standup comedian before someone ate a bat',
-        socialURLs:[
-            {
-                caller: "facebook.svg",
-                link: "https://instagram.com/heemank_v"
-            },
-            {
-                caller: "twitter.svg",
-                link: "https://instagram.com/heemank_v"
-            },
-            {
-                caller: "linkedin.svg",
-                link: "https://instagram.com/heemank_v"
-            },
-            {
-                caller: "instagram.svg",
-                link: "https://instagram.com/heemank_v"
-            },
-        ]
-    },
-    {
-        imageURL: person,
-        imageAlt: "Heemank Verma",
-        coinShortName: 'QHT',
-        coinDescription: 'I was a standup comedian before someone ate a bat',
-        socialURLs:[
-            {
-                caller: "facebook.svg",
-                link: "https://instagram.com/heemank_v"
-            },
-            {
-                caller: "twitter.svg",
-                link: "https://instagram.com/heemank_v"
-            },
-            {
-                caller: "linkedin.svg",
-                link: "https://instagram.com/heemank_v"
-            },
-            {
-                caller: "instagram.svg",
-                link: "https://instagram.com/heemank_v"
-            },
-        ]
-    },
-    {
-        imageURL: person,
-        imageAlt: "Heemank Verma",
-        coinShortName: 'QH4',
-        coinDescription: 'I was a standup comedian before someone ate a bat',
-        socialURLs:[
-            {
-                caller: "facebook.svg",
-                link: "https://instagram.com/heemank_v"
-            },
-            {
-                caller: "twitter.svg",
-                link: "https://instagram.com/heemank_v"
-            },
-            {
-                caller: "linkedin.svg",
-                link: "https://instagram.com/heemank_v"
-            },
-            {
-                caller: "instagram.svg",
-                link: "https://instagram.com/heemank_v"
-            },
-        ]
-    },
-    {
-        imageURL: person,
-        imageAlt: "Heemank Verma",
-        coinShortName: 'HST',
-        coinDescription: 'I was a standup comedian before someone ate a bat',
-        socialURLs:[
-            {
-                caller: "facebook.svg",
-                link: "https://instagram.com/heemank_v"
-            },
-            {
-                caller: "twitter.svg",
-                link: "https://instagram.com/heemank_v"
-            },
-            {
-                caller: "linkedin.svg",
-                link: "https://instagram.com/heemank_v"
-            },
-            {
-                caller: "instagram.svg",
-                link: "https://instagram.com/heemank_v"
-            },
-        ]
-    },
-    {
-        imageURL: person,
-        imageAlt: "Heemank Verma",
-        coinShortName: 'WJ6',
-        coinDescription: 'I was a standup comedian before someone ate a bat',
-        socialURLs:[
-            {
-                caller: "facebook.svg",
-                link: "https://instagram.com/heemank_v"
-            },
-            {
-                caller: "twitter.svg",
-                link: "https://instagram.com/heemank_v"
-            },
-            {
-                caller: "linkedin.svg",
-                link: "https://instagram.com/heemank_v"
-            },
-            {
-                caller: "instagram.svg",
-                link: "https://instagram.com/heemank_v"
-            },
-        ]
-    },
-    {
-        imageURL: person,
-        imageAlt: "Heemank Verma",
-        coinShortName: 'Q6J',
-        coinDescription: 'I was a standup comedian before someone ate a bat',
-        socialURLs:[
-            {
-                caller: "facebook.svg",
-                link: "https://instagram.com/heemank_v"
-            },
-            {
-                caller: "twitter.svg",
-                link: "https://instagram.com/heemank_v"
-            },
-            {
-                caller: "linkedin.svg",
-                link: "https://instagram.com/heemank_v"
-            },
-            {
-                caller: "instagram.svg",
-                link: "https://instagram.com/heemank_v"
-            },
-        ]
-    },
-    {
-        imageURL: person,
-        imageAlt: "Heemank Verma",
-        coinShortName: 'WJ6',
-        coinDescription: 'I was a standup comedian before someone ate a bat',
-        socialURLs:[
-            {
-                caller: "facebook.svg",
-                link: "https://instagram.com/heemank_v"
-            },
-            {
-                caller: "twitter.svg",
-                link: "https://instagram.com/heemank_v"
-            },
-            {
-                caller: "linkedin.svg",
-                link: "https://instagram.com/heemank_v"
-            },
-            {
-                caller: "instagram.svg",
-                link: "https://instagram.com/heemank_v"
-            },
-        ]
-    },
-    {
-        imageURL: person,
-        imageAlt: "Heemank Verma",
-        coinShortName: 'WJ6',
-        coinDescription: 'I was a standup comedian before someone ate a bat',
-        socialURLs:[
-            {
-                caller: "facebook.svg",
-                link: "https://instagram.com/heemank_v"
-            },
-            {
-                caller: "twitter.svg",
-                link: "https://instagram.com/heemank_v"
-            },
-            {
-                caller: "linkedin.svg",
-                link: "https://instagram.com/heemank_v"
-            },
-            {
-                caller: "instagram.svg",
-                link: "https://instagram.com/heemank_v"
-            },
-        ]
-    },
-    {
-        imageURL: person,
-        imageAlt: "Heemank Verma",
-        coinShortName: 'W6JQQ',
-        coinDescription: 'I was a standup comedian before someone ate a bat',
-        socialURLs:[
-            {
-                caller: "facebook.svg",
-                link: "https://instagram.com/heemank_v"
-            },
-            {
-                caller: "twitter.svg",
-                link: "https://instagram.com/heemank_v"
-            },
-            {
-                caller: "linkedin.svg",
-                link: "https://instagram.com/heemank_v"
-            },
-            {
-                caller: "instagram.svg",
-                link: "https://instagram.com/heemank_v"
-            },
-        ]
-    },
-    {
-        imageURL: person,
-        imageAlt: "Heemank Verma",
-        coinShortName: 'QGFJE',
-        coinDescription: 'I was a standup comedian before someone ate a bat',
-        socialURLs:[
-            {
-                caller: "facebook.svg",
-                link: "https://instagram.com/heemank_v"
-            },
-            {
-                caller: "twitter.svg",
-                link: "https://instagram.com/heemank_v"
-            },
-            {
-                caller: "linkedin.svg",
-                link: "https://instagram.com/heemank_v"
-            },
-            {
-                caller: "instagram.svg",
-                link: "https://instagram.com/heemank_v"
-            },
-        ]
-    },
-    {
-        imageURL: person,
-        imageAlt: "Heemank Verma",
-        coinShortName: 'ARH',
-        coinDescription: 'I was a standup comedian before someone ate a bat',
-        socialURLs:[
-            {
-                caller: "facebook.svg",
-                link: "https://instagram.com/heemank_v"
-            },
-            {
-                caller: "twitter.svg",
-                link: "https://instagram.com/heemank_v"
-            },
-            {
-                caller: "linkedin.svg",
-                link: "https://instagram.com/heemank_v"
-            },
-            {
-                caller: "instagram.svg",
-                link: "https://instagram.com/heemank_v"
-            },
-        ]
-    },
+	{
+		imageURL: person,
+		imageAlt: "Heemank Verma",
+		coinShortName: "SMR",
+		coinDescription: "I was a standup comedian before someone ate a bat",
+		socialURLs: [
+			{
+				caller: "facebook.svg",
+				link: "https://instagram.com/heemank_v",
+			},
+			{
+				caller: "twitter.svg",
+				link: "https://instagram.com/heemank_v",
+			},
+			{
+				caller: "linkedin.svg",
+				link: "https://instagram.com/heemank_v",
+			},
+			{
+				caller: "instagram.svg",
+				link: "https://instagram.com/heemank_v",
+			},
+		],
+	},
+	{
+		imageURL: person,
+		imageAlt: "Heemank Verma",
+		coinShortName: "SFD",
+		coinDescription: "I was a standup comedian before someone ate a bat",
+		socialURLs: [
+			{
+				caller: "facebook.svg",
+				link: "https://instagram.com/heemank_v",
+			},
+			{
+				caller: "twitter.svg",
+				link: "https://instagram.com/heemank_v",
+			},
+			{
+				caller: "linkedin.svg",
+				link: "https://instagram.com/heemank_v",
+			},
+			{
+				caller: "instagram.svg",
+				link: "https://instagram.com/heemank_v",
+			},
+		],
+	},
+	{
+		imageURL: person,
+		imageAlt: "Heemank Verma",
+		coinShortName: "SDG",
+		coinDescription: "I was a standup comedian before someone ate a bat",
+		socialURLs: [
+			{
+				caller: "facebook.svg",
+				link: "https://instagram.com/heemank_v",
+			},
+			{
+				caller: "twitter.svg",
+				link: "https://instagram.com/heemank_v",
+			},
+			{
+				caller: "linkedin.svg",
+				link: "https://instagram.com/heemank_v",
+			},
+			{
+				caller: "instagram.svg",
+				link: "https://instagram.com/heemank_v",
+			},
+		],
+	},
+	{
+		imageURL: person,
+		imageAlt: "Heemank Verma",
+		coinShortName: "ETY",
+		coinDescription: "I was a standup comedian before someone ate a bat",
+		socialURLs: [
+			{
+				caller: "facebook.svg",
+				link: "https://instagram.com/heemank_v",
+			},
+			{
+				caller: "twitter.svg",
+				link: "https://instagram.com/heemank_v",
+			},
+			{
+				caller: "linkedin.svg",
+				link: "https://instagram.com/heemank_v",
+			},
+			{
+				caller: "instagram.svg",
+				link: "https://instagram.com/heemank_v",
+			},
+		],
+	},
+	{
+		imageURL: person,
+		imageAlt: "Heemank Verma",
+		coinShortName: "QHT",
+		coinDescription: "I was a standup comedian before someone ate a bat",
+		socialURLs: [
+			{
+				caller: "facebook.svg",
+				link: "https://instagram.com/heemank_v",
+			},
+			{
+				caller: "twitter.svg",
+				link: "https://instagram.com/heemank_v",
+			},
+			{
+				caller: "linkedin.svg",
+				link: "https://instagram.com/heemank_v",
+			},
+			{
+				caller: "instagram.svg",
+				link: "https://instagram.com/heemank_v",
+			},
+		],
+	},
+	{
+		imageURL: person,
+		imageAlt: "Heemank Verma",
+		coinShortName: "QH4",
+		coinDescription: "I was a standup comedian before someone ate a bat",
+		socialURLs: [
+			{
+				caller: "facebook.svg",
+				link: "https://instagram.com/heemank_v",
+			},
+			{
+				caller: "twitter.svg",
+				link: "https://instagram.com/heemank_v",
+			},
+			{
+				caller: "linkedin.svg",
+				link: "https://instagram.com/heemank_v",
+			},
+			{
+				caller: "instagram.svg",
+				link: "https://instagram.com/heemank_v",
+			},
+		],
+	},
+	{
+		imageURL: person,
+		imageAlt: "Heemank Verma",
+		coinShortName: "HST",
+		coinDescription: "I was a standup comedian before someone ate a bat",
+		socialURLs: [
+			{
+				caller: "facebook.svg",
+				link: "https://instagram.com/heemank_v",
+			},
+			{
+				caller: "twitter.svg",
+				link: "https://instagram.com/heemank_v",
+			},
+			{
+				caller: "linkedin.svg",
+				link: "https://instagram.com/heemank_v",
+			},
+			{
+				caller: "instagram.svg",
+				link: "https://instagram.com/heemank_v",
+			},
+		],
+	},
+	{
+		imageURL: person,
+		imageAlt: "Heemank Verma",
+		coinShortName: "WJ6",
+		coinDescription: "I was a standup comedian before someone ate a bat",
+		socialURLs: [
+			{
+				caller: "facebook.svg",
+				link: "https://instagram.com/heemank_v",
+			},
+			{
+				caller: "twitter.svg",
+				link: "https://instagram.com/heemank_v",
+			},
+			{
+				caller: "linkedin.svg",
+				link: "https://instagram.com/heemank_v",
+			},
+			{
+				caller: "instagram.svg",
+				link: "https://instagram.com/heemank_v",
+			},
+		],
+	},
+	{
+		imageURL: person,
+		imageAlt: "Heemank Verma",
+		coinShortName: "Q6J",
+		coinDescription: "I was a standup comedian before someone ate a bat",
+		socialURLs: [
+			{
+				caller: "facebook.svg",
+				link: "https://instagram.com/heemank_v",
+			},
+			{
+				caller: "twitter.svg",
+				link: "https://instagram.com/heemank_v",
+			},
+			{
+				caller: "linkedin.svg",
+				link: "https://instagram.com/heemank_v",
+			},
+			{
+				caller: "instagram.svg",
+				link: "https://instagram.com/heemank_v",
+			},
+		],
+	},
+	{
+		imageURL: person,
+		imageAlt: "Heemank Verma",
+		coinShortName: "WJ6",
+		coinDescription: "I was a standup comedian before someone ate a bat",
+		socialURLs: [
+			{
+				caller: "facebook.svg",
+				link: "https://instagram.com/heemank_v",
+			},
+			{
+				caller: "twitter.svg",
+				link: "https://instagram.com/heemank_v",
+			},
+			{
+				caller: "linkedin.svg",
+				link: "https://instagram.com/heemank_v",
+			},
+			{
+				caller: "instagram.svg",
+				link: "https://instagram.com/heemank_v",
+			},
+		],
+	},
+	{
+		imageURL: person,
+		imageAlt: "Heemank Verma",
+		coinShortName: "WJ6",
+		coinDescription: "I was a standup comedian before someone ate a bat",
+		socialURLs: [
+			{
+				caller: "facebook.svg",
+				link: "https://instagram.com/heemank_v",
+			},
+			{
+				caller: "twitter.svg",
+				link: "https://instagram.com/heemank_v",
+			},
+			{
+				caller: "linkedin.svg",
+				link: "https://instagram.com/heemank_v",
+			},
+			{
+				caller: "instagram.svg",
+				link: "https://instagram.com/heemank_v",
+			},
+		],
+	},
+	{
+		imageURL: person,
+		imageAlt: "Heemank Verma",
+		coinShortName: "W6JQQ",
+		coinDescription: "I was a standup comedian before someone ate a bat",
+		socialURLs: [
+			{
+				caller: "facebook.svg",
+				link: "https://instagram.com/heemank_v",
+			},
+			{
+				caller: "twitter.svg",
+				link: "https://instagram.com/heemank_v",
+			},
+			{
+				caller: "linkedin.svg",
+				link: "https://instagram.com/heemank_v",
+			},
+			{
+				caller: "instagram.svg",
+				link: "https://instagram.com/heemank_v",
+			},
+		],
+	},
+	{
+		imageURL: person,
+		imageAlt: "Heemank Verma",
+		coinShortName: "QGFJE",
+		coinDescription: "I was a standup comedian before someone ate a bat",
+		socialURLs: [
+			{
+				caller: "facebook.svg",
+				link: "https://instagram.com/heemank_v",
+			},
+			{
+				caller: "twitter.svg",
+				link: "https://instagram.com/heemank_v",
+			},
+			{
+				caller: "linkedin.svg",
+				link: "https://instagram.com/heemank_v",
+			},
+			{
+				caller: "instagram.svg",
+				link: "https://instagram.com/heemank_v",
+			},
+		],
+	},
+	{
+		imageURL: person,
+		imageAlt: "Heemank Verma",
+		coinShortName: "ARH",
+		coinDescription: "I was a standup comedian before someone ate a bat",
+		socialURLs: [
+			{
+				caller: "facebook.svg",
+				link: "https://instagram.com/heemank_v",
+			},
+			{
+				caller: "twitter.svg",
+				link: "https://instagram.com/heemank_v",
+			},
+			{
+				caller: "linkedin.svg",
+				link: "https://instagram.com/heemank_v",
+			},
+			{
+				caller: "instagram.svg",
+				link: "https://instagram.com/heemank_v",
+			},
+		],
+	},
 ];
 
-
-export const footerContent ={
-        "Socials": {
-            "Twitter" : "http://twitter.com",
-            "Facebook" : "http://www.facebook.com",
-            "Instagram" : "http://www.facebook.com",
-            "Discord" : "http://www.discord.com",
-            "Medium": "http://www.medium.com",
-            "Linkedin" : "http://www.linkedin"
-        },
-        "policies": {
-            "Twitter" : "http://twitter.com",
-            "Facebook" : "http://www.facebook.com",
-            "Instagram" : "http://www.facebook.com",
-            "Discord" : "http://www.discord.com",
-            "Medium": "http://www.medium.com",
-            "Linkedin" : "http://www.linkedin"
-        },
-        "Sources": {
-            "Twitter" : "http://twitter.com",
-            "Facebook" : "http://www.facebook.com",
-            "Instagram" : "http://www.facebook.com",
-            "Discord" : "http://www.discord.com",
-            "Medium": "http://www.medium.com",
-            "Linkedin" : "http://www.linkedin"
-        },
-        "Know more": {
-            "Twitter" : "http://twitter.com",
-            "Facebook" : "http://www.facebook.com",
-            "Instagram" : "http://www.facebook.com",
-            "Discord" : "http://www.discord.com",
-            "Medium": "http://www.medium.com",
-            "Linkedin" : "http://www.linkedin"
-        },
+export const footerContent = {
+	Socials: {
+		Twitter: "http://twitter.com",
+		Facebook: "http://www.facebook.com",
+		Instagram: "http://www.facebook.com",
+		Discord: "http://www.discord.com",
+		Medium: "http://www.medium.com",
+		Linkedin: "http://www.linkedin",
+	},
+	policies: {
+		Twitter: "http://twitter.com",
+		Facebook: "http://www.facebook.com",
+		Instagram: "http://www.facebook.com",
+		Discord: "http://www.discord.com",
+		Medium: "http://www.medium.com",
+		Linkedin: "http://www.linkedin",
+	},
+	Sources: {
+		Twitter: "http://twitter.com",
+		Facebook: "http://www.facebook.com",
+		Instagram: "http://www.facebook.com",
+		Discord: "http://www.discord.com",
+		Medium: "http://www.medium.com",
+		Linkedin: "http://www.linkedin",
+	},
+	"Know more": {
+		Twitter: "http://twitter.com",
+		Facebook: "http://www.facebook.com",
+		Instagram: "http://www.facebook.com",
+		Discord: "http://www.discord.com",
+		Medium: "http://www.medium.com",
+		Linkedin: "http://www.linkedin",
+	},
 };
