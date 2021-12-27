@@ -34,8 +34,6 @@ export default function index() {
 						shareholder in the journey of your favorite creator
 					</div>
 					<div className={styles.buttonWrapper}>
-						<Button text="Early Access" href="https://canvaswap.ml/" />
-
 						<Button
 							text="Early Access"
 							href="https://forms.gle/QghPveGQ158FejHM9"
