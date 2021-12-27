@@ -21,6 +21,7 @@
 	 counter-increment: section;
 	 position: relative;
 	 color: #34435e;
+	 font-weight: bold;
 }
 .ptag:before {
 	 content: 'Q' counter(section);
@@ -38,10 +39,13 @@
 .ptag:nth-child(odd) {
 	 border-right: 3px solid;
 	 padding-left: 0;
+	 text-align: right;
+
 }
 .ptag:nth-child(odd):before {
 	 left: 100%;
 	 margin-left: -20px;
+	 text-align: center;
 }
 .ptag:nth-child(even) {
 	 border-left: 3px solid;
@@ -59,6 +63,7 @@
 .ptag:last-child {
 	 border-bottom-right-radius: 0;
 	 border-bottom-left-radius: 0;
+	 padding-bottom: 0;
 }
 
 

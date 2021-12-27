@@ -3,6 +3,8 @@ import styles from './styles.module.css';
 import PropTypes from 'prop-types';
 import SvgIcon from '../../common/SvgIcon';
 import Image from 'next/image';
+import Link from 'next/link';
+
 
 export default function index(props) {
     return (
@@ -20,12 +22,16 @@ export default function index(props) {
             <div className={styles.socialURLsContainer}>
                 {props.data.socialURLs.map((item,index) => {
                         return (
-                            <SvgIcon
-                                key={index}
-                                height="25px"
-                                src={item.caller}
-                                width="35px"
-                            />
+                            <Link href={item.link} key={index}>
+                                <a target="_blank">
+                                <SvgIcon
+                                    height="25px"
+                                    src={item.caller}
+                                    width="35px"
+                                /></a>
+                            </Link>
+                           
+                            
                         );
                     })
                 }</div>

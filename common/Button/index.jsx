@@ -5,11 +5,12 @@ import Link from 'next/link';
 
 export default function Button(props) {
     return (
+        <Link href={props.href}>
         <div className={styles.button}>
-            <Link href={props.href}>
                 <a>{props.text}</a>
-            </Link>
         </div>
+        </Link>
+
     )
 }
 

@@ -19,6 +19,15 @@ export const Medium = b5;
 import b6 from "../public/social/linkedin.svg";
 export const Linkedin = b6;
 
+import b7 from "../public/social/reddit.svg";
+export const Reddit = b7;
+
+import b8 from "../public/social/telegram.svg";
+export const Telegram = b8;
+
+import b9 from "../public/social/substack.svg";
+export const Substack = b9;
+
 
 import AniBg from "../public/svg/animationBg.svg";
 export const AnimationBG = AniBg;

@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './styles.module.css';
 import Link from 'next/link';
 import {footerContent} from "../../data";
-import { Facebook, Instagram, Twitter, Linkedin, Discord, Medium }  from "../../data";
+import { Facebook, Instagram, Twitter, Linkedin, Discord, Medium, Reddit, Telegram, Substack }  from "../../data";
 import SvgIcon from '../../common/SvgIcon';
 import Image from 'next/image';
 
@@ -32,15 +32,6 @@ export default function index() {
             <div className={styles.lowerfooter}> 
             <div className={styles.lowerfooterInner}>
                
-                <div >
-                    <Link href="https://respctclub.medium.com/" >
-                        <a target="_blank"> <span className={styles.lowerfooterLink}><Image
-                                alt={"medium"}
-                                src={Medium}
-                               
-                                />
-                                </span></a>
-                    </Link>
                     <Link href="https://twitter.com/RespctClub"  >
                         <a target="_blank">  <span className={styles.lowerfooterLink}><Image
                                 alt={"twitter"}
@@ -49,6 +40,35 @@ export default function index() {
                                 />
                                 </span></a>
                     </Link>
+
+                    <Link href="https://www.reddit.com/r/respctClub/"  >
+                        <a target="_blank">  <span className={styles.lowerfooterLink}><Image
+                                alt={"twitter"}
+                                src={Reddit}
+                               
+                                />
+                                </span></a>
+                    </Link>
+
+                    <Link href="https://t.me/respctclub"  >
+                        <a target="_blank">  <span className={styles.lowerfooterLink}><Image
+                                alt={"twitter"}
+                                src={Telegram}
+                               
+                                />
+                                </span></a>
+                    </Link>
+
+                    <Link href="https://respctclub.substack.com/"  >
+                        <a target="_blank">  <span className={styles.lowerfooterLink}><Image
+                                alt={"twitter"}
+                                src={Substack}
+                               
+                                />
+                                </span></a>
+                    </Link>
+
+
                     {/* <Link href="/" >
                         <a target="_blank">  <span className={styles.lowerfooterLink}><Image
                                 alt={"facecbook"}
@@ -75,8 +95,8 @@ export default function index() {
                                 />
                                 </span>
                         </a>
-                    </Link>
-                    <Link href="/"  >
+                    </Link> */}
+                    <Link href="https://discord.gg/eQPFAAT4"  >
                         <a target="_blank">  <span className={styles.lowerfooterLink}><Image
                                 alt={"discord"}
                                 src={Discord}
@@ -84,8 +104,7 @@ export default function index() {
                                 />
                                 </span>
                         </a>
-                    </Link> */}
-                </div>
+                    </Link>
             </div>
             </div>
         </div>

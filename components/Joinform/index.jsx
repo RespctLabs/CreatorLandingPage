@@ -11,13 +11,17 @@ export default class EmailForm extends React.Component {
       return (
         <div className={styles.mainContainer} id="Join">
             <div className={styles.innerContainer}>
-
-                <div className={styles.headerContainer}>
+            <div className={styles.headerContainer}>
+            <Link href="https://forms.gle/QghPveGQ158FejHM9">
+                <a target="_blank">
                     Join us
-                </div>
+                </a>
+            </Link>
+            </div>
+                
                 <br/>
 
-                <div className={styles.formContainer}>
+                {/* <div className={styles.formContainer}>
                     <div className={styles.buttonContainer} >
                             <div className={styles.textButton}>
                                 Creator
@@ -34,7 +38,7 @@ export default class EmailForm extends React.Component {
                             <input type="submit" value="Join Us" />
                         </form>
                     </div>
-                </div>
+                </div> */}
 
 
             </div>
