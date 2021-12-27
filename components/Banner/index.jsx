@@ -10,12 +10,22 @@ export default function index() {
 		<div className={styles.mainWrapper} id="Banner">
 			<div className={styles.innerWrapper}>
 				<div className={styles.leftSection}>
-					<Image alt={"Respct.club Icon"} src={FIcon} layout="fill" />
+					<Image
+						alt={"Respct.club Icon"}
+						src={FIcon}
+						height={800}
+						width={800}
+					/>
 				</div>
 				<div className={styles.rightSection}>
 					<div className={styles.rightSectionHeader}>
 						<span className={styles.mobileIcon}>
-							<Image alt={"Respct.club Icon"} src={FIcon} layout="fill" />
+							<Image
+								alt={"Respct.club Icon"}
+								src={FIcon}
+								height={80}
+								width={80}
+							/>
 						</span>
 						<span className={styles.rightSectionHeaderGradient}>respct</span>
 					</div>
@@ -26,16 +36,17 @@ export default function index() {
 					<div className={styles.buttonWrapper}>
 						<Button text="Early Access" href="https://canvaswap.ml/" />
 
-                        <Button text="Early Access" href="https://forms.gle/QghPveGQ158FejHM9"/>
+						<Button
+							text="Early Access"
+							href="https://forms.gle/QghPveGQ158FejHM9"
+						/>
 
-                        <div className={styles.gapper}/>
+						<div className={styles.gapper} />
 
-                        <Button text="Try Testnet" href="https://app.canvaswap.ml/" />
-
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    )
+						<Button text="Try Testnet" href="https://app.canvaswap.ml/" />
+					</div>
+				</div>
+			</div>
+		</div>
+	);
 }
