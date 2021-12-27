@@ -18,7 +18,15 @@ const Creator = ({ isMobile, isMobileOnly, isTablet }) => {
 			image: FIcon,
 		},
 		{
+			title: "riends",
+			image: FIcon,
+		},
+		{
 			title: "amily",
+			image: FIcon,
+		},
+		{
+			title: "riends",
 			image: FIcon,
 		},
 		{
@@ -30,15 +38,7 @@ const Creator = ({ isMobile, isMobileOnly, isTablet }) => {
 			image: FIcon,
 		},
 		{
-			title: "an",
-			image: FIcon,
-		},
-		{
-			title: "amily",
-			image: FIcon,
-		},
-		{
-			title: "an",
+			title: "riends",
 			image: FIcon,
 		},
 	];
@@ -54,7 +54,7 @@ const Creator = ({ isMobile, isMobileOnly, isTablet }) => {
 				}
 				return { creator: creators[prev.index + 1], index: prev.index + 1 };
 			});
-		}, 3000);
+		}, 2000);
 		return () => {
 			clearInterval(intervalId);
 		};
