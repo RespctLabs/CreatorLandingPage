@@ -17,67 +17,57 @@ export default function index() {
 		<div className={styles.footer}>
 			<div className={styles.lowerfooter}>
 				<div className={styles.lowerfooterInner}>
-						<Link href="https://respctclub.medium.com/">
-							<a target="_blank">
-								{" "}
-								<span className={styles.lowerfooterLink}>
-									<Image alt={"medium"} src={Medium} height={20} width={20} />
-								</span>
-							</a>
-						</Link>
-						<Link href="https://twitter.com/RespctClub">
-							<a target="_blank">
-								{" "}
-								<span className={styles.lowerfooterLink}>
-									<Image alt={"twitter"} src={Twitter} height={20} width={20} />
-								</span>
-							</a>
-						</Link>
-						<Link href="https://www.reddit.com/r/respctClub/">
-							<a target="_blank">
-								{" "}
-								<span className={styles.lowerfooterLink}>
-									<Image alt={"reddit"} src={Reddit} height={20} width={20} />
-								</span>
-							</a>
-						</Link>
+					<Link href="https://respctclub.medium.com/">
+						<a target="_blank">
+							{" "}
+							<span className={styles.lowerfooterLink}>
+								<Image alt={"medium"} src={Medium} height={40} width={40} />
+							</span>
+						</a>
+					</Link>
+					<Link href="https://twitter.com/RespctClub">
+						<a target="_blank">
+							{" "}
+							<span className={styles.lowerfooterLink}>
+								<Image alt={"twitter"} src={Twitter} height={40} width={40} />
+							</span>
+						</a>
+					</Link>
+					<Link href="https://www.reddit.com/r/respctClub/">
+						<a target="_blank">
+							{" "}
+							<span className={styles.lowerfooterLink}>
+								<Image alt={"reddit"} src={Reddit} height={40} width={40} />
+							</span>
+						</a>
+					</Link>
 
-						<Link href="https://t.me/respctclub">
-							<a target="_blank">
-								{" "}
-								<span className={styles.lowerfooterLink}>
-									<Image
-										alt={"twitter"}
-										src={Telegram}
-										height={20}
-										width={20}
-									/>
-								</span>
-							</a>
-						</Link>
+					<Link href="https://t.me/respctclub">
+						<a target="_blank">
+							{" "}
+							<span className={styles.lowerfooterLink}>
+								<Image alt={"twitter"} src={Telegram} height={40} width={40} />
+							</span>
+						</a>
+					</Link>
 
-						<Link href="https://respctclub.substack.com/">
-							<a target="_blank">
-								{" "}
-								<span className={styles.lowerfooterLink}>
-									<Image
-										alt={"twitter"}
-										src={Substack}
-										height={20}
-										width={20}
-									/>
-								</span>
-							</a>
-						</Link>
+					<Link href="https://respctclub.substack.com/">
+						<a target="_blank">
+							{" "}
+							<span className={styles.lowerfooterLink}>
+								<Image alt={"twitter"} src={Substack} height={40} width={40} />
+							</span>
+						</a>
+					</Link>
 
-						<Link href="https://discord.gg/eQPFAAT4">
-							<a target="_blank">
-								{" "}
-								<span className={styles.lowerfooterLink}>
-									<Image alt={"discord"} src={Discord} height={20} width={20} />
-								</span>
-							</a>
-						</Link>
+					<Link href="https://discord.gg/eQPFAAT4">
+						<a target="_blank">
+							{" "}
+							<span className={styles.lowerfooterLink}>
+								<Image alt={"discord"} src={Discord} height={40} width={40} />
+							</span>
+						</a>
+					</Link>
 				</div>
 			</div>
 		</div>
