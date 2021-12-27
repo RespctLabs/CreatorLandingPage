@@ -1,12 +1,16 @@
 {
-  "name": "landingpage",
-  "private": true,
   "scripts": {
+    "layer0:dev": "layer0 dev",
+    "layer0:build": "layer0 build",
+    "layer0:deploy": "layer0 deploy",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "export": "next export",
     "lint": "next lint"
   },
+  "name": "landingpage",
+  "private": true,
   "dependencies": {
     "next": "12.0.7",
     "react": "17.0.2",
@@ -15,6 +19,12 @@
     "reactstrap": "^9.0.1"
   },
   "devDependencies": {
+    "@layer0/cli": "^4.8.1",
+    "@layer0/core": "^4.8.1",
+    "@layer0/devtools": "^4.8.1",
+    "@layer0/next": "^4.8.1",
+    "@layer0/prefetch": "^4.8.1",
+    "@layer0/react": "^4.8.1",
     "eslint": "8.5.0",
     "eslint-config-next": "12.0.7"
   }

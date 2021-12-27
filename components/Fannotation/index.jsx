@@ -1,48 +1,46 @@
 /* eslint-disable react/jsx-key */
-import React, { useState } from 'react';
-import { Row } from 'reactstrap';
-import styles from './styles.module.css';
-import { useRouter } from 'next/router';
-import {FIcon}  from "../../data";
-import Image from 'next/image';
-
+import React, { useState } from "react";
+import { Row } from "reactstrap";
+import styles from "./styles.module.css";
+import { useRouter } from "next/router";
+import { FIcon } from "../../data";
+import Image from "next/image";
 
 const Creator = ({ isMobile, isMobileOnly, isTablet }) => {
 	const router = useRouter();
 	const creators = [
 		{
-			title: 'amily',
-			image: FIcon,
-		},
-        {
-			title: 'an',
-			image: FIcon,
-		},
-        {
-			title: 'amily',
-			image: FIcon,
-		},
-        {
-			title: 'an',
-			image: FIcon,
-		},
-        {
-			title: 'amily',
-			image: FIcon,
-		},
-        {
-			title: 'an',
-			image: FIcon,
-		},
-        {
-			title: 'amily',
+			title: "amily",
 			image: FIcon,
 		},
 		{
-			title: 'an',
+			title: "an",
 			image: FIcon,
 		},
-		
+		{
+			title: "amily",
+			image: FIcon,
+		},
+		{
+			title: "an",
+			image: FIcon,
+		},
+		{
+			title: "amily",
+			image: FIcon,
+		},
+		{
+			title: "an",
+			image: FIcon,
+		},
+		{
+			title: "amily",
+			image: FIcon,
+		},
+		{
+			title: "an",
+			image: FIcon,
+		},
 	];
 	const [creatorItem, setCreatorItem] = useState({
 		creator: creators[0],
@@ -50,7 +48,7 @@ const Creator = ({ isMobile, isMobileOnly, isTablet }) => {
 	});
 	React.useLayoutEffect(() => {
 		const intervalId = setInterval(function () {
-			setCreatorItem(prev => {
+			setCreatorItem((prev) => {
 				if (prev.index === 8) {
 					return { creator: creators[0], index: 0 };
 				}
@@ -63,59 +61,60 @@ const Creator = ({ isMobile, isMobileOnly, isTablet }) => {
 	}, []);
 
 	return (
-        <div className={styles.contentCenter}>
-		<Row className="align-items-center">
-			<div className={styles.leftContainer}>
-                {!isMobileOnly && (
-                    <div className="">
-                        <Image
-                            alt={"respct.club"}
-                            src={FIcon}
-                            size="medium"
-                            height={260}
-                            width={300}
-                        />
-                    </div>
-                )}
-			</div>
-			<div  className={styles.rightContainer} >
-					<div className={`${styles['carousel']} `}>
-						{creators.map(item => (
+		<div className={styles.contentCenter}>
+			<Row className="align-items-center">
+				<div className={styles.leftContainer}>
+					{!isMobileOnly && (
+						<div className="">
+							<Image
+								alt={"respct.club"}
+								src={FIcon}
+								size="medium"
+								height={260}
+								width={300}
+							/>
+						</div>
+					)}
+				</div>
+				<div className={styles.rightContainer}>
+					<div className={`${styles["carousel"]} `}>
+						{creators.map((item) => (
 							<div
-								className={`${styles['carousel__item']} ${
+								className={`${styles["carousel__item"]} ${
 									isMobile
-										? styles['carousel__item_animation_mobile']
-										: styles['carousel__item_animation']
-								}`}>
+										? styles["carousel__item_animation_mobile"]
+										: styles["carousel__item_animation"]
+								}`}
+							>
 								<div
-									className={`${styles['carousel__item-body']} ${
+									className={`${styles["carousel__item-body"]} ${
 										isMobile
-											? item.title === 'Competitive Programmer' ||
-											  item.title === 'Cybersecurity Expert'
-												? 'h6'
-												: 'h4'
-											: ''
+											? item.title === "Competitive Programmer" ||
+											  item.title === "Cybersecurity Expert"
+												? "h6"
+												: "h4"
+											: ""
 									} fw-700`}
 									style={
 										isMobile
-											? { whiteSpace: 'nowrap' }
+											? { whiteSpace: "nowrap" }
 											: {
 													fontSize:
-														item.title === 'Competitive Programmer'
-															? '42px'
-															: '48px',
-													whiteSpace: 'nowrap',
+														item.title === "Competitive Programmer"
+															? "42px"
+															: "48px",
+													whiteSpace: "nowrap",
 											  }
-									}>
+									}
+								>
 									<span className={styles.textStyle}>{item.title}</span>
 								</div>
 							</div>
 						))}
 					</div>
-			</div>
-			
-		</Row>
-        </div>
+				</div>
+			</Row>
+		</div>
 	);
 };
 
