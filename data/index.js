@@ -27,19 +27,19 @@ export const cardContent = [
 		socialURLs: [
 			{
 				caller: "facebook.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://facebook.com/",
 			},
 			{
 				caller: "twitter.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://instagram.com/",
 			},
 			{
 				caller: "linkedin.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://instagram.com/",
 			},
 			{
 				caller: "instagram.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://instagram.com/",
 			},
 		],
 	},
@@ -51,19 +51,19 @@ export const cardContent = [
 		socialURLs: [
 			{
 				caller: "facebook.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://facebook.com/",
 			},
 			{
 				caller: "twitter.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://instagram.com/",
 			},
 			{
 				caller: "linkedin.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://instagram.com/",
 			},
 			{
 				caller: "instagram.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://instagram.com/",
 			},
 		],
 	},
@@ -75,19 +75,19 @@ export const cardContent = [
 		socialURLs: [
 			{
 				caller: "facebook.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://facebook.com/",
 			},
 			{
 				caller: "twitter.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://instagram.com/",
 			},
 			{
 				caller: "linkedin.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://instagram.com/",
 			},
 			{
 				caller: "instagram.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://instagram.com/",
 			},
 		],
 	},
@@ -99,19 +99,19 @@ export const cardContent = [
 		socialURLs: [
 			{
 				caller: "facebook.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://facebook.com/",
 			},
 			{
 				caller: "twitter.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://instagram.com/",
 			},
 			{
 				caller: "linkedin.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://instagram.com/",
 			},
 			{
 				caller: "instagram.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://instagram.com/",
 			},
 		],
 	},
@@ -123,19 +123,19 @@ export const cardContent = [
 		socialURLs: [
 			{
 				caller: "facebook.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://facebook.com/",
 			},
 			{
 				caller: "twitter.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://instagram.com/",
 			},
 			{
 				caller: "linkedin.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://instagram.com/",
 			},
 			{
 				caller: "instagram.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://instagram.com/",
 			},
 		],
 	},
@@ -147,19 +147,19 @@ export const cardContent = [
 		socialURLs: [
 			{
 				caller: "facebook.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://facebook.com/",
 			},
 			{
 				caller: "twitter.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://instagram.com/",
 			},
 			{
 				caller: "linkedin.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://instagram.com/",
 			},
 			{
 				caller: "instagram.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://instagram.com/",
 			},
 		],
 	},
@@ -171,19 +171,19 @@ export const cardContent = [
 		socialURLs: [
 			{
 				caller: "facebook.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://facebook.com/",
 			},
 			{
 				caller: "twitter.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://instagram.com/",
 			},
 			{
 				caller: "linkedin.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://instagram.com/",
 			},
 			{
 				caller: "instagram.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://instagram.com/",
 			},
 		],
 	},
@@ -195,19 +195,19 @@ export const cardContent = [
 		socialURLs: [
 			{
 				caller: "facebook.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://facebook.com/",
 			},
 			{
 				caller: "twitter.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://instagram.com/",
 			},
 			{
 				caller: "linkedin.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://instagram.com/",
 			},
 			{
 				caller: "instagram.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://instagram.com/",
 			},
 		],
 	},
@@ -219,19 +219,19 @@ export const cardContent = [
 		socialURLs: [
 			{
 				caller: "facebook.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://facebook.com/",
 			},
 			{
 				caller: "twitter.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://instagram.com/",
 			},
 			{
 				caller: "linkedin.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://instagram.com/",
 			},
 			{
 				caller: "instagram.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://instagram.com/",
 			},
 		],
 	},
@@ -243,19 +243,19 @@ export const cardContent = [
 		socialURLs: [
 			{
 				caller: "facebook.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://facebook.com/",
 			},
 			{
 				caller: "twitter.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://instagram.com/",
 			},
 			{
 				caller: "linkedin.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://instagram.com/",
 			},
 			{
 				caller: "instagram.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://instagram.com/",
 			},
 		],
 	},
@@ -267,19 +267,19 @@ export const cardContent = [
 		socialURLs: [
 			{
 				caller: "facebook.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://facebook.com/",
 			},
 			{
 				caller: "twitter.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://instagram.com/",
 			},
 			{
 				caller: "linkedin.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://instagram.com/",
 			},
 			{
 				caller: "instagram.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://instagram.com/",
 			},
 		],
 	},
@@ -291,19 +291,19 @@ export const cardContent = [
 		socialURLs: [
 			{
 				caller: "facebook.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://facebook.com/",
 			},
 			{
 				caller: "twitter.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://instagram.com/",
 			},
 			{
 				caller: "linkedin.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://instagram.com/",
 			},
 			{
 				caller: "instagram.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://instagram.com/",
 			},
 		],
 	},
@@ -315,19 +315,19 @@ export const cardContent = [
 		socialURLs: [
 			{
 				caller: "facebook.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://facebook.com/",
 			},
 			{
 				caller: "twitter.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://instagram.com/",
 			},
 			{
 				caller: "linkedin.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://instagram.com/",
 			},
 			{
 				caller: "instagram.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://instagram.com/",
 			},
 		],
 	},
@@ -339,19 +339,19 @@ export const cardContent = [
 		socialURLs: [
 			{
 				caller: "facebook.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://facebook.com/",
 			},
 			{
 				caller: "twitter.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://instagram.com/",
 			},
 			{
 				caller: "linkedin.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://instagram.com/",
 			},
 			{
 				caller: "instagram.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://instagram.com/",
 			},
 		],
 	},

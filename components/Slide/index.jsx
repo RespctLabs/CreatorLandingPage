@@ -15,23 +15,23 @@ const cardContent = [
 		imageURL: person1,
 		imageAlt: "Heemank Verma",
 		coinShortName: "SMR",
-		coinDescription: "I was a standup comedian before someone ate a bat",
+		coinDescription: "If my calculator had a history, it would be more embarrassing than my browser history.",
 		socialURLs: [
 			{
 				caller: "facebook.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://facebook.com/",
 			},
 			{
 				caller: "twitter.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://twitter.com/",
 			},
 			{
 				caller: "linkedin.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://linkedin.com/",
 			},
 			{
 				caller: "instagram.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://instagram.com/",
 			},
 		],
 	},
@@ -39,23 +39,23 @@ const cardContent = [
 		imageURL: person2,
 		imageAlt: "Heemank Verma",
 		coinShortName: "SFD",
-		coinDescription: "I was a standup comedian before someone ate a bat",
+		coinDescription: "If my calculator had a history, it would be more embarrassing than my browser history.",
 		socialURLs: [
 			{
 				caller: "facebook.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://facebook.com/",
 			},
 			{
 				caller: "twitter.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://twitter.com/",
 			},
 			{
 				caller: "linkedin.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://linkedin.com/",
 			},
 			{
 				caller: "instagram.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://instagram.com/",
 			},
 		],
 	},
@@ -63,23 +63,23 @@ const cardContent = [
 		imageURL: person3,
 		imageAlt: "Heemank Verma",
 		coinShortName: "SDG",
-		coinDescription: "I was a standup comedian before someone ate a bat",
+		coinDescription: "If my calculator had a history, it would be more embarrassing than my browser history.",
 		socialURLs: [
 			{
 				caller: "facebook.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://facebook.com/",
 			},
 			{
 				caller: "twitter.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://twitter.com/",
 			},
 			{
 				caller: "linkedin.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://linkedin.com/",
 			},
 			{
 				caller: "instagram.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://instagram.com/",
 			},
 		],
 	},
@@ -87,23 +87,23 @@ const cardContent = [
 		imageURL: person1,
 		imageAlt: "Heemank Verma",
 		coinShortName: "ETY",
-		coinDescription: "I was a standup comedian before someone ate a bat",
+		coinDescription: "If my calculator had a history, it would be more embarrassing than my browser history.",
 		socialURLs: [
 			{
 				caller: "facebook.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://facebook.com/",
 			},
 			{
 				caller: "twitter.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://twitter.com/",
 			},
 			{
 				caller: "linkedin.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://linkedin.com/",
 			},
 			{
 				caller: "instagram.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://instagram.com/",
 			},
 		],
 	},
@@ -111,23 +111,23 @@ const cardContent = [
 		imageURL: person2,
 		imageAlt: "Heemank Verma",
 		coinShortName: "QHT",
-		coinDescription: "I was a standup comedian before someone ate a bat",
+		coinDescription: "If my calculator had a history, it would be more embarrassing than my browser history.",
 		socialURLs: [
 			{
 				caller: "facebook.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://facebook.com/",
 			},
 			{
 				caller: "twitter.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://twitter.com/",
 			},
 			{
 				caller: "linkedin.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://linkedin.com/",
 			},
 			{
 				caller: "instagram.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://instagram.com/",
 			},
 		],
 	},
@@ -135,23 +135,23 @@ const cardContent = [
 		imageURL: person3,
 		imageAlt: "Heemank Verma",
 		coinShortName: "QH4",
-		coinDescription: "I was a standup comedian before someone ate a bat",
+		coinDescription: "If my calculator had a history, it would be more embarrassing than my browser history.",
 		socialURLs: [
 			{
 				caller: "facebook.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://facebook.com/",
 			},
 			{
 				caller: "twitter.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://twitter.com/",
 			},
 			{
 				caller: "linkedin.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://linkedin.com/",
 			},
 			{
 				caller: "instagram.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://instagram.com/",
 			},
 		],
 	},
@@ -159,23 +159,23 @@ const cardContent = [
 		imageURL: person1,
 		imageAlt: "Heemank Verma",
 		coinShortName: "HST",
-		coinDescription: "I was a standup comedian before someone ate a bat",
+		coinDescription: "If my calculator had a history, it would be more embarrassing than my browser history.",
 		socialURLs: [
 			{
 				caller: "facebook.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://facebook.com/",
 			},
 			{
 				caller: "twitter.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://twitter.com/",
 			},
 			{
 				caller: "linkedin.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://linkedin.com/",
 			},
 			{
 				caller: "instagram.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://instagram.com/",
 			},
 		],
 	},
@@ -183,23 +183,23 @@ const cardContent = [
 		imageURL: person2,
 		imageAlt: "Heemank Verma",
 		coinShortName: "WJ6",
-		coinDescription: "I was a standup comedian before someone ate a bat",
+		coinDescription: "If my calculator had a history, it would be more embarrassing than my browser history.",
 		socialURLs: [
 			{
 				caller: "facebook.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://facebook.com/",
 			},
 			{
 				caller: "twitter.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://twitter.com/",
 			},
 			{
 				caller: "linkedin.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://linkedin.com/",
 			},
 			{
 				caller: "instagram.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://instagram.com/",
 			},
 		],
 	},
@@ -207,23 +207,23 @@ const cardContent = [
 		imageURL: person3,
 		imageAlt: "Heemank Verma",
 		coinShortName: "Q6J",
-		coinDescription: "I was a standup comedian before someone ate a bat",
+		coinDescription: "If my calculator had a history, it would be more embarrassing than my browser history.",
 		socialURLs: [
 			{
 				caller: "facebook.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://facebook.com/",
 			},
 			{
 				caller: "twitter.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://twitter.com/",
 			},
 			{
 				caller: "linkedin.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://linkedin.com/",
 			},
 			{
 				caller: "instagram.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://instagram.com/",
 			},
 		],
 	},
@@ -231,23 +231,23 @@ const cardContent = [
 		imageURL: person1,
 		imageAlt: "Heemank Verma",
 		coinShortName: "WJ6",
-		coinDescription: "I was a standup comedian before someone ate a bat",
+		coinDescription: "If my calculator had a history, it would be more embarrassing than my browser history.",
 		socialURLs: [
 			{
 				caller: "facebook.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://facebook.com/",
 			},
 			{
 				caller: "twitter.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://twitter.com/",
 			},
 			{
 				caller: "linkedin.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://linkedin.com/",
 			},
 			{
 				caller: "instagram.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://instagram.com/",
 			},
 		],
 	},
@@ -255,23 +255,23 @@ const cardContent = [
 		imageURL: person2,
 		imageAlt: "Heemank Verma",
 		coinShortName: "WJ6",
-		coinDescription: "I was a standup comedian before someone ate a bat",
+		coinDescription: "If my calculator had a history, it would be more embarrassing than my browser history.",
 		socialURLs: [
 			{
 				caller: "facebook.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://facebook.com/",
 			},
 			{
 				caller: "twitter.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://twitter.com/",
 			},
 			{
 				caller: "linkedin.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://linkedin.com/",
 			},
 			{
 				caller: "instagram.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://instagram.com/",
 			},
 		],
 	},
@@ -279,23 +279,23 @@ const cardContent = [
 		imageURL: person3,
 		imageAlt: "Heemank Verma",
 		coinShortName: "W6JQQ",
-		coinDescription: "I was a standup comedian before someone ate a bat",
+		coinDescription: "If my calculator had a history, it would be more embarrassing than my browser history.",
 		socialURLs: [
 			{
 				caller: "facebook.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://facebook.com/",
 			},
 			{
 				caller: "twitter.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://twitter.com/",
 			},
 			{
 				caller: "linkedin.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://linkedin.com/",
 			},
 			{
 				caller: "instagram.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://instagram.com/",
 			},
 		],
 	},
@@ -303,23 +303,23 @@ const cardContent = [
 		imageURL: person1,
 		imageAlt: "Heemank Verma",
 		coinShortName: "QGFJE",
-		coinDescription: "I was a standup comedian before someone ate a bat",
+		coinDescription: "If my calculator had a history, it would be more embarrassing than my browser history.",
 		socialURLs: [
 			{
 				caller: "facebook.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://facebook.com/",
 			},
 			{
 				caller: "twitter.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://twitter.com/",
 			},
 			{
 				caller: "linkedin.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://linkedin.com/",
 			},
 			{
 				caller: "instagram.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://instagram.com/",
 			},
 		],
 	},
@@ -327,23 +327,23 @@ const cardContent = [
 		imageURL: person2,
 		imageAlt: "Heemank Verma",
 		coinShortName: "ARH",
-		coinDescription: "I was a standup comedian before someone ate a bat",
+		coinDescription: "If my calculator had a history, it would be more embarrassing than my browser history.",
 		socialURLs: [
 			{
 				caller: "facebook.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://facebook.com/",
 			},
 			{
 				caller: "twitter.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://twitter.com/",
 			},
 			{
 				caller: "linkedin.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://linkedin.com/",
 			},
 			{
 				caller: "instagram.svg",
-				link: "https://instagram.com/heemank_v",
+				link: "https://instagram.com/",
 			},
 		],
 	},
