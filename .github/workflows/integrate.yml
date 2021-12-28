@@ -1,37 +1,17 @@
-name: Build and Deploy
-on: 
+# .github/workflows/git-sync.yml
+
+on:
   push:
     branches:
       - main
 jobs:
-  build-and-deploy:
+  git-sync:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2.3.1
+      - name: git-sync
+        uses: wei/git-sync@v3
         with:
-          persist-credentials: false
-
-      - name: Cache
-        uses: actions/cache@v2
-        with:
-          path: ${{ github.workspace }}/.next/cache
-          key: ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json') }}
-
-      - name: Install and Build
-        uses: actions/setup-node@v1
-      - run: npm install
-      - run: npm run build
-      - run: npm run export
-        env:
-            CI: true
-      - run: touch out/.nojekyll
-
-      - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@4.1.7
-        with:
-          ACCESS_TOKEN: ${{ secrets.WORKFLOW }}
-          BRANCH: gh-pages 
-          FOLDER: out
-          CLEAN: true
+          source_repo: "https://${{ secrets.SECRET_KEY }}@github.com//quadra-network/landingpage.git"
+          source_branch: "main"
+          destination_repo: "https://${{ secrets.SECRET_KEY }}@github.com/canvasArtist/landingpage.git"
+          destination_branch: "main"
