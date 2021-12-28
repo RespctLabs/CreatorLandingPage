@@ -27,8 +27,6 @@ export default class Home extends Component {
         <br />
         <br />
         <br />
-
-
         <Banner/>
         <br />
         <br /><br />
@@ -36,15 +34,11 @@ export default class Home extends Component {
         <Animation/>
         <br />
         <br />
-
         <Slide/>
         <br />
-        
         <br />
         <Roadmap />
         <br />
-
-
         <Joinform/>
         <br />
         <br />

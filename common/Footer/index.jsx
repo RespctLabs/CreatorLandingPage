@@ -17,11 +17,11 @@ export default function index() {
 		<div className={styles.footer}>
 			<div className={styles.lowerfooter}>
 				<div className={styles.lowerfooterInner}>
-					<Link href="https://respctclub.medium.com/">
+					<Link href="https://respctclub.substack.com/">
 						<a target="_blank">
 							{" "}
 							<span className={styles.lowerfooterLink}>
-								<Image alt={"medium"} src={Medium} height={40} width={40} />
+								<Image alt={"medium"} src={Substack} height={40} width={40} />
 							</span>
 						</a>
 					</Link>
@@ -47,15 +47,6 @@ export default function index() {
 							{" "}
 							<span className={styles.lowerfooterLink}>
 								<Image alt={"twitter"} src={Telegram} height={40} width={40} />
-							</span>
-						</a>
-					</Link>
-
-					<Link href="https://respctclub.substack.com/">
-						<a target="_blank">
-							{" "}
-							<span className={styles.lowerfooterLink}>
-								<Image alt={"twitter"} src={Substack} height={40} width={40} />
 							</span>
 						</a>
 					</Link>
