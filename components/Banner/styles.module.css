@@ -27,6 +27,7 @@
 
 .rightSection{
     width: 40%;
+    margin-top: 5% !important;
     margin-left: auto !important;
     margin-right: auto !important;
 }

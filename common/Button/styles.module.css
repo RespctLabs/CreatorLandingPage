@@ -1,5 +1,5 @@
 .button {
-    border: 3px solid #DD1919;
+    border: 2px solid #DD1919;
     border-radius: 20px;
     background-color: white;
     color: #DD1919;
@@ -17,7 +17,7 @@
 @media screen and (max-width: 768px) {
     
     .button{
-        font-size: 4.5vw;
+        font-size: 3.5vw;
         border: 2px solid #DD1919;
         border-radius: 20px;
         background-color: white;

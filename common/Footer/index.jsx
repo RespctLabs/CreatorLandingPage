@@ -21,7 +21,6 @@ export default function index() {
 						<a target="_blank">
 							{" "}
 							<span className={styles.lowerfooterLink}>
-								<Image alt={"medium"} src={Substack} height={40} width={40} />
 							</span>
 						</a>
 					</Link>

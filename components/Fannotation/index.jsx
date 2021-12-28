@@ -91,8 +91,8 @@ const Creator = ({ isMobile, isMobileOnly, isTablet }) => {
 										isMobile
 											? item.title === "Competitive Programmer" ||
 											  item.title === "Cybersecurity Expert"
-												? "h6"
-												: "h4"
+												? "h3"
+												: "h2"
 											: ""
 									} fw-700`}
 									style={
@@ -101,8 +101,8 @@ const Creator = ({ isMobile, isMobileOnly, isTablet }) => {
 											: {
 													fontSize:
 														item.title === "Competitive Programmer"
-															? "42px"
-															: "48px",
+															? "22px"
+															: "28px",
 													whiteSpace: "nowrap",
 											  }
 									}

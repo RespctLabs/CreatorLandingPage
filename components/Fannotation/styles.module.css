@@ -27,7 +27,7 @@
 	align-items: center;
 	position: absolute;
 	width: 100%;
-	padding: 0 12px;
+	/* padding: 0 12px; */
 	opacity: 0;
 	will-change: transform, opacity;
     margin-left: 50%;
@@ -73,36 +73,36 @@
 .carousel__item-body {
 	width: 100%;
 	background:transparent;
-	border-radius: 8px;
-	padding: 16px;
+	/* border-radius: 8px; */
+	/* padding: 16px; */
 }
 @keyframes carousel-animate-vertical {
 	0% {
 		transform: translateY(170%) scale(0.5);
-		opacity: 0.5;
+		opacity: 0.1;
 		visibility: hidden;
 	}
 	3%,
 	11% {
 		transform: translateY(100%) scale(0.7);
-		opacity: 0.7;
+		opacity: 0.2;
 		visibility: visible;
 	}
 	14%,
 	22% {
 		transform: translateY(-10px) scale(1);
-		opacity: 1;
+		opacity: 1.7;
 		visibility: visible;
 	}
 	25%,
 	33% {
 		transform: translateY(-100%) scale(0.7);
-		opacity: 0.7;
+		opacity: 0.2;
 		visibility: visible;
 	}
 	36% {
 		transform: translateY(-180%) scale(0.5);
-		opacity: 0.5;
+		opacity: 0.1;
 		visibility: visible;
 	}
 	48% {
@@ -120,7 +120,7 @@
 @keyframes carousel-animate-vertical-mobile {
 	0% {
 		transform: translateY(180%) scale(0.5);
-		opacity: 0.5;
+		opacity: 0.;
 		visibility: hidden;
 	}
 	3%,
@@ -207,5 +207,8 @@
 		background-color:rgb(12, 37, 6) !important;
 	}
 	
+	.textStyle{
+		font-size:3rem;
+	}
 	
 }

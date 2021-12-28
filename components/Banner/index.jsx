@@ -19,14 +19,14 @@ export default function index() {
 				</div>
 				<div className={styles.rightSection}>
 					<div className={styles.rightSectionHeader}>
-						<span className={styles.mobileIcon}>
+						{/* <span className={styles.mobileIcon}>
 							<Image
 								alt={"Respct.club Icon"}
 								src={FIcon}
 								height={80}
 								width={80}
 							/>
-						</span>
+						</span> */}
 						<span className={styles.rightSectionHeaderGradient}>respct</span>
 					</div>
 					<div className={styles.rightSectionText}>

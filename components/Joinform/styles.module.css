@@ -63,6 +63,15 @@
 
 
 
+.textContainer{
+    text-align: center;
+    font-size:2.5rem;
+    background: -webkit-linear-gradient(rgba(208, 16, 71, 1), rgba(64, 45, 133, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
 @media (max-width: 800px) {
     .textButton{
         text-decoration: underline;

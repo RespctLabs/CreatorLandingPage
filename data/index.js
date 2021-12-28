@@ -15,6 +15,8 @@ export const Linkedin = "/social/linkedin.svg";
 export const Reddit = "/social/reddit.svg";
 export const Substack = "/social/substack.svg";
 export const Telegram = "/social/telegram.svg";
+export const Calender = "/svg/calender.svg";
+
 
 export const AnimationBG = "/svg/animationBg.svg";
 

@@ -1,6 +1,10 @@
 import React, {useState} from 'react'
 import styles from './styles.module.css';
 import Link from 'next/link';
+import {
+	Calender
+} from "../../data";
+import Image from "next/image";
 
 export default class EmailForm extends React.Component {
     constructor(props) {
@@ -11,15 +15,23 @@ export default class EmailForm extends React.Component {
       return (
         <div className={styles.mainContainer} id="Join">
             <div className={styles.innerContainer}>
-            <div className={styles.headerContainer}>
-            <Link href="https://forms.gle/QghPveGQ158FejHM9">
-                <a target="_blank">
-                    Join us
-                </a>
-            </Link>
-            </div>
-                
-                <br/>
+                <div className={styles.headerContainer}>
+                    <Link href="https://forms.gle/QghPveGQ158FejHM9">
+                        <a target="_blank">
+                            Join us
+                        </a>
+                    </Link>
+                </div>
+            
+                <div className={styles.textContainer}>
+                    <Link  href="https://calendly.com/utsav_singla/15min">
+                        <a target="_blank">
+							{/* <Image alt={"calender"} src={Calender} height={40} width={40} /> */}
+                            Book a Meeting
+                        </a>
+                    </Link>
+                </div>
+            
 
                 {/* <div className={styles.formContainer}>
                     <div className={styles.buttonContainer} >
