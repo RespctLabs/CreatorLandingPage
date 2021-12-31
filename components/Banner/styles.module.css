@@ -1,15 +1,17 @@
 .mainWrapper {
   width: 100%;
+  margin-top: 3rem;
   background-color: white;
   color: rgb(221, 25, 25);
   margin-bottom: 3em !important;
 }
 
 .innerWrapper {
-  width: 80%;
+  width: 90%;
   margin-left: auto !important;
   margin-right: auto !important;
   display: flex;
+  align-items: center;
   justify-content: space-around;
 }
 
@@ -26,35 +28,36 @@
 }
 
 .rightSection {
-  width: 40%;
+  width: 50%;
   margin-top: 5% !important;
   margin-left: auto !important;
   margin-right: auto !important;
 }
 
 .rightSectionHeader {
-  font-size: 9vw;
+  font-size: 8rem;
   text-align: right;
 }
 
 .rightSectionText {
+  margin-top: 1.2rem;
+  font-family: "Poppins", sans-serif;
   font-size: 1.2vw;
   text-align: right;
-  margin-bottom: 1em;
+  margin-bottom: 1rem;
   color: rgba(197, 14, 40, 1);
 }
 
 .buttonWrapper {
-  margin-left: 45% !important;
-  margin-right: auto !important;
+  margin-left: 55% !important;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .rightSectionHeaderGradient {
-  font-family: Arial, Helvetica, sans-serif;
   background: linear-gradient(to right, #6441a5, #fb0204, #ff0000);
   background-clip: text;
+  font-weight: bold;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
