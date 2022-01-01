@@ -67,7 +67,7 @@
 
 .nav_item {
   position: relative;
-  margin: 0 1rem;
+  margin: 0 2rem;
   cursor: pointer;
   width: fit-content;
   transition: 0.2s;
