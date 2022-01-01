@@ -1,56 +1,70 @@
-.mainContainer{
-    border : 2px solid ;
-    border-radius: 20px !important;
-    border-color: crimson;
-    background-color: rgb(255, 255, 255);
-    width: 20rem;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    filter: drop-shadow(0 0 0.75rem rgba(236, 5, 13, 0.15));
-    padding: 0.9rem;
+.mainContainer {
+  border: 2px solid;
+  border-radius: 20px !important;
+  border-color: #fd0e0e20;
+  background-color: rgb(255, 255, 255);
+  width: 25rem;
+  margin: auto;
+  filter: drop-shadow(-2px 8px 19px rgba(236, 5, 13, 0.15));
+  padding: 0.9rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
 }
 
-.imageContainer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
 }
 
-.coinShortNameContainer{
-    text-align: center;
-    margin-top: auto !important;
-    margin-bottom: auto !important;
+.imageContainer img {
+  max-width: 10rem;
+  max-height: 10rem;
+  border-radius: 100%;
 }
 
-.coinDescriptionContainer{
-    text-align: center;
-    width: 85%;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    text-decoration: solid;
+.coinShortNameContainer {
+  text-align: center;
+  margin: auto 1rem;
+  font-weight: bold;
 }
 
-.socialURLsContainer{
-    margin-left: 3rem !important;
-    margin-right: 3rem !important;
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
+.coinDescriptionContainer {
+  text-align: center;
+  width: 90%;
+  font-size: 1rem;
+  margin: 1.5rem auto;
+}
 
+.socialURLsContainer {
+  margin-left: 3rem !important;
+  margin-right: 3rem !important;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.social {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  transition: 0.2s;
+}
+
+.social:hover {
+  background-color: rgba(236, 5, 13, 0.15);
 }
 
 @media (max-width: 800px) {
-    .mainContainer{
-        border-radius: 20px !important;
-        border-color: crimson;
-        width: 90% !important;
-        margin-left: auto !important;
-        margin-right: auto !important;
-    
-    }
-
-
+  .mainContainer {
+    border-radius: 20px !important;
+    border-color: crimson;
+    width: 90% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
 }
-
-

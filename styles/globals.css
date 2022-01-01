@@ -12,6 +12,7 @@ body {
   margin: 0;
   min-height: 45vw !important;
   font-family: "Comfortaa", cursive;
+  scroll-behavior: smooth;
 }
 
 a {
