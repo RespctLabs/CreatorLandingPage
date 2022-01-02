@@ -3,15 +3,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  height: calc(var(--circle-radius) + 1rem);
+  margin: 1rem auto;
+  width: calc(var(--width-box) + var(--circle-radius) / 2);
 
   --width-box: 38vw;
   --height-box: 18vw;
   --max-width-percentage: 0.7;
   --max-content-width: calc(var(--max-width-percentage) * var(--width-box));
 
-  --circle-radius: 20vw;
+  --circle-radius: calc(var(--height-box) + 2vw);
   --top-circle: calc((var(--height-box) - var(--circle-radius)) / 2);
   --left-circle: calc((var(--max-width-percentage) * var(--width-box)) + 1vw);
+  --right-box: calc(var(--circle-radius) / 2 - 1vw);
 }
 
 .box {
@@ -30,11 +34,16 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: flex-start;
   font-size: 1vw;
 }
 
 .boxContent {
   max-width: var(--max-content-width);
+}
+
+.boxContent ul li:not(:last-child) {
+  margin-bottom: 0.4rem;
 }
 
 .circle {
