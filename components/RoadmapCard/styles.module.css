@@ -1,0 +1,68 @@
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  --width-box: 38vw;
+  --height-box: 18vw;
+  --max-width-percentage: 0.7;
+  --max-content-width: calc(var(--max-width-percentage) * var(--width-box));
+
+  --circle-radius: 20vw;
+  --top-circle: calc((var(--height-box) - var(--circle-radius)) / 2);
+  --left-circle: calc((var(--max-width-percentage) * var(--width-box)) + 1vw);
+}
+
+.box {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: var(--width-box);
+  height: var(--height-box);
+  border-radius: 20px;
+  background-color: #fff;
+  z-index: 1;
+  box-shadow: 6px 5px 10px rgba(0, 0, 0, 0.25);
+  padding: 1rem;
+  padding-right: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1vw;
+}
+
+.boxContent {
+  max-width: var(--max-content-width);
+}
+
+.circle {
+  position: absolute;
+  top: var(--top-circle);
+  left: var(--left-circle);
+  width: var(--circle-radius);
+  height: var(--circle-radius);
+  background-color: #fff;
+  border-radius: 100%;
+  z-index: 2;
+  box-shadow: 6px 5px 10px rgba(0, 0, 0, 0.25);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5vw;
+}
+
+.textGradient {
+  background: linear-gradient(
+    to right,
+    var(--secondary-color),
+    var(--primary-color)
+  );
+  background-clip: text;
+  font-weight: bold;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}

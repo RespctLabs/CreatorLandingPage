@@ -1,89 +1,91 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700");
- .container {
-	 font-family: 'Open Sans', sans-serif;
-	 margin: 0;
-	 padding: 0 4em;
-	 width: 70%;
-	 margin-left: auto !important;
-	 margin-right: auto !important;
-
+.container {
+  margin: 0;
+  padding: 0 4em;
+  width: 70%;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
- .ptag {
-	 font-size: 1rem;
-	 line-height: 1.75em;
-	 border-top: 3px solid;
-	 border-image: linear-gradient(to right, rgba(61, 45, 135, 1) 0%, rgba(238, 4, 12, 1) 100%);
-	 border-image-slice: 1;
-	 border-width: 3px;
-	 margin: 0;
-	 padding: 40px;
-	 counter-increment: section;
-	 position: relative;
-	 color: #34435e;
-	 font-weight: bold;
+.ptag {
+  font-size: 1rem;
+  line-height: 1.75em;
+  border-top: 3px solid;
+  border-image: linear-gradient(
+    to right,
+    rgba(61, 45, 135, 1) 0%,
+    rgba(238, 4, 12, 1) 100%
+  );
+  border-image-slice: 1;
+  border-width: 3px;
+  margin: 0;
+  padding: 40px;
+  counter-increment: section;
+  position: relative;
+  color: #34435e;
+  font-weight: bold;
 }
 .ptag:before {
-	 content: 'Q' counter(section);
-	 position: absolute;
-	 border-radius: 50%;
-	 padding: 10px;
-	 height: 1.25em;
-	 width: 1.25em;
-	 background-color: #34435e;
-	 text-align: center;
-	 line-height: 1.25em;
-	 color: #fff;
-	 font-size: 1em;
+  content: "Q" counter(section);
+  position: absolute;
+  border-radius: 50%;
+  padding: 10px;
+  height: 1.25em;
+  width: 1.25em;
+  background-color: #34435e;
+  text-align: center;
+  line-height: 1.25em;
+  color: #fff;
+  font-size: 1em;
 }
 .ptag:nth-child(odd) {
-	 border-right: 3px solid;
-	 padding-left: 0;
-	 text-align: right;
-
+  border-right: 3px solid;
+  padding-left: 0;
+  text-align: right;
 }
 .ptag:nth-child(odd):before {
-	 left: 100%;
-	 margin-left: -20px;
-	 text-align: center;
+  left: 100%;
+  margin-left: -20px;
+  text-align: center;
 }
 .ptag:nth-child(even) {
-	 border-left: 3px solid;
-	 padding-right: 0;
+  border-left: 3px solid;
+  padding-right: 0;
 }
 .ptag:nth-child(even):before {
-	 right: 100%;
-	 margin-right: -20px;
+  right: 100%;
+  margin-right: -20px;
 }
 .ptag:first-child {
-	 border-top: 0;
-	 border-top-right-radius: 0;
-	 border-top-left-radius: 0;
+  border-top: 0;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
 }
 .ptag:last-child {
-	 border-bottom-right-radius: 0;
-	 border-bottom-left-radius: 0;
-	 padding-bottom: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  padding-bottom: 0;
 }
 
-.heading{
-	font-size: 7rem;
-	text-align: center;
-	background: -webkit-linear-gradient(rgba(208, 16, 71, 1), rgba(64, 45, 133, 1));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.heading {
+  font-size: 7rem;
+  text-align: center;
+  background: -webkit-linear-gradient(
+    rgba(208, 16, 71, 1),
+    rgba(64, 45, 133, 1)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
- 
 
-@media (max-width: 768px){
-	.container{
-		width: 100%;
-		margin-left: 0% !important;
-	 	margin-right: 0% !important;
-	}
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    margin-left: 0% !important;
+    margin-right: 0% !important;
+  }
 
-	.heading{
-		font-size: 12vw;
-
-	}
+  .heading {
+    font-size: 12vw;
+  }
 }
