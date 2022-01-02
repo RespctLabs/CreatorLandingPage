@@ -52,6 +52,16 @@
   color: white;
 }
 
+.lowerfooterLink svg {
+  width: 2.5rem;
+  height: 2.5rem;
+  transition: 0.2s;
+}
+
+.lowerfooterLink svg:hover {
+  color: black;
+}
+
 @media (max-width: 800px) {
   .lowerfooter {
     height: 3%;
