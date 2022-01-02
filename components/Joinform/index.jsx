@@ -1,39 +1,38 @@
-import React, {useState} from 'react'
-import styles from './styles.module.css';
-import Link from 'next/link';
-import {
-	Calender
-} from "../../data";
+import React, { useState } from "react";
+import styles from "./styles.module.css";
+import Link from "next/link";
+import { Calender } from "../../data";
 import Image from "next/image";
+import Button from "../../common/Button";
 
 export default class EmailForm extends React.Component {
-    constructor(props) {
-      super(props);
-    }
-     
-    render() {
-      return (
-        <div className={styles.mainContainer} id="Join">
-            <div className={styles.innerContainer}>
-                <div className={styles.headerContainer}>
-                    <Link href="https://forms.gle/QghPveGQ158FejHM9">
-                        <a target="_blank">
-                            Join us
-                        </a>
-                    </Link>
-                </div>
-            
-                <div className={styles.textContainer}>
-                    <Link  href="https://calendly.com/utsav_singla/15min">
-                        <a target="_blank">
-							{/* <Image alt={"calender"} src={Calender} height={40} width={40} /> */}
-                            Book a Meeting
-                        </a>
-                    </Link>
-                </div>
-            
+  constructor(props) {
+    super(props);
+  }
 
-                {/* <div className={styles.formContainer}>
+  render() {
+    return (
+      <div className={styles.mainContainer} id="Join">
+        <div className={styles.innerContainer}>
+          <div className={styles.headerContainer}>
+            <Link href="https://forms.gle/QghPveGQ158FejHM9">
+              <a target="_blank">Join us</a>
+            </Link>
+          </div>
+
+          <div className={styles.text}>
+            Have doubts about getting started? Don&apos;t worry we have got your
+            back schedule a meeting with us today!
+          </div>
+
+          <div className={styles.button}>
+            <Button
+              text="Join Us"
+              href="https://calendly.com/utsav_singla/15min"
+            />
+          </div>
+
+          {/* <div className={styles.formContainer}>
                     <div className={styles.buttonContainer} >
                             <div className={styles.textButton}>
                                 Creator
@@ -51,10 +50,8 @@ export default class EmailForm extends React.Component {
                         </form>
                     </div>
                 </div> */}
-
-
-            </div>
         </div>
-      );
-    }
+      </div>
+    );
   }
+}

@@ -13,6 +13,11 @@ export default function index() {
     <>
       {/* <div className={styles.heading}> Road Map</div> */}
       <div className={styles.container}>
+        {/* {roadmap.map((data, index) => (
+          <div key={index} className={styles.ptag}>
+            <RoadmapCard content={data.content} title={data.title} />
+          </div>
+        ))} */}
         <div className={styles.ptag}>
           <div> • Testnet DEX & LP launch (Testnet)</div>
           <div> • Private Token Sales (Sales)</div>
