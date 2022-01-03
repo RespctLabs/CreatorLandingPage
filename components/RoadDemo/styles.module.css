@@ -18,6 +18,11 @@
   align-items: flex-start;
 }
 
+.card:nth-child(even) {
+  margin-right: 0;
+  margin-left: auto;
+}
+
 .bgline {
   font-size: 1rem;
   line-height: 1.75em;
@@ -64,4 +69,16 @@
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
   padding-bottom: 0;
+}
+
+@media (max-width: 600px) {
+  .card:nth-child(even) {
+    margin: auto;
+    margin-right: auto;
+  }
+
+  .card:nth-child(odd) {
+    margin: auto;
+    margin-right: auto;
+  }
 }

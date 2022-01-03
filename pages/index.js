@@ -16,8 +16,8 @@ export default class Home extends Component {
         <Banner />
         <Animation />
         <Slide />
-        <Roadmap />
-        {/* <Roaddemo /> */}
+        {/* <Roadmap /> */}
+        <Roaddemo />
         <Joinform />
         {/* <Timeline/> */}
         {/* <CarouselCover/> */}

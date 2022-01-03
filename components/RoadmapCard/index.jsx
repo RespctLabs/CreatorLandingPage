@@ -1,16 +1,36 @@
 import React from "react";
 import styles from "./styles.module.css";
 
-function RoadmapCard({ content, title, left }) {
+function RoadmapCard({ content, title, left, opp, small }) {
   return (
     <div className={styles.container}>
       <div
         className={styles.box}
-        style={left ? { left: "var(--right-box)" } : null}
+        style={
+          !small
+            ? left
+              ? !opp
+                ? { left: "var(--right-box)" }
+                : null
+              : opp
+              ? { left: "var(--right-box)" }
+              : null
+            : { left: 0 }
+        }
       >
         <div
           className={styles.boxContent}
-          style={left ? { marginLeft: "calc(var(--circle-radius)/2)" } : null}
+          style={
+            !small
+              ? left
+                ? !opp
+                  ? { marginLeft: "calc(var(--circle-radius)/2)" }
+                  : null
+                : opp
+                ? { marginLeft: "calc(var(--circle-radius)/2)" }
+                : null
+              : null
+          }
         >
           <ul>
             {content?.map((type, index) => (
@@ -19,7 +39,22 @@ function RoadmapCard({ content, title, left }) {
           </ul>
         </div>
       </div>
-      <div className={styles.circle} style={left ? { left: 0 } : null}>
+      <div
+        className={styles.circle}
+        style={
+          !small
+            ? left
+              ? !opp
+                ? { left: 0 }
+                : null
+              : opp
+              ? { left: 0 }
+              : null
+            : !left
+            ? { left: -100, top: 30 }
+            : { left: 100, top: 30 }
+        }
+      >
         <div className={styles.textGradient}>{title}</div>
         <div className={styles.textGradient}>{new Date().getFullYear()}</div>
       </div>
