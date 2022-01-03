@@ -61,10 +61,7 @@
 
 @media (max-width: 800px) {
   .mainContainer {
-    border-radius: 20px !important;
-    border-color: crimson;
     width: 90% !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
+    margin: auto;
   }
 }

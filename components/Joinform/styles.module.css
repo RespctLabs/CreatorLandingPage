@@ -78,19 +78,22 @@
 }
 
 @media (max-width: 800px) {
-  .textButton {
-    text-decoration: underline;
-    font-size: 2rem;
-  }
-
-  .buttonContainer {
+  .mainContainer {
     width: 100%;
-    margin-top: 0px !important;
-    margin-left: 0% !important;
-    margin-right: 0% !important;
+    margin: 4rem auto;
   }
 
   .headerContainer {
-    font-size: 5rem;
+    font-size: 3rem;
+  }
+
+  .button {
+    width: 8rem;
+    margin: 1rem auto;
+  }
+
+  .text {
+    width: 80%;
+    font-size: 1rem;
   }
 }
