@@ -1,9 +1,8 @@
 .mainWrapper {
   width: 100%;
-  margin-top: 3rem;
+  margin: 5rem auto;
   background-color: white;
   color: rgb(221, 25, 25);
-  margin-bottom: 3em !important;
 }
 
 .innerWrapper {

@@ -1,19 +1,18 @@
-
 .wrapper {
-    width: 100%;
-    /* whatever width you want */
-    display: inline-block;
-    position: relative;
-    background-size: contain;
-    background: url('../../public/svg/animationBg.svg') top center no-repeat;
-    margin: 0 auto;
-  }
-  .wrapper:after {
-    padding-top: 25%;
-    display: block;
-    content: '';
-  }
-  
+  width: 100%;
+  /* whatever width you want */
+  display: inline-block;
+  position: relative;
+  background-size: contain;
+  background: url("../../public/svg/animationBg.svg") top center no-repeat;
+  margin: 0 auto;
+}
+.wrapper:after {
+  padding-top: 25%;
+  display: block;
+  content: "";
+}
+
 .main {
   margin-left: 20% !important;
   margin-right: 20% !important;
@@ -21,21 +20,18 @@
 }
 
 @media (max-width: 800px) {
-    
-.main {
-  margin-left: 0% !important;
-  margin-right: 0% !important;
-  margin-top: 0% !important;
-}
+  .main {
+    margin-left: 0% !important;
+    margin-right: 0% !important;
+    margin-top: 0% !important;
+  }
 
-.wrapper{
-  margin-left: 0% !important;
-  margin-right: 0% !important;
-  margin-top: 0% !important;
-  padding-left: 0% !important;
-  padding-right: 0% !important;
-  padding-top: 0% !important;
+  .wrapper {
+    margin-left: 0% !important;
+    margin-right: 0% !important;
+    margin-top: 0% !important;
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+    padding-top: 0% !important;
+  }
 }
-
-}
-
