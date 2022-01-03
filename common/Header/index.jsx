@@ -120,15 +120,6 @@ function Header() {
                 >
                   <div className={styles.nav_item}>Join Us</div>
                 </Link>
-
-                <Link
-                  href="https://respctclub.notion.site/Careers-at-Respct-61353d90e6cd427ba5490cfd7122a28d"
-                  passHref
-                >
-                  <a target="_blank">
-                    <HiringComponent />
-                  </a>
-                </Link>
               </div>
             </>
           )}
@@ -137,6 +128,14 @@ function Header() {
 
       {open && (
         <div className={styles.socials}>
+          <Link
+            href="https://respctclub.notion.site/Careers-at-Respct-61353d90e6cd427ba5490cfd7122a28d"
+            passHref
+          >
+            <a target="_blank">
+              <HiringComponent />
+            </a>
+          </Link>
           <Button
             text="Early Access"
             href="https://forms.gle/QghPveGQ158FejHM9"

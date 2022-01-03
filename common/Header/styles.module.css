@@ -34,7 +34,7 @@
 
 .left {
   display: flex;
-  width: 50vw;
+  width: 40vw;
   align-items: center;
   justify-content: space-between;
 }
@@ -57,7 +57,7 @@
 }
 
 .socials {
-  flex: 0.33 !important;
+  flex: 0.5 !important;
   width: auto !important;
   display: flex !important;
   justify-content: right;
@@ -186,8 +186,16 @@
   }
 
   .socials {
+    flex-direction: column;
     margin-right: auto !important;
     margin-left: auto !important ;
     width: 120px;
+    padding-bottom: 1.2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .logoDiv {
+    margin: auto;
   }
 }
