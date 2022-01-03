@@ -34,7 +34,7 @@
 
 .left {
   display: flex;
-  width: 40vw;
+  width: 50vw;
   align-items: center;
   justify-content: space-between;
 }
