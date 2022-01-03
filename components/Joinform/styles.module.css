@@ -31,9 +31,14 @@
   margin-right: 25% !important;
 }
 
-.button {
-  width: 7rem;
+.buttons {
+  display: flex;
+  justify-content: center;
   margin: 2rem auto;
+}
+
+.spacer {
+  width: 1rem;
 }
 
 .text {

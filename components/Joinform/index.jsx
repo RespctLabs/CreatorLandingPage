@@ -25,11 +25,13 @@ export default class EmailForm extends React.Component {
             back schedule a meeting with us today!
           </div>
 
-          <div className={styles.button}>
+          <div className={styles.buttons}>
             <Button
-              text="Join Us"
+              text="Scehdule a Meeting"
               href="https://calendly.com/utsav_singla/15min"
             />
+            <div className={styles.spacer} />
+            <Button text="Join Us" href="https://forms.gle/QghPveGQ158FejHM9" />
           </div>
 
           {/* <div className={styles.formContainer}>
