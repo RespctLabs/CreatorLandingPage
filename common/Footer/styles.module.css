@@ -1,15 +1,6 @@
 .footer {
   width: 100% !important;
-  /* Height of the footer*/
 }
-
-/* .upperfooter{
-    width: 100% !important;
-    display: flex;
-    justify-content: space-around;
-    background-color: #6441A5;
-    flex-wrap: wrap;
-    height:3%;} */
 
 .lowerfooter {
   width: 100% !important;
@@ -63,15 +54,13 @@
 }
 
 @media (max-width: 800px) {
-  .lowerfooter {
-    height: 3%;
-  }
-
   .lowerfooterInner {
-    margin-top: 0.4%;
+    padding: 1rem 0;
+    width: 100% !important;
   }
 
-  .lowerfooterLink {
-    font-size: 15px;
+  .lowerfooterLink svg {
+    width: 1.5rem;
+    height: 1.5rem;
   }
 }
