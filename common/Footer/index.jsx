@@ -42,7 +42,7 @@ export default function index() {
             </a>
           </Link>
 
-          <Link href="https://discord.gg/eQPFAAT4">
+          <Link href="https://discord.gg/dMNZ6S2dCz">
             <a target="_blank">
               <span className={styles.lowerfooterLink}>
                 <FontAwesomeIcon icon={faDiscord} color="#fff" />
