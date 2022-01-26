@@ -41,7 +41,7 @@ export default function index() {
 
             <div className={styles.spacer} />
 
-            <Button text="Try Testnet" href="https://app.canvaswap.ml/" />
+            <Button text="Try Testnet" href="https://app.respct.club/" />
           </div>
         </div>
       </div>
