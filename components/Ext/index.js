@@ -10,11 +10,17 @@ export default function Ext() {
         <button
           onClick={async () => {
             await authenticate();
-            chrome.tabs.sendMessage(
-              tabs[0].id,
-              { msg: "auth done" },
-              (response) => {
-                console.log(response);
+
+            chrome.tabs.query(
+              { active: true, currentWindow: true, lastFocusedWindow: true },
+              (tabs) => {
+                chrome.tabs.sendMessage(
+                  tabs[0].id,
+                  { msg: "refresh" },
+                  (response) => {
+                    console.log(JSON.stringify(response));
+                  }
+                );
               }
             );
           }}
