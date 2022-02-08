@@ -9,7 +9,13 @@ export default function Ext() {
       <div>
         <button onClick={() => authenticate()}>Authenticate</button>
 
-        <button onClick={() => logout()} disabled={isAuthenticating}>
+        <button
+          onClick={() => {
+            localStorage.clear();
+            logout();
+          }}
+          disabled={isAuthenticating}
+        >
           logout
         </button>
       </div>
