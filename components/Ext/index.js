@@ -25,6 +25,15 @@ export default function Ext() {
   return (
     <div>
       <h1>Welcome {user.get("username")}</h1>
+      <button
+        onClick={() => {
+          localStorage.clear();
+          logout();
+        }}
+        disabled={isAuthenticating}
+      >
+        logout
+      </button>
     </div>
   );
 }
