@@ -7,7 +7,20 @@ export default function Ext() {
   if (!isAuthenticated) {
     return (
       <div>
-        <button onClick={() => authenticate()}>Authenticate</button>
+        <button
+          onClick={async () => {
+            await authenticate();
+            chrome.tabs.sendMessage(
+              tabs[0].id,
+              { msg: "auth done" },
+              (response) => {
+                console.log(response);
+              }
+            );
+          }}
+        >
+          Authenticate
+        </button>
 
         <button
           onClick={() => {
