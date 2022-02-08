@@ -2,11 +2,16 @@ import React from "react";
 import { useMoralis } from "react-moralis";
 
 export default function Ext() {
-  const { authenticate, isAuthenticated, user } = useMoralis();
+  const { authenticate, isAuthenticated, user, logout, isAuthenticating } =
+    useMoralis();
   if (!isAuthenticated) {
     return (
       <div>
         <button onClick={() => authenticate()}>Authenticate</button>
+
+        <button onClick={() => logout()} disabled={isAuthenticating}>
+          logout
+        </button>
       </div>
     );
   }
