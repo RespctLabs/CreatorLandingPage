@@ -11,18 +11,36 @@ export default function Ext() {
           onClick={async () => {
             await authenticate();
 
-            chrome.tabs.query(
-              { active: true, currentWindow: true, lastFocusedWindow: true },
-              (tabs) => {
-                chrome.tabs.sendMessage(
-                  tabs[0].id,
-                  { msg: "refresh" },
-                  (response) => {
-                    console.log(JSON.stringify(response));
-                  }
-                );
+            var editorExtensionId = "amijlpedlbcepbjnleimjijomhdapanm";
+
+            // Make a simple request:
+            chrome.runtime.sendMessage(
+              editorExtensionId,
+              { openUrlInEditor: "url" },
+              function (response) {
+                console.log("website kuch toh bhej ri hai");
+                if (!response.success) handleError(url);
               }
             );
+
+            setTimeout(() => {
+              console.log("website closing");
+              window.open("about:blank", "_self");
+              window.close();
+            }, 1000);
+
+            // chrome.tabs.query(
+            //   { active: true, currentWindow: true, lastFocusedWindow: true },
+            //   (tabs) => {
+            //     chrome.tabs.sendMessage(
+            //       tabs[0].id,
+            //       { msg: "refresh" },
+            //       (response) => {
+            //         console.log(JSON.stringify(response));
+            //       }
+            //     );
+            //   }
+            // );
           }}
         >
           Authenticate
