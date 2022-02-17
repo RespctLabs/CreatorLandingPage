@@ -2,14 +2,30 @@ import React from "react";
 import { useMoralis } from "react-moralis";
 
 export default function Ext() {
-  const { authenticate, isAuthenticated, user, logout, isAuthenticating } =
-    useMoralis();
+  const {
+    signup,
+    login,
+    logout,
+    isAuthenticating,
+    isAuthenticated,
+    user,
+    setUserData,
+    userError,
+    isUserUpdating,
+    authenticate,
+    Moralis,
+  } = useMoralis();
   if (!isAuthenticated) {
     return (
       <div>
         <button
           onClick={async () => {
             await authenticate();
+
+            setTimeout(() => {
+              console.log(Moralis.User.current());
+              console.log("is user");
+            }, 2000);
 
             var editorExtensionId = "amijlpedlbcepbjnleimjijomhdapanm";
 
@@ -27,7 +43,7 @@ export default function Ext() {
               console.log("website closing");
               window.open("about:blank", "_self");
               window.close();
-            }, 1000);
+            }, 5000);
 
             // chrome.tabs.query(
             //   { active: true, currentWindow: true, lastFocusedWindow: true },
