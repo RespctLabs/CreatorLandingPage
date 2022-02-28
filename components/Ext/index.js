@@ -21,44 +21,16 @@ export default function Ext() {
         <button
           onClick={async () => {
             await authenticate();
-
-            console.log(Moralis.User.current());
-            console.log("is user");
-
             var editorExtensionId = "amijlpedlbcepbjnleimjijomhdapanm";
 
-            // Make a simple request:
             chrome.runtime.sendMessage(
               editorExtensionId,
-              {
-                openUrlInEditor: "url",
-                user: user,
-                userDetails: Moralis.User.current(),
-              },
+              { userDetails: Moralis.User.current() },
               function (response) {
-                console.log("website kuch toh bhej ri hai");
+                console.log("data sent succesfully ( website -> extension )");
                 if (!response.success) handleError(url);
               }
             );
-
-            // setTimeout(() => {
-            //   console.log("website closing");
-            //   window.open("about:blank", "_self");
-            //   window.close();
-            // }, 5000);
-
-            // chrome.tabs.query(
-            //   { active: true, currentWindow: true, lastFocusedWindow: true },
-            //   (tabs) => {
-            //     chrome.tabs.sendMessage(
-            //       tabs[0].id,
-            //       { msg: "refresh" },
-            //       (response) => {
-            //         console.log(JSON.stringify(response));
-            //       }
-            //     );
-            //   }
-            // );
           }}
         >
           Authenticate
