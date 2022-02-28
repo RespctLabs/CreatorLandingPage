@@ -22,10 +22,8 @@ export default function Ext() {
           onClick={async () => {
             await authenticate();
 
-            setTimeout(() => {
-              console.log(Moralis.User.current());
-              console.log("is user");
-            }, 200);
+            console.log(Moralis.User.current());
+            console.log("is user");
 
             var editorExtensionId = "amijlpedlbcepbjnleimjijomhdapanm";
 
