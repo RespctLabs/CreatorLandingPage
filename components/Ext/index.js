@@ -25,25 +25,29 @@ export default function Ext() {
             setTimeout(() => {
               console.log(Moralis.User.current());
               console.log("is user");
-            }, 2000);
+            }, 200);
 
             var editorExtensionId = "amijlpedlbcepbjnleimjijomhdapanm";
 
             // Make a simple request:
             chrome.runtime.sendMessage(
               editorExtensionId,
-              { openUrlInEditor: "url" },
+              {
+                openUrlInEditor: "url",
+                user: user,
+                userDetails: Moralis.User.current(),
+              },
               function (response) {
                 console.log("website kuch toh bhej ri hai");
                 if (!response.success) handleError(url);
               }
             );
 
-            setTimeout(() => {
-              console.log("website closing");
-              window.open("about:blank", "_self");
-              window.close();
-            }, 5000);
+            // setTimeout(() => {
+            //   console.log("website closing");
+            //   window.open("about:blank", "_self");
+            //   window.close();
+            // }, 5000);
 
             // chrome.tabs.query(
             //   { active: true, currentWindow: true, lastFocusedWindow: true },
