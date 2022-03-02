@@ -17,6 +17,8 @@ export default function Ext() {
   } = useMoralis();
 
   useEffect(() => {
+    var editorExtensionId = "amijlpedlbcepbjnleimjijomhdapanm";
+
     chrome.runtime.sendMessage(
       editorExtensionId,
       { userDetails: Moralis.User.current() },
