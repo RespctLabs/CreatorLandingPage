@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useMoralis } from "react-moralis";
 
 export default function Ext() {
@@ -15,6 +15,19 @@ export default function Ext() {
     authenticate,
     Moralis,
   } = useMoralis();
+
+  useEffect(() => {
+    chrome.runtime.sendMessage(
+      editorExtensionId,
+      { userDetails: Moralis.User.current() },
+      function (response) {
+        console.log(Moralis.User.current());
+        console.log("data sent succesfully ( website -> extension )");
+        if (!response.success) handleError(url);
+      }
+    );
+  }, []);
+
   if (!isAuthenticated) {
     return (
       <div>
