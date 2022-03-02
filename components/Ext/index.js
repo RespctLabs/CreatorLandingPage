@@ -16,19 +16,19 @@ export default function Ext() {
     Moralis,
   } = useMoralis();
 
-  useEffect(() => {
-    var editorExtensionId = "amijlpedlbcepbjnleimjijomhdapanm";
+  // useEffect(() => {
+  //   var editorExtensionId = "amijlpedlbcepbjnleimjijomhdapanm";
 
-    chrome.runtime.sendMessage(
-      editorExtensionId,
-      { userDetails: Moralis.User.current() },
-      function (response) {
-        console.log(Moralis.User.current());
-        console.log("data sent succesfully ( website -> extension )");
-        if (!response.success) handleError(url);
-      }
-    );
-  }, []);
+  //   chrome.runtime.sendMessage(
+  //     editorExtensionId,
+  //     { userDetails: Moralis.User.current() },
+  //     function (response) {
+  //       console.log(Moralis.User.current());
+  //       console.log("data sent succesfully ( website -> extension )");
+  //       if (!response.success) handleError(url);
+  //     }
+  //   );
+  // }, []);
 
   if (!isAuthenticated) {
     return (
