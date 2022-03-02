@@ -10,7 +10,7 @@ export default function Extauth() {
       serverUrl="https://qug3bpuxqdl6.usemoralis.com:2053/server"
     >
       <div>
-        <Ext id={"amijlpedlbcepbjnleimjijomhdapanm"} />{" "}
+        <Ext id={"inmmahnchpopjjfepbncnliobcknlfae"} />{" "}
       </div>
     </MoralisProvider>
   );
