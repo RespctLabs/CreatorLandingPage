@@ -77,8 +77,8 @@ function MyApp({ Component, pageProps }) {
 				/>
 			</Head>
 			{!loading ? (
-				<React.Fragment>
-					<Component {...pageProps} />
+				<React.Fragment >
+					<Component {...pageProps}  />
 				</React.Fragment>
 			) : (
 				<LoadingScreen />

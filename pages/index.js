@@ -1,35 +1,14 @@
-import React, { Component } from "react";
-import Header from "../common/Header";
-import Footer from "../common/Footer";
-import Animation from "../components/Animation";
-import Banner from "../components/Banner";
-import Joinform from "../components/Joinform";
-import Slide from "../components/Slide";
-import Roadmap from "../components/Roadmap";
-import Roaddemo from "../components/RoadDemo";
+import React from "react";
 
-export default class Home extends Component {
-  render() {
-    return (
-      <div>
-        <Header />
-        <Banner />
-        <Animation />
-        <Slide />
-        {/* <Roadmap /> */}
-        <Roaddemo />
-        <Joinform />
-        {/* <Timeline/> */}
-        {/* <CarouselCover/> */}
-        {/* <Menu/> */}
-        {/* <AboutUs/> */}
-        {/* <BlogsComponent/> */}
-        {/* <OurTeam/> */}
-        {/* <br /> */}
-        {/* <Testimonials/> */}
-        <Footer />
-        {/* <FindUs/> */}
+export default function Home() {
+  return (
+    <div>
+      <div className="flex h-screen">
+        <div className="m-auto text-center">
+          <div className="text-4xl md:text-8xl  ">Coming Soon</div>
+          <div className="text-sm md:text-4xl">revolutionary</div>
+        </div>
       </div>
-    );
-  }
+    </div>
+  );
 }
