@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Fragment, useContext } from "react";
 import { Menu, Transition } from "@headlessui/react";
 import F from "../public/svg/f.svg";
@@ -10,7 +10,13 @@ import Mobile from "../public/svg/mobile.png";
 import Twitter from "../public/svg2/twitter.svg";
 import Discord from "../public/svg2/discord.svg";
 
+import { init, send } from "emailjs-com";
+
+init("l2cNnJYpEYeatm-L3");
+
 export default function Home() {
+  const [Email, setEmail] = useState("");
+
   return (
     <div className=" bg-OurBlack">
       <div id="header" className="py-6 xl:pt-6 ">
@@ -64,12 +70,28 @@ export default function Home() {
         </div>
         <div className="lg:mt-3 xl:mt-5">
           <input
-            type="text"
+            type="email"
+            name="email"
+            value={Email}
+            onChange={(e) => {
+              setEmail(e.target.value);
+              console.log(Email);
+            }}
             placeholder="Email"
             className="rounded-xl bg-[#5A5A5A] text-sm py-1 xl:py-2 px-2 lg:w-2/6"
           />
         </div>
         <button
+          onClick={(e) => {
+            e.preventDefault();
+            console.log("EMail", Email);
+            send(
+              "service_3rcb66l",
+              "template_zdbh9hw",
+              { Email },
+              "l2cNnJYpEYeatm-L3"
+            );
+          }}
           className="mt-2 rounded-2xl bg-[#01AAD0] lg:px-6 px-5 xl:px-9 xl:py-2 text-white"
           type="submit"
         >
