@@ -2,6 +2,8 @@ import React from "react";
 import { Fragment, useContext } from "react";
 import { Menu, Transition } from "@headlessui/react";
 import F from "../public/svg/f.svg";
+import Dropping from "../public/svg/dropping.svg";
+
 import Image from "next/image";
 import Mobile from "../public/svg/mobile.png";
 
@@ -10,7 +12,7 @@ import Discord from "../public/svg2/discord.svg";
 
 export default function Home() {
   return (
-    <div className="h-screen bg-OurBlack">
+    <div className=" bg-OurBlack">
       <div id="header" className=" md:pt-6 ">
         <div className="vishnugaandu rounded-2xl mx-3 bg-OurBlack">
           <div className="flex justify-between  drop-shadow-2xl  text-white">
@@ -29,10 +31,10 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="md:h-full md:mx-24 md:mt-16">
+      <div className=" md:mx-24 md:mt-16">
         <div
           id="image"
-          className="  h-screen bg-respct bg-no-repeat bg-top text-white"
+          className="  mb-12 bg-respct bg-no-repeat bg-top text-white"
         >
           <div className="flex justify-around pt-20 ">
             <div id="ls" className="flex flex-col m-auto mt-48 w-1/2">
@@ -49,6 +51,27 @@ export default function Home() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="text-center">
+        <div className=" text-lg text-[#01AAD0]">Found interesting?</div>
+        <div className="text-sm text-[#C7C7C7]">Join the wait list now!</div>
+        <div className="mt-3">
+          <input
+            type="text"
+            placeholder="Email"
+            className="rounded-xl bg-[#5A5A5A] text-sm py-1 px-2"
+          />
+        </div>
+        <button
+          className="mt-2 rounded-2xl bg-[#01AAD0] md:px-8 md:py-1  text-white"
+          type="submit"
+        >
+          {" "}
+          Join{" "}
+        </button>
+      </div>
+      <div className="text-center mt-8">
+        <Image src={Dropping} alt="logo" />
       </div>
     </div>
   );
