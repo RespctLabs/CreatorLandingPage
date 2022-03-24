@@ -38,10 +38,10 @@ export default function Home() {
         >
           <div className="flex justify-around ">
             <div id="ls" className="flex flex-col m-auto w-1/2 ">
-              <div className=" text-[#C4C4C4] font-[900] lg:text-6xl font-Archivo ">
+              <div className=" text-[#C4C4C4] font-[900] lg:text-6xl xl:text-9xl font-Archivo ">
                 NFTs are more than JEPGs
               </div>
-              <div className="font-Poppins lg:w-3/5 lg:pt-8">
+              <div className="font-Poppins lg:w-3/5 xl:w-4/5 xl:text-2xl lg:pt-8">
                 Level-based <b>Social NFTs</b>, incentivizing fans through
                 un-lockable perks & engagement.
               </div>
@@ -53,24 +53,28 @@ export default function Home() {
         </div>
       </div>
       <div className="text-center">
-        <div className=" lg:text-3xl text-[#01AAD0]">Found interesting?</div>
-        <div className="lg:text-xl text-[#C7C7C7]">Join the wait list now!</div>
-        <div className="mt-3">
+        <div className=" lg:text-3xl xl:text-4xl text-[#01AAD0]">
+          Found interesting?
+        </div>
+        <div className="lg:text-xl xl:text-2xl text-[#C7C7C7]">
+          Join the wait list now!
+        </div>
+        <div className="lg:mt-3 xl:mt-5">
           <input
             type="text"
             placeholder="Email"
-            className="rounded-xl bg-[#5A5A5A] text-sm py-1 px-2 lg:w-2/6"
+            className="rounded-xl bg-[#5A5A5A] text-sm py-1 xl:py-2 px-2 lg:w-2/6"
           />
         </div>
         <button
-          className="mt-2 rounded-2xl bg-[#01AAD0] xl:px-8 xl:py-1  text-white"
+          className="mt-2 rounded-2xl bg-[#01AAD0] lg:px-6 xl:px-9 xl:py-2 text-white"
           type="submit"
         >
           {" "}
           Join{" "}
         </button>
       </div>
-      <div className="text-center mt-8">
+      <div className="text-center mt-8 xl:pb-4">
         <Image src={Dropping} alt="logo" />
       </div>
     </div>
