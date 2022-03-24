@@ -1,130 +1,107 @@
-import React from "react";
+import React, { useState } from "react";
+import { Fragment, useContext } from "react";
+import { Menu, Transition } from "@headlessui/react";
+import F from "../public/svg/f.svg";
+import Dropping from "../public/svg/dropping.svg";
+
+import Image from "next/image";
+import Mobile from "../public/svg/mobile.png";
+
+import Twitter from "../public/svg2/twitter.svg";
+import Discord from "../public/svg2/discord.svg";
+
+import { init, send } from "emailjs-com";
+
+init("l2cNnJYpEYeatm-L3");
 
 export default function Home() {
+  const [Email, setEmail] = useState("");
+
   return (
-    <div className=" text-center  h-screen bg-[#131312] ">
-      <div className=" pt-20 md:pt-0 ">
-        <div className="uppercase text-[4rem] lg:text-[10rem] xl:text-[16rem] tracking-[0.35rem] lg:tracking-[0.85rem] xl:tracking-[0.99rem]  pt-12 lg:pt-0 text-transparent stroke bg-clip-text bg-gradient-to-br from-[#03AFD0] via-[#812DC1] to-[#56109D] ">
-          respct
-        </div>
-        <div className="m-auto text-white pt-6 md:pt-0  ">
-          <span className=" text-3xl lg:text-6xl xl:text-7xl">Coming Soon</span>
-          <div className=" text-lg lg:text-3xl xl:text-4xl mt-2 md:mt-5">
-            {" "}
-            Dropping Spring 2022
+    <div className=" bg-OurBlack">
+      <div id="header" className="py-6 xl:pt-6 ">
+        <div className="vishnugaandu rounded-2xl mx-4 lg:mx-9 bg-OurBlack">
+          <div className="flex justify-between  drop-shadow-2xl  text-white px-3">
+            <div className="my-1 xl:ml-5 xl:mt-2 ">
+              <Image src={F} alt="logo" />
+            </div>
+            <div className="flex flex-col justify-center text-3xl">
+              <p className=" text-transparent bg-clip-text font-bold text-transparent stroke bg-clip-text bg-gradient-to-br from-[#03AFD0] via-[#812DC1] to-[#56109D] ">
+                respct
+              </p>
+            </div>
+            <div className=" my-3 xl:mr-5 xl:mt-3">
+              <Image src={Twitter} alt="logo" />
+              <Image src={Discord} alt="logo" />
+            </div>
           </div>
-
-          <div className=" mt-12 md:mt-6">
-            <form>
-              <input
-                className=" rounded-l-xl pl-3 md:pl-2  text-sm py-1"
-                type="email"
-                placeholder="interested@respct"
-              />
-              <button className="bg-gredient-dark hover:bg-gredient-lighttext-white font-bold text-sm py-1 pl-1 pr-3 md:pr-2 rounded-r-xl ">
-                submit
-              </button>
-            </form>
-          </div>
-
-          {/* <div className="px-20 lg:px-8 xl:px-20 mt-4 md:mt-9  md:w-1/3 mx-auto ">
-            <form className="flex flex-row">
-              <input
-                className="pl-1 md:pl-  text-xs md:text-sm  h-8 md:h-8 py-6
-                 bg-gray-100 text-grey-darker  font-normal text-grey-darkest
-                 border border-gray-100  w-full text-gray-600  rounded-xl"
-                type="text"
-                placeholder="Drop in your email"
-              />
-            </form>
-          </div> */}
         </div>
       </div>
-
-      {/* <div className="flex text-center  h-screen bg-[#131312] text-white">
-        <div className="m-auto text-center">
-          <br />
-          <span className="text-2xl md:text-6xl text-transparent bg-clip-text font-bold bg-gradient-to-br from-[#03AFD0] via-[#812DC1] to-[#56109D]   ">
-            Coming Soon
-          </span>
-          <div className="text-sm md:text-4xl mt-2 md:mt-5">
-            {" "}
-            Dropping Spring 2022
-          </div>
-          <div className="px-10 mt-4 md:mt-9">
-            <form className="flex flex-row">
-              <input
-                className=" rounded-l-2xl h-6 md:h-8 bg-gray-100 text-grey-darker py-2 font-normal text-grey-darkest border border-gray-100 font-bold w-full py-1 px-2 outline-none text-sm text-gray-600"
-                type="text"
-                placeholder="Drop in your email"
-              />
-              <span className="flex items-center bg-gray-100 rounded rounded-l-none border-0 px-3 font-bold text-grey-100 rounded-r-2xl">
-                <button className="bg-gredient-dark hover:bg-gredient-light text-sm text-white font-bold  md:py-1 px-3 md:px-6 rounded-2xl ">
-                  submit
-                </button>
-              </span>
-            </form>
+      <div className=" xl:mx-24 xl:mt-10">
+        <div
+          id="image"
+          className=" mx-6 md:mx-0 mb-12 bg-respct bg-no-repeat bg-top text-white bg-contain"
+        >
+          <div className="flex flex-col md:flex-row-reverse  md:justify-around ">
+            <div id="rs" className=" w-full lg:w-1/2 ">
+              <Image src={Mobile} alt="logo" layout="intrinsic" />
+            </div>
+            <div
+              id="ls"
+              className="flex flex-col text-center md:text-left lg:m-auto w-full lg:w-1/2 "
+            >
+              <div className=" text-[#C4C4C4] font-[900] text-xl lg:text-4xl xl:text-7xl font-Archivo ">
+                NFTs are more than JEPGs
+              </div>
+              <div className="font-Poppins lg:w-3/5 xl:w-4/5 text-xs xl:text-2xl pt-4 lg:pt-8">
+                Level-based <b>Social NFTs</b>, incentivizing fans through
+                un-lockable perks & engagement.
+              </div>
+            </div>
           </div>
         </div>
-      </div> */}
+      </div>
+      <div className="text-center">
+        <div className=" text-xl lg:text-3xl xl:text-4xl text-[#01AAD0]">
+          Found interesting?
+        </div>
+        <div className=" text-sm lg:text-xl xl:text-2xl text-[#C7C7C7]">
+          Join the wait list now!
+        </div>
+        <div className="lg:mt-3 xl:mt-5">
+          <input
+            type="email"
+            name="email"
+            value={Email}
+            onChange={(e) => {
+              setEmail(e.target.value);
+              console.log(Email);
+            }}
+            placeholder="Email"
+            className="rounded-xl bg-[#5A5A5A] text-sm py-1 xl:py-2 px-2 lg:w-2/6"
+          />
+        </div>
+        <button
+          onClick={(e) => {
+            e.preventDefault();
+            console.log("EMail", Email);
+            send(
+              "service_3rcb66l",
+              "template_zdbh9hw",
+              { Email },
+              "l2cNnJYpEYeatm-L3"
+            );
+          }}
+          className="mt-2 rounded-2xl bg-[#01AAD0] lg:px-6 px-5 xl:px-9 xl:py-2 text-white"
+          type="submit"
+        >
+          {" "}
+          Join{" "}
+        </button>
+      </div>
+      <div className="text-center mt-8 mx-4 md:mx-0 xl:pb-4">
+        <Image src={Dropping} alt="logo" />
+      </div>
     </div>
   );
 }
-
-// <Container height="100vh">
-// <Flex
-//   alignItems="center"
-//   alignSelf="center"
-//   // height=""
-//   width="60%"
-//   bgGradient="linear(to-l, #4C1388,  #01B2D3)"
-//   bgClip="text"
-//   p={20}
-//   mt={100}
-// >
-//   <Heading fontSize="4vw" textAlign="center">
-//     Changing the way you view Non-Fungible Tokens
-//   </Heading>
-// </Flex>
-
-// <DarkModeSwitch />
-// {/* <Main> */}
-// <Flex direction="column">
-//   <Flex
-//     align="center"
-//     alignSelf="center"
-//     width="17vw"
-//     bgGradient="linear(to-l, #4C1388,  #01B2D3)"
-//     h={10}
-//     m={10}
-//   >
-//     <Text align="center" p={5} as="b" backgroundColor="" fontSize="2xl">
-//       Dropping Spring 2022
-//     </Text>
-//   </Flex>
-//   <form action="https://formsubmit.co/contact@respct.club" method="POST">
-//     {/* <FormLabel htmlFor="email">Interested?</FormLabel> */}
-//     <Input
-//       id="email"
-//       placeholder="Email Id"
-//       name="email"
-//       type="email"
-//       required
-//     />
-//     <Button
-//       mt={4}
-//       colorScheme="teal"
-//       // onSubmit={isLoading}
-//       type="submit"
-//       width="full"
-//     >
-//       Sign up for updates
-//     </Button>
-//     {/* <FormHelperText>We'll never share your email.</FormHelperText> */}
-//   </form>
-// </Flex>
-// {/* </Main> */}
-// <Footer>
-//   <CTA />
-// </Footer>
-// </Container>

@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { MoralisProvider } from "react-moralis";
-import Ext from "../components/Ext";
+import Ext from "../../components/Ext";
 
 export default function Extauth() {
   return (
