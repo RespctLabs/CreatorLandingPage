@@ -1,67 +1,52 @@
-import { init, send } from "emailjs-com";
-import React, { useState } from "react";
+import React from "react";
+import { Fragment, useContext } from "react";
+import { Menu, Transition } from "@headlessui/react";
+import F from "../public/svg/f.svg";
+import Image from "next/image";
+import Mobile from "../public/svg/mobile.png";
 
-init("l2cNnJYpEYeatm-L3");
+import Twitter from "../public/svg2/twitter.svg";
+import Discord from "../public/svg2/discord.svg";
+
 export default function Home() {
-  const [Email, setEmail] = useState("");
-
-  const onSubmit = (data) => {
-    // console.log(data);
-    generateContactNumber();
-    sendForm("default_service", "YOUR_TEMPLATE_ID", "#contact-form").then(
-      function (response) {
-        console.log("SUCCESS!", response.status, response.text);
-      },
-      function (error) {
-        console.log("FAILED...", error);
-      }
-    );
-  };
   return (
-    <div className=" text-center h-screen bg-[#131312] ">
-      <div className=" pt-20 md:pt-0 ">
-        <div className="uppercase text-[4rem] lg:text-[10rem] xl:text-[16rem] tracking-[0.35rem] lg:tracking-[0.85rem] xl:tracking-[0.99rem]  pt-12 lg:pt-0 text-transparent stroke bg-clip-text bg-gradient-to-br from-[#03AFD0] via-[#812DC1] to-[#56109D] ">
-          respct
-        </div>
-        <div className="m-auto text-white pt-6 md:pt-0  ">
-          <span className=" text-3xl lg:text-6xl xl:text-7xl">Coming Soon</span>
-          <div className=" text-lg lg:text-xl xl:text-xl mt-2 md:mt-5 md:mx-48">
-            {" "}
-            A Web3 platform that uses level-based social NFTs, incentivizing
-            fans through un-lockable perks & engagement.
+    <div className="h-screen bg-OurBlack">
+      <div id="header" className=" md:pt-6 ">
+        <div className="vishnugaandu rounded-2xl mx-3 bg-OurBlack">
+          <div className="flex justify-between  drop-shadow-2xl  text-white">
+            <div className="md:ml-5 md:mt-2">
+              <Image src={F} alt="logo" />
+            </div>
+            <div className="flex flex-col justify-center text-3xl">
+              <p className=" text-transparent bg-clip-text font-bold text-transparent stroke bg-clip-text bg-gradient-to-br from-[#03AFD0] via-[#812DC1] to-[#56109D] ">
+                respct
+              </p>
+            </div>
+            <div className="md:mr-5 md:mt-3">
+              <Image src={Twitter} alt="logo" />
+              <Image src={Discord} alt="logo" />
+            </div>
           </div>
-
-          <div className=" mt-12 md:mt-6">
-            <form
-              onSubmit={(e) => {
-                e.preventDefault();
-                console.log("EMail", Email);
-                send(
-                  "service_3rcb66l",
-                  "template_zdbh9hw",
-                  { Email },
-                  "l2cNnJYpEYeatm-L3"
-                );
-              }}
-            >
-              <input
-                type="email"
-                name="email"
-                value={Email}
-                onChange={(e) => {
-                  setEmail(e.target.value);
-                  console.log(Email);
-                }}
-                className=" rounded-l-xl pl-3 text-black md:pl-2 text-sm py-1"
-                placeholder="interested@respct"
-              />
-              <button
-                type="submit"
-                className="bg-gredient-dark hover:bg-gredient-lighttext-white font-bold text-sm py-1 pl-1 pr-3 md:pr-2 rounded-r-xl "
-              >
-                submit
-              </button>
-            </form>
+        </div>
+      </div>
+      <div className="md:h-full md:mx-24 md:mt-16">
+        <div
+          id="image"
+          className="  h-screen bg-respct bg-no-repeat bg-top text-white"
+        >
+          <div className="flex justify-around pt-20 ">
+            <div id="ls" className="flex flex-col m-auto mt-48 w-1/2">
+              <div className="mr-24 text-[#C4C4C4] font-[900] text-6xl font-Archivo ">
+                NFTs are more than JEPGs
+              </div>
+              <div className="font-Poppins w-2/4">
+                Level-based <b>Social NFTs</b>, incentivizing fans through
+                un-lockable perks & engagement.
+              </div>
+            </div>
+            <div id="rs" className=" w-1/2">
+              <Image src={Mobile} alt="logo" />
+            </div>
           </div>
         </div>
       </div>
