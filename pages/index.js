@@ -77,7 +77,7 @@ export default function Home() {
           Join{" "}
         </button>
       </div>
-      <div className="text-center mt-8 xl:pb-4">
+      <div className="text-center mt-8 mx-4 md:mx-0 xl:pb-4">
         <Image src={Dropping} alt="logo" />
       </div>
     </div>
