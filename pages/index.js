@@ -47,7 +47,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className=" xl:mx-24 xl:mt-10">
+      <div className="mx-14 xl:mx-24 xl:mt-10">
         <div
           id="image"
           className=" mx-6 md:mx-0 mb-12 bg-respct bg-no-repeat bg-top text-white bg-contain"
@@ -58,7 +58,7 @@ export default function Home() {
             </div>
             <div
               id="ls"
-              className="flex flex-col text-center md:text-left lg:m-auto w-full lg:w-1/2 "
+              className="flex flex-col text-center justify-center md:items-start items-center md:text-left lg:m-auto w-full lg:w-1/2 "
             >
               <div className=" text-[#C4C4C4] font-[900] text-xl lg:text-4xl xl:text-7xl font-Archivo ">
                 NFTs are more than JEPGs
