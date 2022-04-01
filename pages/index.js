@@ -39,7 +39,7 @@ export default function Home() {
                 </Link>
               </div>
               <div className="mx-2">
-                <Link href="https://discord.com/invite/dMNZ6S2dCz">
+                <Link href="https://discord.gg/rPWpu3rTeZ">
                   <Image src={Discord} alt="logo" />
                 </Link>
               </div>
