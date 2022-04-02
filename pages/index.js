@@ -61,7 +61,7 @@ export default function Home() {
               className="flex flex-col text-center justify-center md:items-start items-center md:text-left lg:m-auto w-full lg:w-1/2 "
             >
               <div className=" text-[#C4C4C4] font-[900] text-xl lg:text-4xl xl:text-7xl font-Archivo ">
-                NFTs are more than JEPGs
+                NFTs are more than JPEGs
               </div>
               <div className="font-Poppins lg:w-3/5 xl:w-4/5 text-xs xl:text-2xl pt-4 lg:pt-8">
                 Level-based <b>Social NFTs</b>, incentivizing fans through
