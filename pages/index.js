@@ -68,8 +68,8 @@ export default function Home() {
                                 fans through un-lockable perks & engagement.
                             </div>
                             <div className="space-x-5">
-                                <Link href="">
-                                    <button className="rounded-2xl bg-[#01AAD0] lg:px-6 px-5 xl:px-9 xl:py-2 text-white my-5 hover:text-black">
+                                <Link href="https://snft.respct.club/" passHref>
+                                    <button className="rounded-2xl bg-[#01AAD0] lg:px-6 px-5 xl:px-9 xl:py-2 text-white my-5 hover:text-black hover:cursor-pointer">
                                         Try testnet
                                     </button>
                                 </Link>
