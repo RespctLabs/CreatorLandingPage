@@ -107,6 +107,7 @@ export default function Home() {
                                 }}
                                 placeholder="Email"
                                 className="rounded-xl bg-[#5A5A5A] text-sm py-1 xl:py-2 px-2 lg:w-2/6"
+                                required
                             />
                         </div>
                         <div className="flex justify-center">
