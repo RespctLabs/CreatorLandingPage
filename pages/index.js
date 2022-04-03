@@ -35,12 +35,12 @@ export default function Home() {
                         <div className=" flex my-3 xl:mr-2 xl:mt-4">
                             <div className="mx-2">
                                 <Link href="https://twitter.com/RespctClub">
-                                    <Image src={Twitter} alt="logo" />
+                                    <Image src={Twitter} alt="logo" className="hover:cursor-pointer"/>
                                 </Link>
                             </div>
                             <div className="mx-2">
                                 <Link href="https://discord.gg/rPWpu3rTeZ">
-                                    <Image src={Discord} alt="logo" />
+                                    <Image src={Discord} alt="logo" className="hover:cursor-pointer"/>
                                 </Link>
                             </div>
                         </div>
