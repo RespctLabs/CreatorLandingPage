@@ -3,6 +3,7 @@ import "../styles/globals.css";
 import React, { useEffect } from "react";
 import { useRouter } from "next/router";
 import Head from "next/head";
+import Script from "next/script";
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
@@ -67,22 +68,27 @@ function MyApp({ Component, pageProps }) {
           content="Respct.club is a creator token platform where you become a shareholder in the journey of your favorite creator"
         />
         <meta itemProp="image" content="/icon.ico" />
-        <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-RCLP5CMS40"
-        ></script>
-
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', '[G-RCLP5CMS40]', { page_path: window.location.pathname });
-            `,
-          }}
-        />
       </Head>
+      <Script
+        strategy="afterInteractive"
+        src={
+          "https://www.googletagmanager.com/gtag/js?id=" +
+          process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS
+        }
+      />
+
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag("js", new Date());
+          gtag("config", '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}',{
+          page_path = window.location.pathname;
+          });
+          
+        `}
+      </Script>
+
       <React.Fragment>
         <Component {...pageProps} />
       </React.Fragment>
