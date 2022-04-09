@@ -1,19 +1,27 @@
 /* eslint-disable react/prop-types */
 import "../styles/globals.css";
-import React from "react";
+import React, { useEffect } from "react";
+import { useRouter } from "next/router";
 import LoadingScreen from "../common/Loading";
 import Head from "next/head";
 
 function MyApp({ Component, pageProps }) {
-  const [loading, setLoading] = React.useState(false);
+  const router = useRouter();
 
-  React.useEffect(() => {
-    setLoading(true);
-    setTimeout(() => setLoading(false), 0.0001);
-  }, []);
+  useEffect(() => {
+    const handleRouteChange = (url) => {
+      window.gtag("config", process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS, {
+        page_path: url,
+      });
+    };
+    router.events.on("routeChangeComplete", handleRouteChange);
+    return () => {
+      router.events.off("routeChangeComplete", handleRouteChange);
+    };
+  }, [router.events]);
 
   return (
-    <>
+    <div className="bg-OurBlack h-screen">
       <Head>
         <title>Respct.Club</title>
         <meta
@@ -76,14 +84,10 @@ function MyApp({ Component, pageProps }) {
           }}
         />
       </Head>
-      {!loading ? (
-        <React.Fragment>
-          <Component {...pageProps} />
-        </React.Fragment>
-      ) : (
-        <LoadingScreen />
-      )}
-    </>
+      <React.Fragment>
+        <Component {...pageProps} />
+      </React.Fragment>
+    </div>
   );
 }
 export default MyApp;
