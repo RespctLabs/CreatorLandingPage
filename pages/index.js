@@ -9,7 +9,10 @@ import Mobile from "../public/svg/mobile.png";
 
 import Twitter from "../public/svg2/twitter.svg";
 import Discord from "../public/svg2/discord.svg";
-
+import Tachyon from "../public/svg2/tachyon.svg";
+import Consensys from "../public/svg2/consensys.svg";
+import Filecoin from "../public/svg2/filecoin.svg";
+import Polygon from "../public/svg2/polygon.svg";
 import { init, send } from "emailjs-com";
 
 init("l2cNnJYpEYeatm-L3");
@@ -20,7 +23,7 @@ export default function Home() {
     const [Sent, setSent] = useState(false);
 
     return (
-        <div className=" bg-OurBlack">
+        <div className=" bg-OurBlack pb-10">
             <div id="header" className="py-6 xl:pt-6 ">
                 <div className="   mx-4 lg:mx-9 bg-OurBlack">
                     <div className="flex justify-between  drop-shadow-2xl  text-white px-3">
@@ -52,9 +55,9 @@ export default function Home() {
                     id="image"
                     className=" mx-6 md:mx-0 mb-12 bg-respct bg-no-repeat bg-top text-white bg-contain"
                 >
-                    <div className="flex flex-col md:flex-row-reverse  md:justify-around ">
-                        <div id="rs" className=" w-full lg:w-1/2 ">
-                            <Image src={Mobile} alt="logo" layout="intrinsic" />
+                    <div className="flex flex-col md:flex-row-reverse  md:justify-around pt-24">
+                        <div id="rs" className=" w-full md:w-1/2 flex justify-center">
+                            <Image src={Mobile} alt="logo" width={500} height={600} />
                         </div>
                         <div
                             id="ls"
@@ -66,6 +69,12 @@ export default function Home() {
                             <div className="font-Poppins lg:w-3/5 xl:w-4/5 text-xs xl:text-2xl pt-4 lg:pt-8">
                                 Level-based <b>Social NFTs</b>, incentivizing
                                 fans through un-lockable perks & engagement.
+                            </div>
+                            <div className="flex flex-wrap justify-around">
+                                <Image src={Tachyon} alt="Tachyon" width={300} height={150}/>
+                                <Image src={Consensys} alt="Consensys" width={300} height={150}/>
+                                <Image src={Filecoin} alt="Filecoin" />
+                                <Image src={Polygon} alt="Polygon" />
                             </div>
                         </div>
                     </div>
@@ -82,7 +91,7 @@ export default function Home() {
                 ) : (
                     <>
                         <div className="   text-xl lg:text-3xl xl:text-4xl text-[#01AAD0]">
-                            Join the wait list now!
+                            Be part of our BETA
                         </div>
                         <div className="lg:mt-3 xl:mt-5">
                             <input
