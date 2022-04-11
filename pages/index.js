@@ -130,7 +130,7 @@ export default function Home() {
                                     send(
                                         "service_kqnt3z9",
                                         "template_4730h44",
-                                        Email,
+                                        message: Email,
                                     )
                                         .then((res) => {
                                             console.log(res);
