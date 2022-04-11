@@ -131,7 +131,6 @@ export default function Home() {
                                         "service_n3eu99i",
                                         "template_3rqt84j",
                                         { Email },
-                                        "eOLu7l_Rf2bstEQeM"
                                     )
                                         .then((res) => {
                                             console.log(res);
