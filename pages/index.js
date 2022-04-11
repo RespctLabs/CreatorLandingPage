@@ -12,7 +12,7 @@ import Discord from "../public/svg2/discord.svg";
 
 import { init, send } from "emailjs-com";
 
-init("eOLu7l_Rf2bstEQeM");
+init("pXLToiKJidusdQrMc");
 
 export default function Home() {
     const [Email, setEmail] = useState("");
@@ -128,8 +128,8 @@ export default function Home() {
                                     // promise with then and catch
 
                                     send(
-                                        "service_n3eu99i",
-                                        "template_3rqt84j",
+                                        "service_kqnt3z9",
+                                        "template_4730h44",
                                         { Email },
                                     )
                                         .then((res) => {
