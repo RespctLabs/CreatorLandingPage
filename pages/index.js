@@ -70,11 +70,19 @@ export default function Home() {
                                 Level-based <b>Social NFTs</b>, incentivizing
                                 fans through un-lockable perks & engagement.
                             </div>
-                            <div className="flex flex-wrap justify-around">
-                                <Image src={Tachyon} alt="Tachyon" width={300} height={150}/>
-                                <Image src={Consensys} alt="Consensys" width={300} height={150}/>
-                                <Image src={Filecoin} alt="Filecoin" />
-                                <Image src={Polygon} alt="Polygon" />
+                            <div className="flex flex-wrap justify-around my-10">
+                                <div className="w-[150px] md:w-[300px] h-[75px] md:h-[150px]">
+                                    <Image src={Tachyon} alt="Tachyon"/>
+                                </div>
+                                <div className="w-[150px] md:w-[300px] h-[75px] md:h-[150px]">
+                                    <Image src={Consensys} alt="Consensys"/>
+                                </div>
+                                <div className="w-[150px] md:w-[300px] h-[75px] md:h-[150px]">
+                                    <Image src={Filecoin} alt="Filecoin"/>
+                                </div>
+                                <div className="w-[150px] md:w-[300px] h-[75px] md:h-[150px]">
+                                    <Image src={Polygon} alt="Polygon"/>
+                                </div>
                             </div>
                         </div>
                     </div>
