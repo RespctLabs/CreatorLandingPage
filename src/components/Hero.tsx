@@ -24,10 +24,7 @@ export default function Hero() {
   const [state, setState] = useState<"initial" | "submitting" | "success">(
     "initial"
   );
-  const [error, setError] = useState(false);
   const [Email, setEmail] = useState("");
-  const [Loading, setLoading] = useState(false);
-  const [Sent, setSent] = useState(false);
 
   // const Hero = ( ) => (
   return (
@@ -82,19 +79,21 @@ export default function Hero() {
             spacing={"12px"}
             onSubmit={(e: FormEvent) => {
               e.preventDefault();
-              setError(false);
               setState("submitting");
+              console.log("EMail", Email);
+              // promise with then and catch
 
-              // remove this code and implement your submit logic right here
-              setTimeout(() => {
-                if (Email === "fail@example.com") {
-                  setError(true);
+              send("service_3rcb66l", "template_zdbh9hw", {
+                message: Email,
+              })
+                .then((res) => {
+                  console.log(res);
+                  setState("success");
+                })
+                .catch((err) => {
+                  console.log(err);
                   setState("initial");
-                  return;
-                }
-
-                setState("success");
-              }, 1000);
+                });
             }}
           >
             <FormControl>
@@ -120,26 +119,6 @@ export default function Hero() {
             </FormControl>
             <FormControl w={{ base: "100%", md: "40%" }}>
               <Button
-                onClick={(e) => {
-                  e.preventDefault();
-                  console.log("EMail", Email);
-                  setLoading(true);
-                  // promise with then and catch
-
-                  send("service_3rcb66l", "template_zdbh9hw", {
-                    message: Email,
-                  })
-                    .then((res) => {
-                      console.log(res);
-                      setLoading(false);
-                      setSent(true);
-                    })
-                    .catch((err) => {
-                      console.log(err);
-                      setLoading(false);
-                      // alert("Error: ", err);
-                    });
-                }}
                 colorScheme={state === "success" ? "green" : "blue"}
                 isLoading={state === "submitting"}
                 w="100%"
