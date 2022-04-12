@@ -51,10 +51,7 @@ export default function Hero() {
             Own your Reputation
           </Heading>
           <Text color={"gray.500"}>
-            Monetize your content by charging your most loyal readers and reward
-            them loyalty points. Give back to your loyal readers by granting
-            them access to your pre-releases and sneak-peaks.
-          </Text>
+          Helping DAOs reward network participants for their contributions while building a resume for community members that’s shareable across communities. </Text>
         </Stack>
       </Container>
       <Flex align={"center"} justify={"center"} w="100vw" pb={12}>
@@ -65,6 +62,9 @@ export default function Hero() {
           rounded={"lg"}
           p={6}
         >
+          <Text fontSize='xs' align="center" color={"gray.500"}>
+          Want your community to partner with us?
+          </Text>
           <Heading
             as={"h2"}
             fontSize={{ base: "xl", sm: "2xl" }}
@@ -127,8 +127,12 @@ export default function Hero() {
               >
                 {state === "success" ? <CheckIcon /> : "Submit"}
               </Button>
+
             </FormControl>
           </Stack>
+          <Text fontSize='xs' align="center" color={"gray.500"}>
+          {state === "success" ? "Check your email for the next steps ✉️" : ""}
+          </Text>
           {/* <Text
             mt={2}
             textAlign={"center"}
