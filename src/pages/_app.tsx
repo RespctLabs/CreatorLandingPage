@@ -6,7 +6,7 @@ import Script from "next/script";
 import theme from "../theme";
 import { AppProps } from "next/app";
 
-function MyApp({ Component, pageProps }: AppProps) {
+export default function MyApp({ Component, pageProps }: AppProps) {
   const router = useRouter();
 
   useEffect(() => {
