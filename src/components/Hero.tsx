@@ -12,7 +12,7 @@ import {
   FormControl,
   Input,
 } from "@chakra-ui/react";
-import error from "next/error";
+// import error from "next/error";
 import Head from "next/head";
 import { FormEvent, ChangeEvent, useState } from "react";
 
@@ -92,6 +92,7 @@ export default function Hero() {
                 })
                 .catch((err) => {
                   console.log(err);
+                  alert(err);
                   setState("initial");
                 });
             }}
@@ -128,13 +129,13 @@ export default function Hero() {
               </Button>
             </FormControl>
           </Stack>
-          <Text
+          {/* <Text
             mt={2}
             textAlign={"center"}
             color={error ? "red.500" : "gray.500"}
           >
             {error ? "Oh no an error occured! 😢 Please try again later." : ""}
-          </Text>
+          </Text> */}
         </Container>
       </Flex>
     </>
