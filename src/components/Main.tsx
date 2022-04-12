@@ -1,39 +1,25 @@
-import { Box, Container, Flex, Grid, GridItem, Heading, Text, Stack, StackProps } from '@chakra-ui/react'
+import { Box, Container, Flex, Grid, GridItem, Img, Heading, Text, Stack, StackProps, Icon, SimpleGrid } from '@chakra-ui/react'
+import Head from 'next/head';
 
 export const Main = () => (
-<Container py={5} maxW={'container.lg'}>
-      <Grid
-        templateColumns={{
-          base: 'repeat(1, 1fr)',
-          sm: 'repeat(2, 1fr)',
-          md: 'repeat(4, 1fr)',
-        }}
-        gap={6}>
-        <GridItem w="100%" colSpan={{ base: 1, sm: 2, md: 2 }}>
-          <Heading as={'h2'}>Medium Length Title</Heading>
-        </GridItem>
-        <GridItem w="100%">
-          <Flex flexDirection={'column'}>
-            <Text fontSize={'4xl'} fontWeight={'bold'}>
-              20%
-            </Text>
-            <Box fontSize={'sm'}>
-              Description for the number. People always pay attention to
-              numbers.
-            </Box>
-          </Flex>
-        </GridItem>
-        <GridItem w="100%">
-          <Flex flexDirection={'column'}>
-            <Text fontSize={'4xl'} fontWeight={'bold'}>
-              20%
-            </Text>
-            <Box fontSize={'sm'}>
-              Description for the number. People always pay attention to
-              numbers.
-            </Box>
-          </Flex>
-        </GridItem>
-      </Grid>
-    </Container>
-)
+
+  <Flex bgColor="gray.900" w="100vw" pb={10}>
+    <Box maxW="7xl" mx={'auto'} pt={1} px={{ base: 2, sm: 12, md: 17 }}  >
+      <Heading
+        textAlign={'center'}
+        fontSize={'2xl'}
+        py={5}
+        textColor="white"
+        fontWeight={350}
+      >
+        Trust us, our reputation is backed by the best
+      </Heading>
+      <SimpleGrid columns={{ base: 1, md: 3 }} spacing={{ base: 5, lg: 8 }} justifyItems="center" >
+        <Img src="/consensys-tachyon-logo.png" h={20}  />
+        <Img src="/consensys-labs-icon-logo-white.png" h={20} />
+        <Img src="/protocol-labs-logo.png" h={20} />
+
+      </SimpleGrid>
+    </Box>
+  </Flex>
+);

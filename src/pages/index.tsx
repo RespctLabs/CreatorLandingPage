@@ -18,14 +18,9 @@ import { Footer } from '../components/Footer'
 const Index = () => (
   <Container height="100vh">
     <Nav />
-    <Hero />
-      
+    <Hero />    
     <Main/>
-
-    <Footer>
-      {/* <Text>Next ❤️ Chakra</Text> */}
-    </Footer>
-    {/* <CTA /> */}
+    <Footer/>
   </Container>
 )
 

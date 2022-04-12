@@ -18,7 +18,6 @@ import { ReactNode } from 'react';
 
 export const Nav = () => {
   const { colorMode, toggleColorMode } = useColorMode()
-  const { isOpen, onOpen, onClose } = useDisclosure();
   const isDark = colorMode === 'dark'
   return (
     // <Switch
