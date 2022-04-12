@@ -4,9 +4,8 @@ import { useRouter } from "next/router";
 import Head from "next/head";
 import Script from "next/script";
 import theme from "../theme";
-import { AppProps } from "next/app";
 
-export default function MyApp({ Component, pageProps }: AppProps) {
+export default function MyApp({ Component, pageProps }) {
   const router = useRouter();
 
   useEffect(() => {
@@ -71,14 +70,14 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         <meta itemProp="image" content="/icon.ico" />
       </Head>
       <Script
-        strategy="afterInteractive"
+        strategy="beforeInteractive"
         src={
           "https://www.googletagmanager.com/gtag/js?id=" +
           process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS
         }
       />
 
-      <Script id="google-analytics" strategy="afterInteractive">
+      <Script id="google-analytics" strategy="beforeInteractive">
         {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
