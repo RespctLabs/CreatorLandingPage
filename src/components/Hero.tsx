@@ -18,7 +18,7 @@ import { FormEvent, ChangeEvent, useState } from "react";
 
 import { init, send } from "emailjs-com";
 
-init("pXLToiKJidusdQrMc");
+init("l2cNnJYpEYeatm-L3");
 
 export default function Hero() {
   const [state, setState] = useState<"initial" | "submitting" | "success">(
