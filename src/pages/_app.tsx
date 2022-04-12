@@ -1,5 +1,4 @@
 import { ChakraProvider } from "@chakra-ui/react";
-import "../styles/globals.css";
 import React, { useEffect } from "react";
 import { useRouter } from "next/router";
 import Head from "next/head";
