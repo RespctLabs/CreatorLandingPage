@@ -24,10 +24,10 @@ export default function MyApp({ Component, pageProps }: AppProps) {
   return (
     <div className="bg-OurBlack h-screen">
       <Head>
-        <title>Respct.Club</title>
+        <title>Respct</title>
         <meta
           name="description"
-          content="Respct.club is a creator token platform where you become a shareholder in the journey of your favorite creator"
+          content="Helping DAOs reward network participants for their contributions while building a resume for community members that’s shareable across communities."
         />
         <link rel="icon" href="/favicon.ico" />
         <meta charSet="utf-8" />
@@ -36,13 +36,13 @@ export default function MyApp({ Component, pageProps }: AppProps) {
           name="viewport"
           content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"
         />
-        <link rel="canonical" href="https://respct.club/" />
-        <meta name="keywords" content="Respct, club, web3, tokens" />
+        <link rel="canonical" href="https://respct.co/" />
+        <meta name="keywords" content="Respct, web3, tokens" />
         <meta name="author" content="Respct" />
 
         {/* Social: Twitter */}
         <meta name="twitter:card" content="/favicon.ico" />
-        <meta name="twitter:site" content="https://respct.club/" />
+        <meta name="twitter:site" content="https://respct.co/" />
         <meta name="twitter:title" content="Respct" />
         <meta
           name="twitter:description"
