@@ -53,7 +53,7 @@ export default function Home() {
             <div className="mx-14 xl:mx-24 xl:mt-10">
                 <div
                     id="image"
-                    className=" mx-6 md:mx-0 mb-12 bg-respct bg-no-repeat bg-top text-white bg-contain"
+                    className=" mx-6 md:mx-0 md:mb-12 bg-respct bg-no-repeat bg-top text-white bg-contain"
                 >
                     <div className="flex flex-col md:flex-row-reverse  md:justify-around pt-24">
                         <div id="rs" className=" w-full md:w-1/2 flex justify-center">
@@ -70,7 +70,7 @@ export default function Home() {
                                 Level-based <b>Social NFTs</b>, incentivizing
                                 fans through un-lockable perks & engagement.
                             </div>
-                            <div className="flex flex-wrap justify-around my-10">
+                            <div className="flex flex-wrap justify-around mt-16">
                                 <div className="w-[150px] md:w-[300px] h-[75px] md:h-[150px]">
                                     <Image src={Tachyon} alt="Tachyon"/>
                                 </div>
@@ -98,7 +98,7 @@ export default function Home() {
                     </div>
                 ) : (
                     <>
-                        <div className="   text-xl lg:text-3xl xl:text-4xl text-[#01AAD0]">
+                        <div className="   text-2xl lg:text-3xl xl:text-4xl text-[#01AAD0]">
                             Be part of our BETA
                         </div>
                         <div className="lg:mt-3 xl:mt-5">
