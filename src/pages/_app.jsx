@@ -45,7 +45,7 @@ export default function MyApp({ Component, pageProps }) {
         <meta name="twitter:title" content="Respct" />
         <meta
           name="twitter:description"
-          content="Respct.club is a creator token platform where you become a shareholder in the journey of your favorite creator"
+          content="Helping DAOs reward network participants for their contributions while building a resume for community members that’s shareable across communities."
         />
         <meta name="twitter:image:src" content="/logo.png" />
         <meta name="twitter:image:alt" content="Respct Logo" />
@@ -57,7 +57,7 @@ export default function MyApp({ Component, pageProps }) {
         <meta property="og:image" content="/favicon.ico" />
         <meta
           property="og:description"
-          content="Respct.club is a creator token platform where you become a shareholder in the journey of your favorite creator"
+          content="Helping DAOs reward network participants for their contributions while building a resume for community members that’s shareable across communities."
         />
         <meta property="og:site_name" content="Respct" />
 
@@ -65,7 +65,7 @@ export default function MyApp({ Component, pageProps }) {
         <meta itemProp="name" content="Respct" />
         <meta
           itemProp="description"
-          content="Respct.club is a creator token platform where you become a shareholder in the journey of your favorite creator"
+          content="Helping DAOs reward network participants for their contributions while building a resume for community members that’s shareable across communities."
         />
         <meta itemProp="image" content="/icon.ico" />
       </Head>
