@@ -4,14 +4,14 @@
 /node_modules
 /.pnp
 .pnp.js
+
 # testing
 /coverage
 
 # next.js
 /.next/
 /out/
-.env
-/.env
+
 # production
 /build
 
@@ -25,14 +25,10 @@ yarn-debug.log*
 yarn-error.log*
 
 # local env files
-.env
+.env.local
 .env.development.local
 .env.test.local
 .env.production.local
 
 # vercel
 .vercel
-# Layer0 generated build directory
-.layer0
-# Layer0 generated build directory
-.layer0
