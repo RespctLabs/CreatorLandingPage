@@ -126,7 +126,7 @@ export default function Hero() {
                   setLoading(true);
                   // promise with then and catch
 
-                  send("service_kqnt3z9Q", "template_4730h44", {
+                  send("service_3rcb66l", "template_zdbh9hw", {
                     message: Email,
                   })
                     .then((res) => {
