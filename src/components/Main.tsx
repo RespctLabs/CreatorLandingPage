@@ -3,7 +3,7 @@ import Head from 'next/head';
 
 export const Main = () => (
 
-  <Flex bgColor="gray.900" w="100vw" pb={10}>
+  <Flex bgColor="gray.900" w="100%" pb={10}>
     <Box maxW="7xl" mx={'auto'} pt={1} px={{ base: 2, sm: 12, md: 17 }}  >
       <Heading
         textAlign={'center'}

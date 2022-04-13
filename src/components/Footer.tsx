@@ -7,7 +7,7 @@ export const Footer = () => {
   const isDark = colorMode === 'dark'
   return (
 
-    <Flex w="100vw" bg={useColorModeValue('gray.50', 'gray.900')} justify="center" color={useColorModeValue('gray.700', 'gray.200')}>
+    <Flex w="100%" bg={useColorModeValue('gray.50', 'gray.900')} justify="center" color={useColorModeValue('gray.700', 'gray.200')}>
       <Box>
         <Container
           as={Stack}

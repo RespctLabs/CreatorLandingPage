@@ -54,7 +54,7 @@ export default function Hero() {
           Helping DAOs reward network participants for their contributions while building a resume for community members that’s shareable across communities. </Text>
         </Stack>
       </Container>
-      <Flex align={"center"} justify={"center"} w="100vw" pb={12}>
+      <Flex align={"center"} justify={"center"} w="100%" pb={12}>
         <Container
           maxW={"lg"}
           bg={useColorModeValue("white", "whiteAlpha.100")}

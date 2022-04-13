@@ -29,7 +29,7 @@ export const Nav = () => {
     //   onChange={toggleColorMode}
     // />
     <>
-      <Box  px={4} width="100vw">
+      <Box  px={4} width="100%">
         <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
           <Box><Img src={isDark?'/Respct_d.png':'/Respct.png'} height={12} my={1} mx={2}/></Box>
 
