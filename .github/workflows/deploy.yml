@@ -10,9 +10,9 @@ jobs:
       - name: git-sync
         uses: wei/git-sync@v3
         with:
-          source_repo: "https://${{ secrets.SECRET_KEY }}@github.com//quadra-network/landingpage.git"
+          source_repo: "https://${{ secrets.VERCELHOSTING }}@github.com//RespctLabs/CreatorLandingPage.git"
           source_branch: "main"
-          destination_repo: "https://${{ secrets.SECRET_KEY }}@github.com/canvasArtist/landingpage.git"
+          destination_repo: "https://${{ secrets.VERCELHOSTING }}@github.com/canvasArtist/CreatorLandingPage.git"
           destination_branch: "main"
 # name: layer0 deploy
 
