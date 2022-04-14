@@ -13,7 +13,7 @@ jobs:
           source_repo: "https://${{ secrets.HOSTING }}@github.com//RespctLabs/CreatorLandingPage.git"
           source_branch: "main"
           destination_repo: "https://${{ secrets.HOSTING }}@github.com/canvasArtist/CreatorLandingPage.git"
-          destination_branch: "main"
+          destination_branch: "master"
 # name: layer0 deploy
 
 # on:
