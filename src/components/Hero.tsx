@@ -130,9 +130,9 @@ export default function Hero() {
 
             </FormControl>
           </Stack>
-          <Text fontSize='xs' align="center" color={"gray.500"}>
+          {/* <Text fontSize='xs' align="center" color={"gray.500"}>
           {state === "success" ? "Check your email for the next steps ✉️" : ""}
-          </Text>
+          </Text> */}
           {/* <Text
             mt={2}
             textAlign={"center"}
