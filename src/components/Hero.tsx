@@ -71,7 +71,7 @@ export default function Hero() {
             textAlign={"center"}
             mb={5}
           >
-            Sign up for our Beta
+            Sign up for a Demo 
           </Heading>
           <Stack
             direction={{ base: "column", md: "row" }}
@@ -130,9 +130,9 @@ export default function Hero() {
 
             </FormControl>
           </Stack>
-          {/* <Text fontSize='xs' align="center" color={"gray.500"}>
-          {state === "success" ? "Check your email for the next steps ✉️" : ""}
-          </Text> */}
+          <Text fontSize='xs' align="center" color={"gray.500"}>
+          {state === "success" ? "We will reach out to you via email shortly ✉️" : ""}
+          </Text>
           {/* <Text
             mt={2}
             textAlign={"center"}
