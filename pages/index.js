@@ -135,7 +135,7 @@ export default function Home() {
                   setLoading(true);
                   // promise with then and catch
 
-                  send("service_kqnt3z9Q", "template_4730h44", {
+                  send("service_club_respct", "template_club_respct", {
                     message: Email,
                   })
                     .then((res) => {
